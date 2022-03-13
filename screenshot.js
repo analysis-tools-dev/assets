@@ -1,9 +1,10 @@
 /*
- * Take a screenshot from a website
+ * Takes a screenshot from a website
  * Alternatives considered:
  * - https://www.screenshotapi.io/ - Simple API, not free but cheap. Maybe alternative for the future.
  * - https://github.com/brenden/node-webshot - Very popular, but seems to have a lot of issues.
  */
+
 import captureWebsite from "capture-website";
 import Bottleneck from "bottleneck";
 import fetch from "node-fetch";
@@ -32,10 +33,7 @@ const getScreenshot = async (url, name) => {
     screenshotOptions.scrollToElement = "#readme";
   }
 
-  // Remove protocol from url for nicer file names.
-  const urlClean = url.replace(/(^\w+:|^)\/\/(www)?/, "");
   const outPath = `${outDir}/${name}.jpg`;
-
   if (fs.existsSync(outPath)) {
     return;
   }
@@ -54,7 +52,6 @@ const body = await response.text();
 const json = JSON.parse(body);
 for (var tool in json) {
   const homepage = json[tool]["homepage"];
-  const name = tool;
   console.log(`Fetching ${homepage}...`);
-  getScreenshot(homepage, name);
+  getScreenshot(homepage, tool);
 }
