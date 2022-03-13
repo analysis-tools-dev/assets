@@ -1,0 +1,14 @@
+{
+    "name": "analysis-tools-dev-screenshots",
+    "private": true,
+    "description": "Create screenshots from analysis tools websites",
+    "version": "0.1.0",
+    "type": "module",
+    "license": "MIT",
+    "scripts": {},
+    "dependencies": {
+        "bottleneck": "^2.19.5",
+        "capture-website": "^2.3.0",
+        "node-fetch": "^3.2.3"
+    }
+}
