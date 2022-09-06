@@ -17,17 +17,17 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "16"
 
       - run: npm install
 
       - run: node screenshot.js
 
-      - uses: stefanzweifel/git-auto-commit-action@v4.13.1
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: ${{ github.head_ref }}
           commit_message: Commit new screenshots
