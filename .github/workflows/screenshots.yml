@@ -32,7 +32,7 @@ jobs:
         run: npm run build
 
       - name: Run my action
-        uses: ./
+        run: src/index.js
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
