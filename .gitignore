@@ -1,0 +1,6 @@
+node_modules
+dist
+.idea
+.vscode
+src/index.js
+tsconfig.build.tsbuildinfo
