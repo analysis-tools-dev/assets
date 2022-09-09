@@ -12,7 +12,7 @@ import getYouTubeID from "get-youtube-id";
 import fs from "fs";
 
 // Don't overwrite screenshots if they are new enough
-const MAX_SCREENSHOT_AGE = 5 * 24 * 60 * 60 * 1000;
+const MAX_AGE = 5 * 24 * 60 * 60 * 1000;
 
 const SCREENSHOT_OPTIONS = {
   width: 1280,
@@ -79,19 +79,20 @@ const collectUrls = (tool: any) => {
   return urls;
 };
 
-// Check if screenshot is newer than `MAX_SCREENSHOT_AGE`
-const isFreshScreenshot = (outPath: string) => {
+// Check if file is newer than `MAX_AGE`
+const isFresh = (outPath: string) => {
   const fileAge = new Date().getTime() - fs.statSync(outPath).mtime.getTime();
-  return fileAge < MAX_SCREENSHOT_AGE;
+  return fileAge < MAX_AGE;
 };
 
 // Take screenshot of all URLs
 const fetchScreenshots = async (urls: string[], outDir: string) => {
-  // iterate over all urls with index
-  for (const [index, url] of urls.entries()) {
-    const outPath = `${outDir}${index}.jpg`;
+  // iterate over all urls
+  for (const url of urls) {
+    // urlencode url to get filename
+    const outPath = `${outDir}/${encodeURIComponent(url)}.jpg`;
 
-    if (fs.existsSync(outPath) && isFreshScreenshot(outPath)) {
+    if (fs.existsSync(outPath) && isFresh(outPath)) {
       console.log(`Screenshot for ${url} is fresh. Skipping.`);
       continue;
     }
