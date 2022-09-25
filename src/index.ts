@@ -40,6 +40,7 @@ const SCREENSHOT_OPTIONS = {
     ".cookie-acceptance-wrapper",
     ".cookie-accepter",
     ".cookie-acceptor",
+    "#CybotCookiebotDialog",
     "#disclaimer",
     "#disclaimer-container",
     ".disclaimer",
@@ -57,14 +58,23 @@ const limiter = new Bottleneck({
 });
 const throttledScreenshot = limiter.wrap(captureWebsite.file);
 
-// Get youtube thumbnail URL from video URL
-const youtubeThumbnail = (url: string) => {
+// Get youtube thumbnail from video URL
+const youtubeThumbnail = async (url: string) => {
   const id = getYouTubeID(url);
 
   if (!id) {
     return;
   }
-  return `http://img.youtube.com/vi/${id}/maxresdefault.jpg`;
+  const maxUrl = `http://img.youtube.com/vi/${id}/maxresdefault.jpg`;
+
+  // attempt to fetch the thumbnail; if response is 404, return the default thumbnail
+  const res = await fetch(maxUrl);
+  if (res.status === 404) {
+    // Try fallback for unlisted videos. These don't get rendered at the highest resolution.
+    const fallback = `http://img.youtube.com/vi/${id}/hqdefault.jpg`;
+    return await fetch(fallback);
+  }
+  return res;
 };
 
 // Fetch all screenshot URLs for tool
@@ -100,12 +110,11 @@ const fetchScreenshots = async (urls: string[], outDir: string) => {
     console.log(`Fetching screenshot for ${url} to ${outPath}`);
 
     // Youtube thumbnail URL
-    const thumbnail = youtubeThumbnail(url);
-    if (thumbnail) {
-      await fetch(thumbnail).then((res: any) => {
-        const dest = fs.createWriteStream(outPath);
-        res.body?.pipe(dest);
-      });
+    const res = await youtubeThumbnail(url);
+    // if res is 200, we have our thumbnail
+    if (res && res.status === 200) {
+      const dest = fs.createWriteStream(outPath);
+      res.body?.pipe(dest);
       continue;
     }
     // Normal website screenshot
