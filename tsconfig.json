@@ -3,21 +3,29 @@
         "target": "es2022",
         "module": "es2022",
         "moduleResolution": "node",
+        "outDir": "dist",
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "importHelpers": true,
+        "declaration": false,
+        "rootDir": "src",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "types": [
+            "node",
+            "jest"
+        ],
         "lib": [
             "esnext",
             "dom"
         ]
     },
-    "references": [
-        {
-            "path": "./tsconfig.build.json"
-        }
+    "include": [
+        "src/**/*"
     ],
-    "exclude": [
-        "node_modules"
-    ]
 }

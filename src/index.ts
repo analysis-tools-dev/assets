@@ -58,6 +58,12 @@ const limiter = new Bottleneck({
 });
 const throttledScreenshot = limiter.wrap(captureWebsite.file);
 
+export const isGithubRepo = (url: string) => {
+  const regex = /https:\/\/github.com\/[a-zA-Z0-9-]+\/[a-zA-Z0-9-]+\/?$/;
+  // check if url matches regex
+  return regex.test(url);
+};
+
 // Get youtube thumbnail from video URL
 const youtubeThumbnail = async (url: string) => {
   const id = getYouTubeID(url);
@@ -119,7 +125,7 @@ const fetchScreenshots = async (urls: string[], outDir: string) => {
     }
     // Normal website screenshot
     try {
-      if (url.includes("github.com")) {
+      if (isGithubRepo(url)) {
         // @ts-ignore
         await throttledScreenshot(url, outPath, {
           ...SCREENSHOT_OPTIONS,

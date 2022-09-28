@@ -2,5 +2,5 @@ node_modules
 dist
 .idea
 .vscode
-src/index.js
+src/*.js
 tsconfig.build.tsbuildinfo
