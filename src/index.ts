@@ -46,7 +46,7 @@ const SCREENSHOT_OPTIONS = {
     ".disclaimer",
     ".disclaimer-container",
     "[id*='sp_message_container']",
-    "gdpr-cookie-message", // rezilion.com
+    "#gdpr-cookie-message", // rezilion.com
   ],
 };
 
