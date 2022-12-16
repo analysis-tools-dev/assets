@@ -180,6 +180,9 @@
     "cargo-bloat": [
         "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-bloat/https%253A%252F%252Fgithub.com%252FRazrFalcon%252Fcargo-bloat.jpg"
     ],
+    "cargo-breaking": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-breaking/https%253A%252F%252Fgithub.com%252Fiomentum%252Fcargo-breaking.jpg"
+    ],
     "cargo-deny": [
         "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-deny/https%253A%252F%252Fembarkstudios.github.io%252Fcargo-deny.jpg",
         "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-deny/https%253A%252F%252Fgithub.com%252FEmbarkStudios%252Fcargo-deny.jpg"
@@ -189,6 +192,9 @@
     ],
     "cargo-inspect": [
         "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-inspect/https%253A%252F%252Fgithub.com%252Fmre%252Fcargo-inspect.jpg"
+    ],
+    "cargo-show-asm": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-show-asm/https%253A%252F%252Fgithub.com%252Fpacak%252Fcargo-show-asm.jpg"
     ],
     "cargo-spellcheck": [
         "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-spellcheck/https%253A%252F%252Fgithub.com%252Fdrahnr%252Fcargo-spellcheck.jpg"
@@ -749,6 +755,10 @@
     ],
     "gawk-lint": [
         "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gawk-lint/https%253A%252F%252Fwww.gnu.org%252Fsoftware%252Fgawk%252Fmanual%252Fhtml_node%252FOptions.html.jpg"
+    ],
+    "gcc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gcc/https%253A%252F%252Fgcc.gnu.org%252Fonlinedocs%252Fgcc%252FStatic-Analyzer-Options.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gcc/https%253A%252F%252Fgithub.com%252Fgcc-mirror%252Fgcc.jpg"
     ],
     "gendarme": [
         "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gendarme/https%253A%252F%252Fgithub.com%252Fmono%252Fmono-tools.jpg",
