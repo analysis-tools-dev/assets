@@ -1,0 +1,2268 @@
+{
+    "abaplint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/abaplint/https%253A%252F%252Fabaplint.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/abaplint/https%253A%252F%252Fgithub.com%252Fabaplint%252Fabaplint.jpg"
+    ],
+    "abapopenchecks": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/abapopenchecks/https%253A%252F%252Fdocs.abapopenchecks.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/abapopenchecks/https%253A%252F%252Fgithub.com%252Flarshp%252FabapOpenChecks.jpg"
+    ],
+    "actionlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/actionlint/https%253A%252F%252Fgithub.com%252Frhysd%252Factionlint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/actionlint/https%253A%252F%252Frhysd.github.io%252Factionlint.jpg"
+    ],
+    "aether": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/aether/http%253A%252F%252Faetherjs.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/aether/https%253A%252F%252Fgithub.com%252Fcodecombat%252Faether.jpg"
+    ],
+    "after-the-deadline": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/after-the-deadline/https%253A%252F%252Fopen.afterthedeadline.com.jpg"
+    ],
+    "ale": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ale/https%253A%252F%252Fgithub.com%252Fw0rp%252Fale.jpg"
+    ],
+    "alex": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/alex/https%253A%252F%252Falexjs.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/alex/https%253A%252F%252Fgithub.com%252Fget-alex%252Falex.jpg"
+    ],
+    "aligncheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/aligncheck/https%253A%252F%252Fgitlab.com%252Fopennota%252Fcheck.jpg"
+    ],
+    "alquitran": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/alquitran/https%253A%252F%252Fgithub.com%252Fferivoz%252Falquitran.jpg"
+    ],
+    "ameba": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ameba/https%253A%252F%252Fcrystal-ameba.github.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ameba/https%253A%252F%252Fgithub.com%252Fcrystal-ameba%252Fameba.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ameba/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSV8tV79Lvog.jpg"
+    ],
+    "anchore": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/anchore/https%253A%252F%252Fanchore.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/anchore/https%253A%252F%252Fgithub.com%252Fanchore%252Fanchore-engine.jpg"
+    ],
+    "android-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/android-lint/http%253A%252F%252Ftools.android.com%252Ftips%252Flint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/android-lint/https%253A%252F%252Fandroid.googlesource.com.jpg"
+    ],
+    "android-lint-summary": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/android-lint-summary/https%253A%252F%252Fgithub.com%252Fpassy%252Fandroid-lint-summary.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/android-lint-summary/https%253A%252F%252Fpassy.github.io%252Fandroid-lint-summary.jpg"
+    ],
+    "android-studio": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/android-studio/https%253A%252F%252Fandroid.googlesource.com%252Fplatform%252Ftools%252Fadt%252Fidea%252F%252B%252Frefs%252Fheads%252Fmirror-goog-studio-master-dev.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/android-studio/https%253A%252F%252Fdeveloper.android.com%252Fstudio.jpg"
+    ],
+    "angr": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/angr/https%253A%252F%252Fgithub.com%252Fangr%252Fangr.jpg"
+    ],
+    "angular-eslint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/angular-eslint/https%253A%252F%252Fgithub.com%252Fangular-eslint%252Fangular-eslint%2523readme.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/angular-eslint/https%253A%252F%252Fgithub.com%252Fangular-eslint%252Fangular-eslint.jpg"
+    ],
+    "ansible-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ansible-lint/https%253A%252F%252Fdocs.ansible.com%252Fansible-lint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ansible-lint/https%253A%252F%252Fgithub.com%252Fwillthames%252Fansible-lint.jpg"
+    ],
+    "appchecker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/appchecker/https%253A%252F%252Fnpo-echelon.ru%252Fen%252Fsolutions%252Fappchecker.php.jpg"
+    ],
+    "application-inspector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/application-inspector/https%253A%252F%252Fwww.ptsecurity.com%252Fww-en%252Fproducts%252Fai.jpg"
+    ],
+    "applicationinspector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/applicationinspector/https%253A%252F%252Fgithub.com%252Fmicrosoft%252FApplicationInspector.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/applicationinspector/https%253A%252F%252Fwww.microsoft.com%252Fsecurity%252Fblog%252F2020%252F01%252F16%252Fintroducing-microsoft-application-inspector%252F.jpg"
+    ],
+    "appscreener": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/appscreener/https%253A%252F%252Fsolarappscreener.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/appscreener/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DsOTkvdEKeq8.jpg"
+    ],
+    "archunit": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/archunit/https%253A%252F%252Fgithub.com%252FTNG%252FArchUnit.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/archunit/https%253A%252F%252Fwww.archunit.org.jpg"
+    ],
+    "archunitnet": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/archunitnet/https%253A%252F%252Fgithub.com%252FTNG%252FArchUnitNET.jpg"
+    ],
+    "astree": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/astree/https%253A%252F%252Fwww.absint.com%252Fastree%252Findex.htm.jpg"
+    ],
+    "atom-beautify": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/atom-beautify/https%253A%252F%252Fatom.io%252Fpackages%252Fatom-beautify.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/atom-beautify/https%253A%252F%252Fgithub.com%252FGlavin001%252Fatom-beautify.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/atom-beautify/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DaiXNKHKWlmY.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/atom-beautify/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DoBz6rXG0XT8.jpg"
+    ],
+    "aws-cloudformation-guard": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/aws-cloudformation-guard/https%253A%252F%252Fgithub.com%252Faws-cloudformation%252Fcloudformation-guard.jpg"
+    ],
+    "axivion-bauhaus-suite": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/axivion-bauhaus-suite/https%253A%252F%252Fwww.axivion.com%252Fen%252Fproducts-services-9%2523products_bauhaussuite.jpg"
+    ],
+    "azsk": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/azsk/https%253A%252F%252Fazsk.azurewebsites.net%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/azsk/https%253A%252F%252Fgithub.com%252Fazsk%252FDevOpsKit.jpg"
+    ],
+    "bandit": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bandit/https%253A%252F%252Fbandit.readthedocs.io%252Fen%252Flatest.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bandit/https%253A%252F%252Fgithub.com%252FPyCQA%252Fbandit.jpg"
+    ],
+    "bashate": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bashate/https%253A%252F%252Fdocs.openstack.org%252Fbashate.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bashate/https%253A%252F%252Fgithub.com%252Fopenstack%252Fbashate.jpg"
+    ],
+    "bellybutton": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bellybutton/https%253A%252F%252Fgithub.com%252Fhchasestevens%252Fbellybutton.jpg"
+    ],
+    "better-code-hub": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/better-code-hub/https%253A%252F%252Fbettercodehub.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/better-code-hub/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdiERwdr2omM.jpg"
+    ],
+    "binbloom": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/binbloom/https%253A%252F%252Fgithub.com%252Fquarkslab%252Fbinbloom.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/binbloom/https%253A%252F%252Fwww.kitploit.com%252F2020%252F10%252Fbinbloom-raw-binary-firmware-analysis.html%253Fm%253D1.jpg"
+    ],
+    "binskim": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/binskim/https%253A%252F%252Fgithub.com%252FMicrosoft%252Fbinskim.jpg"
+    ],
+    "black": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/black/https%253A%252F%252Fblack.readthedocs.io%252Fen%252Fstable.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/black/https%253A%252F%252Fgithub.com%252Fpsf%252Fblack.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/black/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DInA-oAWu3Mo.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/black/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DesZLCuWs_2Y.jpg"
+    ],
+    "black-duck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/black-duck/https%253A%252F%252Fwww.blackducksoftware.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/black-duck/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DGEvxbU6EmiA.jpg"
+    ],
+    "bloaty": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bloaty/https%253A%252F%252Fgithub.com%252Fgoogle%252Fbloaty.jpg"
+    ],
+    "bodyclose": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bodyclose/https%253A%252F%252Fgithub.com%252Ftimakin%252Fbodyclose.jpg"
+    ],
+    "bootlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bootlint/https%253A%252F%252Fgithub.com%252Ftwbs%252Fbootlint.jpg"
+    ],
+    "bowler": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bowler/https%253A%252F%252Fgithub.com%252Ffacebookincubator%252Fbowler.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bowler/https%253A%252F%252Fpybowler.io%252F.jpg"
+    ],
+    "brakeman": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/brakeman/https%253A%252F%252Fbrakemanscanner.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/brakeman/https%253A%252F%252Fgithub.com%252Fpresidentbeef%252Fbrakeman.jpg"
+    ],
+    "brittany": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/brittany/https%253A%252F%252Fgithub.com%252Flspitzner%252Fbrittany.jpg"
+    ],
+    "buf": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/buf/https%253A%252F%252Fbuf.build.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/buf/https%253A%252F%252Fgithub.com%252Fbufbuild%252Fbuf.jpg"
+    ],
+    "bundler-audit": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bundler-audit/https%253A%252F%252Fgithub.com%252Frubysec%252Fbundler-audit.jpg"
+    ],
+    "c2rust": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/c2rust/https%253A%252F%252Fc2rust.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/c2rust/https%253A%252F%252Fgithub.com%252Fimmunant%252Fc2rust.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/c2rust/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DWEsR0Vv7jhg%2526t%253D233s.jpg"
+    ],
+    "callgraph": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/callgraph/https%253A%252F%252Fgithub.com%252Fkoknat%252FcallGraph.jpg"
+    ],
+    "cane": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cane/https%253A%252F%252Fgithub.com%252Fsquare%252Fcane.jpg"
+    ],
+    "cargo-audit": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-audit/https%253A%252F%252Fgithub.com%252FRustSec%252Fcargo-audit.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-audit/https%253A%252F%252Frustsec.org.jpg"
+    ],
+    "cargo-bloat": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-bloat/https%253A%252F%252Fgithub.com%252FRazrFalcon%252Fcargo-bloat.jpg"
+    ],
+    "cargo-breaking": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-breaking/https%253A%252F%252Fgithub.com%252Fiomentum%252Fcargo-breaking.jpg"
+    ],
+    "cargo-deny": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-deny/https%253A%252F%252Fembarkstudios.github.io%252Fcargo-deny.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-deny/https%253A%252F%252Fgithub.com%252FEmbarkStudios%252Fcargo-deny.jpg"
+    ],
+    "cargo-expand": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-expand/https%253A%252F%252Fgithub.com%252Fdtolnay%252Fcargo-expand.jpg"
+    ],
+    "cargo-inspect": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-inspect/https%253A%252F%252Fgithub.com%252Fmre%252Fcargo-inspect.jpg"
+    ],
+    "cargo-show-asm": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-show-asm/https%253A%252F%252Fgithub.com%252Fpacak%252Fcargo-show-asm.jpg"
+    ],
+    "cargo-spellcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-spellcheck/https%253A%252F%252Fgithub.com%252Fdrahnr%252Fcargo-spellcheck.jpg"
+    ],
+    "cargo-udeps": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-udeps/https%253A%252F%252Fgithub.com%252Fest31%252Fcargo-udeps.jpg"
+    ],
+    "cargo-unused-features": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-unused-features/https%253A%252F%252Fgithub.com%252FTimonPost%252Fcargo-unused-features.jpg"
+    ],
+    "cast-highlight": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cast-highlight/https%253A%252F%252Fwww.castsoftware.com%252Fproducts%252Fhighlight.jpg"
+    ],
+    "cbmc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cbmc/http%253A%252F%252Fwww.cprover.org%252Fcbmc.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cbmc/https%253A%252F%252Fgithub.com%252Fdiffblue%252Fcbmc.jpg"
+    ],
+    "cfn-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cfn-lint/https%253A%252F%252Fgithub.com%252Fawslabs%252Fcfn-python-lint.jpg"
+    ],
+    "cfn-nag": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cfn-nag/https%253A%252F%252Fgithub.com%252Fstelligent%252Fcfn_nag.jpg"
+    ],
+    "chart-testing": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/chart-testing/https%253A%252F%252Fgithub.com%252Fhelm%252Fchart-testing.jpg"
+    ],
+    "checker-framework": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/checker-framework/https%253A%252F%252Fcheckerframework.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/checker-framework/https%253A%252F%252Fgithub.com%252Ftypetools%252Fchecker-framework.jpg"
+    ],
+    "checkmake": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/checkmake/https%253A%252F%252Fgithub.com%252Fmrtazz%252Fcheckmake.jpg"
+    ],
+    "checkmarx-cxsast": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/checkmarx-cxsast/https%253A%252F%252Fwww.checkmarx.com%252Fproducts%252Fstatic-application-security-testing.jpg"
+    ],
+    "checkov": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/checkov/https%253A%252F%252Fgithub.com%252Fbridgecrewio%252Fcheckov.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/checkov/https%253A%252F%252Fwww.checkov.io.jpg"
+    ],
+    "checkstyle": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/checkstyle/https%253A%252F%252Fcheckstyle.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/checkstyle/https%253A%252F%252Fgithub.com%252Fcheckstyle%252Fcheckstyle.jpg"
+    ],
+    "chktex": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/chktex/http%253A%252F%252Fgit.savannah.nongnu.org%252Fcgit%252Fchktex.git.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/chktex/http%253A%252F%252Fwww.nongnu.org%252Fchktex.jpg"
+    ],
+    "churn": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/churn/https%253A%252F%252Fgithub.com%252Fdanmayer%252Fchurn.jpg"
+    ],
+    "churn-php": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/churn-php/https%253A%252F%252Fgithub.com%252Fbmitch%252Fchurn-php.jpg"
+    ],
+    "ciocheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ciocheck/https%253A%252F%252Fgithub.com%252FContinuumIO%252Fciocheck.jpg"
+    ],
+    "ck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ck/https%253A%252F%252Fgithub.com%252Fmauricioaniche%252Fck.jpg"
+    ],
+    "ckjm": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ckjm/http%253A%252F%252Fwww.spinellis.gr%252Fsw%252Fckjm.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ckjm/https%253A%252F%252Fgithub.com%252Fdspinellis%252Fckjm.jpg"
+    ],
+    "clair": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clair/https%253A%252F%252Fgithub.com%252Fcoreos%252Fclair.jpg"
+    ],
+    "clang-tidy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clang-tidy/http%253A%252F%252Fclang.llvm.org%252Fextra%252Fclang-tidy.jpg"
+    ],
+    "classgraph": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/classgraph/https%253A%252F%252Fgithub.com%252Fclassgraph%252Fclassgraph.jpg"
+    ],
+    "clayton": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clayton/https%253A%252F%252Fwww.getclayton.com%252F.jpg"
+    ],
+    "clazy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clazy/https%253A%252F%252Fgithub.com%252FKDE%252Fclazy.jpg"
+    ],
+    "clippy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clippy/https%253A%252F%252Fgithub.com%252Frust-lang%252Frust-clippy.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clippy/https%253A%252F%252Frust-lang.github.io%252Frust-clippy.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clippy/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBE9KY6X7aUM.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clippy/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DOgcrRt84bUY.jpg"
+    ],
+    "clj-kondo": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clj-kondo/https%253A%252F%252Fgithub.com%252Fborkdude%252Fclj-kondo.jpg"
+    ],
+    "closure-compiler": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/closure-compiler/https%253A%252F%252Fdevelopers.google.com%252Fclosure%252Fcompiler.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/closure-compiler/https%253A%252F%252Fgithub.com%252Fgoogle%252Fclosure-compiler.jpg"
+    ],
+    "closurelinter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/closurelinter/https%253A%252F%252Fgithub.com%252Fgoogle%252Fclosure-linter.jpg"
+    ],
+    "clusterlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clusterlint/https%253A%252F%252Fgithub.com%252Fdigitalocean%252Fclusterlint.jpg"
+    ],
+    "cmetrics": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cmetrics/https%253A%252F%252Fgithub.com%252FMetricsGrimoire%252FCMetrics.jpg"
+    ],
+    "coala": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coala/https%253A%252F%252Fcoala.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coala/https%253A%252F%252Fgithub.com%252Fcoala%252Fcoala.jpg"
+    ],
+    "cobra": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cobra/https%253A%252F%252Fspinroot.com%252Fcobra.jpg"
+    ],
+    "codacy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codacy/https%253A%252F%252Fwww.codacy.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codacy/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DlVxkD_bmbFY.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codacy/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DoxqTu2ouxaw.jpg"
+    ],
+    "code-climate": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-climate/https%253A%252F%252Fcodeclimate.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-climate/https%253A%252F%252Fgithub.com%252Fcodeclimate%252Fcodeclimate.jpg"
+    ],
+    "code-cracker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-cracker/http%253A%252F%252Fcode-cracker.github.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-cracker/https%253A%252F%252Fgithub.com%252Fcode-cracker%252Fcode-cracker.jpg"
+    ],
+    "code-intelligence": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-intelligence/https%253A%252F%252Fwww.code-intelligence.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-intelligence/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DQfsz_ZTKM6Y.jpg"
+    ],
+    "codeac": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeac/https%253A%252F%252Fwww.codeac.io%252F%253Fref%253Dawesome-static-analysis.jpg"
+    ],
+    "codeburner": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeburner/http%253A%252F%252Fgroupon.github.io%252Fcodeburner.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeburner/https%253A%252F%252Fgithub.com%252Fgroupon%252Fcodeburner.jpg"
+    ],
+    "codechecker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codechecker/https%253A%252F%252Fcodechecker.readthedocs.io%252Fen%252Flatest.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codechecker/https%253A%252F%252Fgithub.com%252FEricsson%252Fcodechecker.jpg"
+    ],
+    "codefactor": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codefactor/https%253A%252F%252Fcodefactor.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codefactor/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D0wL1bgoya2U.jpg"
+    ],
+    "codeflow": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeflow/https%253A%252F%252Fwww.getcodeflow.com.jpg"
+    ],
+    "codeit-right": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeit-right/https%253A%252F%252Fsubmain.com%252Fproducts%252Fcodeit.right.aspx.jpg"
+    ],
+    "codelyzer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codelyzer/http%253A%252F%252Fcodelyzer.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codelyzer/https%253A%252F%252Fgithub.com%252Fmgechev%252Fcodelyzer.jpg"
+    ],
+    "codenarc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codenarc/https%253A%252F%252Fcodenarc.github.io%252FCodeNarc.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codenarc/https%253A%252F%252Fgithub.com%252FCodeNarc%252FCodeNarc.jpg"
+    ],
+    "codepatrol": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepatrol/https%253A%252F%252Fcyber-security.claranet.fr%252Fen%252Fcodepatrol.jpg"
+    ],
+    "codepeer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/http%253A%252F%252Fwww.adacore.com%252Fcodepeer.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D8837TUpLLMo.jpg"
+    ],
+    "codeql": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeql/https%253A%252F%252Fgithub.com%252Fgithub%252Fcodeql.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeql/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DKEPiDz2oO-I.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeql/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DY6PjAaZKNYk.jpg"
+    ],
+    "coderrect": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coderrect/https%253A%252F%252Fcoderrect.com%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coderrect/https%253A%252F%252Fwww.reddit.com%252Fr%252Fcpp%252Fcomments%252Fl7z6s9%252Fa_fast_static_analysis_tool_for_detecting_race%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coderrect/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DYgkQ6moJH94.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coderrect/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DsWvu7f-hhWc.jpg"
+    ],
+    "coderush": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coderush/https%253A%252F%252Fwww.devexpress.com%252Fproducts%252Fcoderush.jpg"
+    ],
+    "codescan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescan/https%253A%252F%252Fwww.codescan.io%252F.jpg"
+    ],
+    "codescene": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescene/https%253A%252F%252Fcodescene.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescene/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D4Mwv-Swxo84.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescene/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dc2lqk98bC00.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescene/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DtbCA2JiO_K8.jpg"
+    ],
+    "codesonar-from-grammatech": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codesonar-from-grammatech/https%253A%252F%252Fwww.grammatech.com%252Fproducts%252Fcodesonar.jpg"
+    ],
+    "codespell": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codespell/https%253A%252F%252Fgithub.com%252Fcodespell-project%252Fcodespell.jpg"
+    ],
+    "codiga": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codiga/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DalS_h2ig7ZI.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codiga/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DhQ_BjDYlsCU.jpg"
+    ],
+    "coffeelint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coffeelint/http%253A%252F%252Fwww.coffeelint.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coffeelint/https%253A%252F%252Fgithub.com%252Fclutchski%252Fcoffeelint.jpg"
+    ],
+    "cognicrypt": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cognicrypt/https%253A%252F%252Fgithub.com%252Feclipse-cognicrypt%252FCogniCrypt.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cognicrypt/https%253A%252F%252Fwww.eclipse.org%252Fcognicrypt.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cognicrypt/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DvOZKN8yQcAY.jpg"
+    ],
+    "cohesion": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cohesion/https%253A%252F%252Fgithub.com%252Fmschwager%252Fcohesion.jpg"
+    ],
+    "collector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/collector/https%253A%252F%252Fgithub.com%252Fbanyanops%252Fcollector.jpg"
+    ],
+    "commitlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/commitlint/https%253A%252F%252Fcommitlint.js.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/commitlint/https%253A%252F%252Fgithub.com%252Fconventional-changelog%252Fcommitlint.jpg"
+    ],
+    "complexity-report": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/complexity-report/https%253A%252F%252Fgithub.com%252Fescomplex%252Fcomplexity-report.jpg"
+    ],
+    "cookstyle": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cookstyle/https%253A%252F%252Fdocs.chef.io%252Fcookstyle.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cookstyle/https%253A%252F%252Fgithub.com%252Fchef%252Fcookstyle.jpg"
+    ],
+    "corrode": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/corrode/https%253A%252F%252Fgithub.com%252Fjameysharp%252Fcorrode.jpg"
+    ],
+    "coverity": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coverity/https%253A%252F%252Fwww.synopsys.com%252Fsoftware-integrity%252Fsecurity-testing%252Fstatic-analysis-sast.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coverity/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DFZ-ySGEcD0c.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coverity/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dzo1pCl6yQ34.jpg"
+    ],
+    "cpachecker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cpachecker/https%253A%252F%252Fcpachecker.sosy-lab.org%252Fdownload.php.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cpachecker/https%253A%252F%252Fcpachecker.sosy-lab.org.jpg"
+    ],
+    "cpp-linter-action": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cpp-linter-action/https%253A%252F%252Fcpp-linter.github.io%252Fcpp-linter-action%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cpp-linter-action/https%253A%252F%252Fgithub.com%252Fcpp-linter%252Fcpp-linter-action.jpg"
+    ],
+    "cppcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppcheck/http%253A%252F%252Fcppcheck.sourceforge.net.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppcheck/https%253A%252F%252Fgithub.com%252Fdanmar%252Fcppcheck.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppcheck/https%253A%252F%252Fwww.viva64.com%252Fen%252Ft%252F0083%252F.jpg"
+    ],
+    "cppdepend": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppdepend/https%253A%252F%252Fwww.cppdepend.com.jpg"
+    ],
+    "cpplint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cpplint/https%253A%252F%252Fgithub.com%252Fgoogle%252Fstyleguide%252Ftree%252Fgh-pages%252Fcpplint.jpg"
+    ],
+    "cqc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cqc/https%253A%252F%252Fgithub.com%252Fxcatliu%252Fcqc.jpg"
+    ],
+    "cqmetrics": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cqmetrics/https%253A%252F%252Fgithub.com%252Fdspinellis%252Fcqmetrics.jpg"
+    ],
+    "credo": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/credo/https%253A%252F%252Fgithub.com%252Frrrene%252Fcredo.jpg"
+    ],
+    "crystal": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/crystal/https%253A%252F%252Fcrystal-lang.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/crystal/https%253A%252F%252Fgithub.com%252Fcrystal-lang%252Fcrystal.jpg"
+    ],
+    "cscout": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cscout/https%253A%252F%252Fgithub.com%252Fdspinellis%252Fcscout.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cscout/https%253A%252F%252Fwww.spinellis.gr%252Fcscout.jpg"
+    ],
+    "csharpessentials": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/csharpessentials/https%253A%252F%252Fgithub.com%252FDustinCampbell%252FCSharpEssentials.jpg"
+    ],
+    "css-stats": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/css-stats/https%253A%252F%252Fcssstats.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/css-stats/https%253A%252F%252Fgithub.com%252Fcssstats%252Fcssstats.jpg"
+    ],
+    "csscomb": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/csscomb/https%253A%252F%252Fgithub.com%252Fcsscomb%252Fcsscomb.js.jpg"
+    ],
+    "csslint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/csslint/http%253A%252F%252Fcsslint.net.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/csslint/https%253A%252F%252Fgithub.com%252FCSSLint%252Fcsslint.jpg"
+    ],
+    "cwe-checker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cwe-checker/https%253A%252F%252Fgithub.com%252Ffkie-cad%252Fcwe_checker.jpg"
+    ],
+    "cyclocomp": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cyclocomp/https%253A%252F%252Fgithub.com%252FMangoTheCat%252Fcyclocomp.jpg"
+    ],
+    "d-scanner": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/d-scanner/https%253A%252F%252Fgithub.com%252Fdlang-community%252FD-Scanner.jpg"
+    ],
+    "dagda": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dagda/https%253A%252F%252Fgithub.com%252Feliasgranderubio%252Fdagda.jpg"
+    ],
+    "dart-code-metrics": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dart-code-metrics/https%253A%252F%252Fgithub.com%252Fdart-code-checker%252Fdart-code-metrics.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dart-code-metrics/https%253A%252F%252Fpub.dev%252Fpackages%252Fdart_code_metrics.jpg"
+    ],
+    "datree": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/datree/https%253A%252F%252Fdatree.io%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/datree/https%253A%252F%252Fgithub.com%252Fdatreeio%252Fdatree.jpg"
+    ],
+    "dawnscanner": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dawnscanner/https%253A%252F%252Fgithub.com%252Fthesp0nge%252Fdawnscanner.jpg"
+    ],
+    "dbcritic": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dbcritic/https%253A%252F%252Fgithub.com%252Fchannable%252Fdbcritic.jpg"
+    ],
+    "deadcode": [],
+    "deadnix": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deadnix/https%253A%252F%252Fgithub.com%252Fastro%252Fdeadnix.jpg"
+    ],
+    "deepcode": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepcode/https%253A%252F%252Fwww.deepcode.ai.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepcode/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D5ThvYN3nWcg.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepcode/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dd-fvZ83O_es.jpg"
+    ],
+    "deepscan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepscan/https%253A%252F%252Fdeepscan.io.jpg"
+    ],
+    "deepsource": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepsource/https%253A%252F%252Fdeepsource.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepsource/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSwEQXK1ms_U.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepsource/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DhgWui62Aa0E.jpg"
+    ],
+    "dennis": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dennis/https%253A%252F%252Fgithub.com%252Fwillkg%252Fdennis.jpg"
+    ],
+    "deno-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deno-lint/https%253A%252F%252Fgithub.com%252Fdenoland%252Fdeno_lint.jpg"
+    ],
+    "depends": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/depends/https%253A%252F%252Fgithub.com%252Fmultilang-depends%252Fdepends.jpg"
+    ],
+    "dephpend": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dephpend/https%253A%252F%252Fgithub.com%252Fmihaeu%252Fdephpend.jpg"
+    ],
+    "deprecation-detector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deprecation-detector/https%253A%252F%252Fgithub.com%252Fsensiolabs-de%252Fdeprecation-detector.jpg"
+    ],
+    "deptrac": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deptrac/https%253A%252F%252Fgithub.com%252Fsensiolabs-de%252Fdeptrac.jpg"
+    ],
+    "designite": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/designite/http%253A%252F%252Fwww.designite-tools.com.jpg"
+    ],
+    "designitejava": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/designitejava/http%253A%252F%252Fwww.designite-tools.com%252Fdesignitejava.jpg"
+    ],
+    "designpatterndetector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/designpatterndetector/https%253A%252F%252Fgithub.com%252FHalleck45%252FDesignPatternDetector.jpg"
+    ],
+    "detect-secrets": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/detect-secrets/https%253A%252F%252Fgithub.com%252FYelp%252Fdetect-secrets.jpg"
+    ],
+    "detekt": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/detekt/https%253A%252F%252Fdetekt.github.io%252Fdetekt.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/detekt/https%253A%252F%252Fgithub.com%252Fdetekt%252Fdetekt.jpg"
+    ],
+    "devskim": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/devskim/https%253A%252F%252Fgithub.com%252Fmicrosoft%252Fdevskim.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/devskim/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DVK80nTLGUk4.jpg"
+    ],
+    "dialyxir": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dialyxir/https%253A%252F%252Fgithub.com%252Fjeremyjh%252Fdialyxir.jpg"
+    ],
+    "dialyzer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dialyzer/https%253A%252F%252Fgithub.com%252Ferlang%252Fotp%252Ftree%252Fmaster%252Flib%252Fdialyzer.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dialyzer/https%253A%252F%252Fwww.erlang.org%252Fdoc%252Fman%252Fdialyzer.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dialyzer/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DJT0ECYZ9FaQ.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dialyzer/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DNxsw1jRE2A4%2526t%253D709s.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dialyzer/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dk4au7VioXNk.jpg"
+    ],
+    "diktat": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diktat/https%253A%252F%252Fdiktat.saveourtool.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diktat/https%253A%252F%252Fgithub.com%252Fsaveourtool%252Fdiktat.jpg"
+    ],
+    "dingo-hunter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dingo-hunter/https%253A%252F%252Fgithub.com%252Fnickng%252Fdingo-hunter.jpg"
+    ],
+    "dlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dlint/https%253A%252F%252Fgithub.com%252Fdlint-py%252Fdlint.jpg"
+    ],
+    "docker-label-inspector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/docker-label-inspector/https%253A%252F%252Fgithub.com%252Fgarethr%252Fdocker-label-inspector.jpg"
+    ],
+    "dogsled": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dogsled/https%253A%252F%252Fgithub.com%252Falexkohler%252Fdogsled.jpg"
+    ],
+    "doop": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/doop/https%253A%252F%252Fbitbucket.org%252Fyanniss%252Fdoop.jpg"
+    ],
+    "dotenv-linter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dotenv-linter/https%253A%252F%252Fdotenv-linter.readthedocs.io%252Fen%252Flatest.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dotenv-linter/https%253A%252F%252Fgithub.com%252Fwemake-services%252Fdotenv-linter.jpg"
+    ],
+    "dotenv-linter-rust": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dotenv-linter-rust/https%253A%252F%252Fdotenv-linter.github.io%252F%2523%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dotenv-linter-rust/https%253A%252F%252Fgithub.com%252Fdotenv-linter%252Fdotenv-linter.jpg"
+    ],
+    "drnim": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/drnim/https%253A%252F%252Fnim-lang.org%252Fdocs%252Fdrnim.html.jpg"
+    ],
+    "dupl": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dupl/https%253A%252F%252Fgithub.com%252Fmibk%252Fdupl.jpg"
+    ],
+    "dylint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dylint/https%253A%252F%252Fgithub.com%252Ftrailofbits%252Fdylint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dylint/https%253A%252F%252Fwww.trailofbits.com%252Fpost%252Fwrite-rust-lints-without-forking-clippy.jpg"
+    ],
+    "easycodingstandard": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/easycodingstandard/https%253A%252F%252Fgithub.com%252FSymplify%252FEasyCodingStandard.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/easycodingstandard/https%253A%252F%252Fwww.tomasvotruba.com%252Fblog%252F2017%252F05%252F03%252Fcombine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines.jpg"
+    ],
+    "effective-dart": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/effective-dart/https%253A%252F%252Fgithub.com%252Ftenhobi%252Feffective_dart.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/effective-dart/https%253A%252F%252Fpub.dev%252Fpackages%252Feffective_dart.jpg"
+    ],
+    "electrolysis": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/electrolysis/http%253A%252F%252Fkha.github.io%252Felectrolysis.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/electrolysis/https%253A%252F%252Fgithub.com%252FKha%252Felectrolysis.jpg"
+    ],
+    "elm-analyse": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/elm-analyse/https%253A%252F%252Fgithub.com%252Fstil4m%252Felm-analyse.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/elm-analyse/https%253A%252F%252Fstil4m.github.io%252Felm-analyse.jpg"
+    ],
+    "elm-review": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/elm-review/https%253A%252F%252Fgithub.com%252Fjfmengels%252Felm-review.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/elm-review/https%253A%252F%252Fpackage.elm-lang.org%252Fpackages%252Fjfmengels%252Felm-review%252Flatest.jpg"
+    ],
+    "elvis": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/elvis/https%253A%252F%252Fgithub.com%252Finaka%252Felvis.jpg"
+    ],
+    "ember-template-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ember-template-lint/https%253A%252F%252Fgithub.com%252Fember-template-lint%252Fember-template-lint.jpg"
+    ],
+    "embold": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/embold/https%253A%252F%252Fembold.io.jpg"
+    ],
+    "emerge": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/emerge/https%253A%252F%252Fgithub.com%252Fglato%252Femerge.jpg"
+    ],
+    "enlightn": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/enlightn/https%253A%252F%252Fgithub.com%252Fenlightn%252Fenlightn.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/enlightn/https%253A%252F%252Fwww.laravel-enlightn.com%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/enlightn/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dl6gY53fL1zI.jpg"
+    ],
+    "erb-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/erb-lint/https%253A%252F%252Fgithub.com%252FShopify%252Ferb-lint.jpg"
+    ],
+    "errcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/errcheck/https%253A%252F%252Fgithub.com%252Fkisielk%252Ferrcheck.jpg"
+    ],
+    "error-prone": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/error-prone/https%253A%252F%252Ferrorprone.info.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/error-prone/https%253A%252F%252Fgithub.com%252Fgoogle%252Ferror-prone.jpg"
+    ],
+    "errwrap": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/errwrap/https%253A%252F%252Fgithub.com%252Ffatih%252Ferrwrap.jpg"
+    ],
+    "es6-plato": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/es6-plato/https%253A%252F%252Fgithub.com%252Fthe-simian%252Fes6-plato.jpg"
+    ],
+    "esbmc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/esbmc/http%253A%252F%252Fesbmc.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/esbmc/https%253A%252F%252Fgithub.com%252Fesbmc%252Fesbmc.jpg"
+    ],
+    "escomplex": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/escomplex/https%253A%252F%252Fgithub.com%252Fjared-stilwell%252Fescomplex.jpg"
+    ],
+    "eslint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/eslint/https%253A%252F%252Fgithub.com%252Feslint%252Feslint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/eslint/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSydnKbGc7W8.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/eslint/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DfslNny60HzI.jpg"
+    ],
+    "esprima": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/esprima/https%253A%252F%252Fesprima.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/esprima/https%253A%252F%252Fgithub.com%252Fjquery%252Fesprima.jpg"
+    ],
+    "exakat": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/exakat/https%253A%252F%252Fgithub.com%252Fexakat%252Fexakat.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/exakat/https%253A%252F%252Fwww.exakat.io.jpg"
+    ],
+    "fasterer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fasterer/https%253A%252F%252Fgithub.com%252FDamirSvrtan%252Ffasterer.jpg"
+    ],
+    "fb-contrib": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fb-contrib/http%253A%252F%252Ffb-contrib.sourceforge.net.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fb-contrib/https%253A%252F%252Fgithub.com%252Fmebigfatguy%252Ffb-contrib.jpg"
+    ],
+    "find-security-bugs": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/find-security-bugs/https%253A%252F%252Ffind-sec-bugs.github.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/find-security-bugs/https%253A%252F%252Fgithub.com%252Ffind-sec-bugs%252Ffind-sec-bugs.jpg"
+    ],
+    "fix-insight": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fix-insight/https%253A%252F%252Fwww.tmssoftware.com%252Fsite%252Ffixinsight.asp.jpg"
+    ],
+    "fixinator": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fixinator/https%253A%252F%252Ffixinator.app.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fixinator/https%253A%252F%252Fgithub.com%252Ffoundeo%252Ffixinator%252Fwiki%252FGetting-Started.jpg"
+    ],
+    "fixit": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fixit/https%253A%252F%252Fgithub.com%252FInstagram%252FFixit.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fixit/https%253A%252F%252Fpypi.org%252Fproject%252Ffixit.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fixit/https%253A%252F%252Fwww.digitalernachschub.de%252Fblog%252Fenforcing-coding-conventions-using-libcst-and-fixit%252F.jpg"
+    ],
+    "flake8": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flake8/https%253A%252F%252Fgithub.com%252FPyCQA%252Fflake8.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flake8/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DTDUf93vqq3g.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flake8/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dot5Z4KQPBL8.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flake8/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DqUpfUenwUPA.jpg"
+    ],
+    "flawfinder": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flawfinder/http%253A%252F%252Fdwheeler.com%252Fflawfinder%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flawfinder/https%253A%252F%252Fgithub.com%252Fdavid-a-wheeler%252Fflawfinder.jpg"
+    ],
+    "flay": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flay/https%253A%252F%252Fgithub.com%252Fseattlerb%252Fflay.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flay/https%253A%252F%252Fruby.sadi.st%252FFlay.html.jpg"
+    ],
+    "flen": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flen/https%253A%252F%252Fgithub.com%252Flafolle%252Fflen.jpg"
+    ],
+    "flint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flint/https%253A%252F%252Fgithub.com%252FJossWhittle%252FFlintPlusPlus.jpg"
+    ],
+    "flog": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flog/https%253A%252F%252Fgithub.com%252Fseattlerb%252Fflog.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flog/https%253A%252F%252Fruby.sadi.st%252FFlog.html.jpg"
+    ],
+    "flow": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flow/https%253A%252F%252Fflow.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flow/https%253A%252F%252Fgithub.com%252Ffacebook%252Fflow.jpg"
+    ],
+    "flowdroid": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/flowdroid/https%253A%252F%252Fgithub.com%252Fsecure-software-engineering%252FFlowDroid.jpg"
+    ],
+    "foodcritic": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/foodcritic/http%253A%252F%252Fwww.foodcritic.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/foodcritic/https%253A%252F%252Fgithub.com%252Ffoodcritic%252Ffoodcritic.jpg"
+    ],
+    "forbidden-apis": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/forbidden-apis/https%253A%252F%252Fgithub.com%252Fpoliceman-tools%252Fforbidden-apis.jpg"
+    ],
+    "fortify": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fortify/https%253A%252F%252Fsoftware.microfocus.com%252Fen-us%252Fproducts%252Fstatic-code-analysis-sast%252Foverview.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fortify/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D7CfeUXtDlwQ.jpg"
+    ],
+    "frama-c": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/frama-c/http%253A%252F%252Fframa-c.com%252Fdownload.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/frama-c/http%253A%252F%252Fframa-c.com.jpg"
+    ],
+    "frink": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/frink/http%253A%252F%252Fcatless.ncl.ac.uk%252FPrograms%252FFrink.jpg"
+    ],
+    "fsharplint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fsharplint/http%253A%252F%252Ffsprojects.github.io%252FFSharpLint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fsharplint/https%253A%252F%252Fgithub.com%252Ffsprojects%252FFSharpLint.jpg"
+    ],
+    "fukuzatsu": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fukuzatsu/https%253A%252F%252Fgithub.com%252FCoralineAda%252Ffukuzatsu.jpg"
+    ],
+    "gawk-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gawk-lint/https%253A%252F%252Fwww.gnu.org%252Fsoftware%252Fgawk%252Fmanual%252Fhtml_node%252FOptions.html.jpg"
+    ],
+    "gcc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gcc/https%253A%252F%252Fgcc.gnu.org%252Fonlinedocs%252Fgcc%252FStatic-Analyzer-Options.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gcc/https%253A%252F%252Fgithub.com%252Fgcc-mirror%252Fgcc.jpg"
+    ],
+    "gendarme": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gendarme/https%253A%252F%252Fgithub.com%252Fmono%252Fmono-tools.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gendarme/https%253A%252F%252Fwww.mono-project.com%252Fdocs%252Ftools%252Blibraries%252Ftools%252Fgendarme.jpg"
+    ],
+    "gherkin-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gherkin-lint/https%253A%252F%252Fgithub.com%252Fvsiakka%252Fgherkin-lint.jpg"
+    ],
+    "ghidra": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ghidra/https%253A%252F%252Fghidra-sre.org%252FInstallationGuide.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ghidra/https%253A%252F%252Fghidra-sre.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ghidra/https%253A%252F%252Fgithub.com%252FNationalSecurityAgency%252Fghidra.jpg"
+    ],
+    "gitleaks": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gitleaks/https%253A%252F%252Fgithub.com%252Fzricethezav%252Fgitleaks.jpg"
+    ],
+    "gixy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gixy/https%253A%252F%252Fgithub.com%252Fyandex%252Fgixy.jpg"
+    ],
+    "go-ast": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-ast/https%253A%252F%252Fgithub.com%252Fgolang%252Fgo%252Ftree%252Fmaster%252Fsrc%252Fgo%252Fast.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-ast/https%253A%252F%252Fgolang.org%252Fpkg%252Fgo%252Fast.jpg"
+    ],
+    "go-consistent": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-consistent/https%253A%252F%252Fgithub.com%252FQuasilyte%252Fgo-consistent.jpg"
+    ],
+    "go-critic": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-critic/https%253A%252F%252Fgithub.com%252Fgo-critic%252Fgo-critic.jpg"
+    ],
+    "go-meta-linter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-meta-linter/https%253A%252F%252Fgithub.com%252Falecthomas%252Fgometalinter.jpg"
+    ],
+    "go-tool-vet-shadow": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-tool-vet-shadow/https%253A%252F%252Fgithub.com%252Fgolang%252Fgo%252Ftree%252Fmaster%252Fsrc%252Fcmd%252Fvet.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-tool-vet-shadow/https%253A%252F%252Fgolang.org%252Fcmd%252Fvet%2523hdr-Shadowed_variables.jpg"
+    ],
+    "go-vet": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-vet/https%253A%252F%252Fgithub.com%252Fgolang%252Fgo%252Ftree%252Fmaster%252Fsrc%252Fcmd%252Fvet.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/go-vet/https%253A%252F%252Fgolang.org%252Fcmd%252Fvet.jpg"
+    ],
+    "goblint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goblint/https%253A%252F%252Fgithub.com%252Fgoblint%252Fanalyzer.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goblint/https%253A%252F%252Fgoblint.in.tum.de.jpg"
+    ],
+    "gochecknoglobals": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gochecknoglobals/https%253A%252F%252Fgithub.com%252Fleighmcculloch%252Fgochecknoglobals.jpg"
+    ],
+    "goconst": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goconst/https%253A%252F%252Fgithub.com%252Fjgautheron%252Fgoconst.jpg"
+    ],
+    "gocyclo": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gocyclo/https%253A%252F%252Fgithub.com%252Ffzipp%252Fgocyclo.jpg"
+    ],
+    "gofmt-s": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gofmt-s/https%253A%252F%252Fgithub.com%252Fgolang%252Fgo%252Ftree%252Fmaster%252Fsrc%252Fcmd%252Fgofmt.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gofmt-s/https%253A%252F%252Fgolang.org%252Fcmd%252Fgofmt.jpg"
+    ],
+    "gofumpt": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gofumpt/https%253A%252F%252Fgithub.com%252Fmvdan%252Fgofumpt.jpg"
+    ],
+    "goimports": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goimports/https%253A%252F%252Fgithub.com%252Fgolang%252Ftools%252Ftree%252Fmaster%252Fcmd%252Fgoimports.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goimports/https%253A%252F%252Fpkg.go.dev%252Fgolang.org%252Fx%252Ftools%252Fcmd%252Fgoimports.jpg"
+    ],
+    "gokart": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gokart/https%253A%252F%252Fgithub.com%252Fpraetorian-inc%252Fgokart.jpg"
+    ],
+    "golangci-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/golangci-lint/https%253A%252F%252Fgithub.com%252Fgolangci%252Fgolangci-lint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/golangci-lint/https%253A%252F%252Fgolangci-lint.run.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/golangci-lint/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D1U-Gzz4TYP0.jpg"
+    ],
+    "golint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/golint/https%253A%252F%252Fgithub.com%252Fgolang%252Flint.jpg"
+    ],
+    "goodcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goodcheck/https%253A%252F%252Fgithub.com%252Fsideci%252Fgoodcheck.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goodcheck/https%253A%252F%252Fsider.github.io%252Fgoodcheck.jpg"
+    ],
+    "goodpractice": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goodpractice/http%253A%252F%252Fmangothecat.github.io%252Fgoodpractice.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goodpractice/https%253A%252F%252Fgithub.com%252Fmangothecat%252Fgoodpractice.jpg"
+    ],
+    "google-java-format": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/google-java-format/https%253A%252F%252Fgithub.com%252Fgoogle%252Fgoogle-java-format.jpg"
+    ],
+    "goone": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goone/https%253A%252F%252Fgithub.com%252Fmasibw%252Fgoone.jpg"
+    ],
+    "goreporter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goreporter/https%253A%252F%252Fgithub.com%252F360EntSecGroup-Skylar%252Fgoreporter.jpg"
+    ],
+    "goroutine-inspect": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goroutine-inspect/https%253A%252F%252Fgithub.com%252Flinuxerwang%252Fgoroutine-inspect.jpg"
+    ],
+    "gosec-gas": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gosec-gas/https%253A%252F%252Fgithub.com%252Fsecurego%252Fgosec.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gosec-gas/https%253A%252F%252Fsecurego.io.jpg"
+    ],
+    "gotype": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gotype/https%253A%252F%252Fgolang.org%252Fx%252Ftools%252Fcmd%252Fgotype.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gotype/https%253A%252F%252Fpkg.go.dev%252Fgolang.org%252Fx%252Ftools%252Fcmd%252Fgotype.jpg"
+    ],
+    "govulncheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/govulncheck/https%253A%252F%252Fgo.dev%252Fblog%252Fvuln.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/govulncheck/https%253A%252F%252Fpkg.go.dev%252Fgolang.org%252Fx%252Fvuln%252Fvulncheck.jpg"
+    ],
+    "graphmycss-com": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/graphmycss-com/https%253A%252F%252Fgithub.com%252FTheJaredWilcurt%252Fitcss-specificity-graph.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/graphmycss-com/https%253A%252F%252Fgraphmycss.com.jpg"
+    ],
+    "graudit": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/graudit/http%253A%252F%252Fwww.justanotherhacker.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/graudit/https%253A%252F%252Fgithub.com%252Fwireghoul%252Fgraudit.jpg"
+    ],
+    "grumphp": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/grumphp/https%253A%252F%252Fgithub.com%252Fphpro%252Fgrumphp.jpg"
+    ],
+    "grunt-bootlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/grunt-bootlint/https%253A%252F%252Fgithub.com%252Ftwbs%252Fgrunt-bootlint.jpg"
+    ],
+    "gulp-bootlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gulp-bootlint/https%253A%252F%252Fgithub.com%252Ftschortsch%252Fgulp-bootlint.jpg"
+    ],
+    "haml-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/haml-lint/https%253A%252F%252Fgithub.com%252Fsds%252Fhaml-lint.jpg"
+    ],
+    "haskell-dockerfile-linter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/haskell-dockerfile-linter/https%253A%252F%252Fgithub.com%252Flukasmartinelli%252Fhadolint.jpg"
+    ],
+    "haxe-checkstyle": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/haxe-checkstyle/http%253A%252F%252Fhaxecheckstyle.github.io%252Fdocs%252Fhaxe-checkstyle%252Fhome.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/haxe-checkstyle/https%253A%252F%252Fgithub.com%252FHaxeCheckstyle%252Fhaxe-checkstyle.jpg"
+    ],
+    "hcl-appscan-source": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hcl-appscan-source/https%253A%252F%252Fwww.hcltechsw.com%252Fproducts%252Fappscan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hcl-appscan-source/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DTmYY67w18RI.jpg"
+    ],
+    "hegel": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hegel/https%253A%252F%252Fgithub.com%252FJSMonk%252Fhegel.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hegel/https%253A%252F%252Fhegel.js.org.jpg"
+    ],
+    "helix-qac": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/helix-qac/https%253A%252F%252Fwww.perforce.com%252Fproducts%252Fhelix-qac.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/helix-qac/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DHHaBnZx2fGY.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/helix-qac/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DXFvZ_hh6LCo.jpg"
+    ],
+    "herbie": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/herbie/https%253A%252F%252Fgithub.com%252Fmcarton%252Frust-herbie-lint.jpg"
+    ],
+    "hlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hlint/https%253A%252F%252Fgithub.com%252Fndmitchell%252Fhlint.jpg"
+    ],
+    "hopper": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hopper/https%253A%252F%252Fgithub.com%252Fcuplv%252Fhopper.jpg"
+    ],
+    "hound-ci": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hound-ci/https%253A%252F%252Fgithub.com%252Fhoundci%252Fhound.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hound-ci/https%253A%252F%252Fhoundci.com.jpg"
+    ],
+    "html-inspector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/html-inspector/https%253A%252F%252Fgithub.com%252Fphilipwalton%252Fhtml-inspector.jpg"
+    ],
+    "html-tidy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/html-tidy/http%253A%252F%252Fwww.html-tidy.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/html-tidy/https%253A%252F%252Fgithub.com%252Fhtacg%252Ftidy-html5.jpg"
+    ],
+    "html-validate": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/html-validate/https%253A%252F%252Fgitlab.com%252Fhtml-validate%252Fhtml-validate.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/html-validate/https%253A%252F%252Fhtml-validate.org%252F.jpg"
+    ],
+    "htmlbeautifier": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/htmlbeautifier/https%253A%252F%252Fgithub.com%252Fthreedaymonk%252Fhtmlbeautifier.jpg"
+    ],
+    "htmlhint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/htmlhint/https%253A%252F%252Fgithub.com%252Fyaniswang%252FHTMLHint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/htmlhint/https%253A%252F%252Fhtmlhint.com.jpg"
+    ],
+    "huntbugs": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/huntbugs/https%253A%252F%252Fgithub.com%252Famaembo%252Fhuntbugs.jpg"
+    ],
+    "i-code-cnes-for-fortran": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/i-code-cnes-for-fortran/https%253A%252F%252Fgithub.com%252Flequal%252Fi-CodeCNES.jpg"
+    ],
+    "i-code-cnes-for-shell": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/i-code-cnes-for-shell/https%253A%252F%252Fgithub.com%252Flequal%252Fi-CodeCNES.jpg"
+    ],
+    "iblessing": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/iblessing/https%253A%252F%252Fgithub.com%252FSoulghost%252Fiblessing.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/iblessing/https%253A%252F%252Fwww.kitploit.com%252F2020%252F08%252Fiblessing-ios-security-exploiting.html.jpg"
+    ],
+    "icarus-verilog": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/icarus-verilog/http%253A%252F%252Fiverilog.icarus.com%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/icarus-verilog/https%253A%252F%252Fgithub.com%252Fsteveicarus%252Fiverilog.jpg"
+    ],
+    "ida-free": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ida-free/https%253A%252F%252Fwww.hex-rays.com%252Fproducts%252Fida%252Fsupport%252Fdownload_freeware.jpg"
+    ],
+    "ikos": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ikos/https%253A%252F%252Fgithub.com%252Fnasa-sw-vnv%252Fikos.jpg"
+    ],
+    "imhotep": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/imhotep/https%253A%252F%252Fgithub.com%252Fjustinabrahms%252Fimhotep.jpg"
+    ],
+    "include-gardener": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/include-gardener/https%253A%252F%252Fgithub.com%252Ffeddischson%252Finclude_gardener.jpg"
+    ],
+    "ineffassign": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ineffassign/https%253A%252F%252Fgithub.com%252Fgordonklaus%252Fineffassign.jpg"
+    ],
+    "infer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/infer/https%253A%252F%252Ffbinfer.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/infer/https%253A%252F%252Fgithub.com%252Ffacebook%252Finfer.jpg"
+    ],
+    "inspectortiger": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/inspectortiger/https%253A%252F%252Fgithub.com%252Fthg-consulting%252Fit.jpg"
+    ],
+    "intellij-idea": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/intellij-idea/https%253A%252F%252Fwww.jetbrains.com%252Fidea.jpg"
+    ],
+    "interfacer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/interfacer/https%253A%252F%252Fgithub.com%252Fmvdan%252Finterfacer.jpg"
+    ],
+    "jakstab": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jakstab/https%253A%252F%252Fgithub.com%252Fjkinder%252Fjakstab.jpg"
+    ],
+    "jarchitect": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jarchitect/https%253A%252F%252Fwww.jarchitect.com.jpg"
+    ],
+    "jbmc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jbmc/https%253A%252F%252Fgithub.com%252Fpeterschrammel%252Fcbmc%252Freleases%252Ftag%252Fjbmc-5.8-cav18.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jbmc/https%253A%252F%252Fwww.cprover.org%252Fjbmc.jpg"
+    ],
+    "jeb-decompiler": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jeb-decompiler/https%253A%252F%252Fwww.pnfsoftware.com%252F.jpg"
+    ],
+    "jedi": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jedi/https%253A%252F%252Fgithub.com%252Fdavidhalter%252Fjedi.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jedi/https%253A%252F%252Fjedi.readthedocs.io%252Fen%252Flatest.jpg"
+    ],
+    "joern": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/joern/https%253A%252F%252Fgithub.com%252FShiftLeftSecurity%252Fjoern.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/joern/https%253A%252F%252Fjoern.io.jpg"
+    ],
+    "jshint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jshint/https%253A%252F%252Fgithub.com%252Fjshint%252Fjshint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jshint/https%253A%252F%252Fjshint.com%252Fabout.jpg"
+    ],
+    "jslint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jslint/https%253A%252F%252Fgithub.com%252Fdouglascrockford%252FJSLint.jpg"
+    ],
+    "jsonlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jsonlint/https%253A%252F%252Fgithub.com%252Fzaach%252Fjsonlint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jsonlint/https%253A%252F%252Fjsonlint.com%252F.jpg"
+    ],
+    "jsprime": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jsprime/http%253A%252F%252Fdpnishant.github.io%252Fjsprime.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jsprime/https%253A%252F%252Fgithub.com%252Fdpnishant%252Fjsprime.jpg"
+    ],
+    "kics": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kics/https%253A%252F%252Fgithub.com%252FCheckmarx%252Fkics.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kics/https%253A%252F%252Fkics.io%252F.jpg"
+    ],
+    "kiuwan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kiuwan/https%253A%252F%252Fwww.kiuwan.com%252Fcode-security-sast.jpg"
+    ],
+    "klint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/klint/https%253A%252F%252Fgithub.com%252Fuswitch%252Fklint.jpg"
+    ],
+    "klocwork": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/klocwork/https%253A%252F%252Fwww.perforce.com%252Fproducts%252Fklocwork.jpg"
+    ],
+    "kmdr": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kmdr/https%253A%252F%252Fgithub.com%252Fediardo%252Fkmdr-cli.jpg"
+    ],
+    "ktlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktlint/https%253A%252F%252Fgithub.com%252Fshyiko%252Fktlint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktlint/https%253A%252F%252Fktlint.github.io.jpg"
+    ],
+    "kube-hunter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kube-hunter/https%253A%252F%252Faquasecurity.github.io%252Fkube-hunter%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kube-hunter/https%253A%252F%252Fgithub.com%252Faquasecurity%252Fkube-hunter.jpg"
+    ],
+    "kube-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kube-lint/https%253A%252F%252Fgithub.com%252Fviglesiasce%252Fkube-lint.jpg"
+    ],
+    "kube-linter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kube-linter/https%253A%252F%252Fgithub.com%252Fstackrox%252Fkube-linter.jpg"
+    ],
+    "kube-score": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kube-score/https%253A%252F%252Fgithub.com%252Fzegl%252Fkube-score.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kube-score/https%253A%252F%252Fkube-score.com.jpg"
+    ],
+    "kubeconform": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kubeconform/https%253A%252F%252Fgithub.com%252Fyannh%252Fkubeconform.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kubeconform/https%253A%252F%252Fyoutu.be%252FYM7Wy_M7Lvw%253Ft%253D657.jpg"
+    ],
+    "kubelinter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kubelinter/https%253A%252F%252Fgithub.com%252Fstackrox%252Fkube-linter.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kubelinter/https%253A%252F%252Fwww.stackrox.com%252Fpost%252F2020%252F10%252Fintroducing-kubelinter-an-open-source-linter-for-kubernetes.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kubelinter/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DKWX0sWojV_0.jpg"
+    ],
+    "kubeval": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kubeval/https%253A%252F%252Fgithub.com%252Finstrumenta%252Fkubeval.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kubeval/https%253A%252F%252Fkubeval.instrumenta.dev.jpg"
+    ],
+    "lacheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lacheck/https%253A%252F%252Fwww.ctan.org%252Fpkg%252Flacheck.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lacheck/https%253A%252F%252Fwww.ctan.org%252Ftex-archive%252Fsupport%252Flacheck.jpg"
+    ],
+    "languagetool": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/languagetool/https%253A%252F%252Fgithub.com%252Flanguagetool-org%252Flanguagetool.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/languagetool/https%253A%252F%252Flanguagetool.org.jpg"
+    ],
+    "larastan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/larastan/https%253A%252F%252Fgithub.com%252Fnunomaduro%252Flarastan.jpg"
+    ],
+    "laser": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/laser/https%253A%252F%252Fgithub.com%252Fmichaeledgar%252Flaser.jpg"
+    ],
+    "ldra": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ldra/https%253A%252F%252Fldra.com.jpg"
+    ],
+    "lgtm": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lgtm/https%253A%252F%252Fgithub.blog%252F2019-09-18-github-welcomes-semmle%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lgtm/https%253A%252F%252Flgtm.com%252F.jpg"
+    ],
+    "libvcs4j": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/libvcs4j/https%253A%252F%252Fgithub.com%252Funi-bremen-agst%252Flibvcs4j.jpg"
+    ],
+    "lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lint/https%253A%252F%252Fgithub.com%252Fpasssy%252Fdart-lint.jpg"
+    ],
+    "linter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/linter/https%253A%252F%252Fgithub.com%252FHairyFotr%252Flinter.jpg"
+    ],
+    "linter-for-dart": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/linter-for-dart/https%253A%252F%252Fdart-lang.github.io%252Flinter.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/linter-for-dart/https%253A%252F%252Fgithub.com%252Fdart-lang%252Flinter.jpg"
+    ],
+    "linter-rust": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/linter-rust/https%253A%252F%252Fgithub.com%252FAtomLinter%252Flinter-rust.jpg"
+    ],
+    "lintian": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lintian/https%253A%252F%252Flintian.debian.org.jpg"
+    ],
+    "lintr": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lintr/https%253A%252F%252Fgithub.com%252Fjimhester%252Flintr.jpg"
+    ],
+    "linty-fresh": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/linty-fresh/https%253A%252F%252Fgithub.com%252Flyft%252Flinty_fresh.jpg"
+    ],
+    "liquid-haskell": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/liquid-haskell/https%253A%252F%252Fgithub.com%252Fucsd-progsys%252Fliquidhaskell.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/liquid-haskell/https%253A%252F%252Fucsd-progsys.github.io%252Fliquidhaskell-blog%252F.jpg"
+    ],
+    "lizard": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lizard/https%253A%252F%252Fgithub.com%252Fterryyin%252Flizard.jpg"
+    ],
+    "lll": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lll/https%253A%252F%252Fgithub.com%252Fwalle%252Flll.jpg"
+    ],
+    "lockfile-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lockfile-lint/https%253A%252F%252Fgithub.com%252Flirantal%252Flockfile-lint.jpg"
+    ],
+    "luacheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/luacheck/https%253A%252F%252Fgithub.com%252Fmpeterv%252Fluacheck.jpg"
+    ],
+    "lualint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lualint/https%253A%252F%252Fgithub.com%252Fphilips%252Flualint.jpg"
+    ],
+    "luanalysis": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/luanalysis/https%253A%252F%252Fgithub.com%252FBenjamin-Dobell%252FIntelliJ-Luanalysis.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/luanalysis/https%253A%252F%252Fplugins.jetbrains.com%252Fplugin%252F14698-luanalysis.jpg"
+    ],
+    "lunasec": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lunasec/https%253A%252F%252Fgithub.com%252Flunasec-io%252Flunasec.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lunasec/https%253A%252F%252Fwww.lunasec.io.jpg"
+    ],
+    "maligned": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/maligned/https%253A%252F%252Fgithub.com%252Fmdempsky%252Fmaligned.jpg"
+    ],
+    "manalyze": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/manalyze/https%253A%252F%252Fgithub.com%252FJusticeRage%252FManalyze.jpg"
+    ],
+    "markdownlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/markdownlint/https%253A%252F%252Fgithub.com%252FDavidAnson%252Fmarkdownlint.jpg"
+    ],
+    "mccabe": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mccabe/https%253A%252F%252Fgithub.com%252FPyCQA%252Fmccabe.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mccabe/https%253A%252F%252Fpypi.org%252Fproject%252Fmccabe.jpg"
+    ],
+    "mcsema": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mcsema/https%253A%252F%252Fgithub.com%252Flifting-bits%252Fmcsema.jpg"
+    ],
+    "mdformat": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mdformat/https%253A%252F%252Fgithub.com%252Fexecutablebooks%252Fmdformat.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mdformat/https%253A%252F%252Fmdformat.rtfd.io.jpg"
+    ],
+    "mdl": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mdl/https%253A%252F%252Fgithub.com%252Fmivok%252Fmarkdownlint.jpg"
+    ],
+    "mega-linter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mega-linter/https%253A%252F%252Fgithub.com%252Fnvuillam%252Fmega-linter.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mega-linter/https%253A%252F%252Fnvuillam.github.io%252Fmega-linter%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mega-linter/https%253A%252F%252Fnvuillam.github.io%252Fmega-linter%252Fconfiguration%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mega-linter/https%253A%252F%252Fnvuillam.github.io%252Fmega-linter%252Ffrequently-asked-questions%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mega-linter/https%253A%252F%252Fnvuillam.github.io%252Fmega-linter%252Finstallation%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mega-linter/https%253A%252F%252Fnvuillam.github.io%252Fmega-linter%252Fsupported-linters%252F.jpg"
+    ],
+    "metadata-json-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/metadata-json-lint/https%253A%252F%252Fgithub.com%252Fvoxpupuli%252Fmetadata-json-lint.jpg"
+    ],
+    "metricfu": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/metricfu/https%253A%252F%252Fgithub.com%252Fmetricfu%252Fmetric_fu.jpg"
+    ],
+    "mirai": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mirai/https%253A%252F%252Fgithub.com%252Ffacebookexperimental%252FMIRAI.jpg"
+    ],
+    "misspell": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/misspell/https%253A%252F%252Fgithub.com%252Fclient9%252Fmisspell.jpg"
+    ],
+    "misspell-fixer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/misspell-fixer/https%253A%252F%252Fgithub.com%252Fvlajos%252Fmisspell-fixer.jpg"
+    ],
+    "misspelled-words-in-context": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/misspelled-words-in-context/https%253A%252F%252Fgithub.com%252Fjwilk%252Fmwic.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/misspelled-words-in-context/https%253A%252F%252Fjwilk.net%252Fsoftware%252Fmwic.jpg"
+    ],
+    "mlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mlint/https%253A%252F%252Fmathworks.com%252Fhelp%252Fmatlab%252Fref%252Fmlint.html.jpg"
+    ],
+    "mondrian": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mondrian/http%253A%252F%252Ftrismegiste.github.io%252FMondrian.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mondrian/https%253A%252F%252Fgithub.com%252FTrismegiste%252FMondrian.jpg"
+    ],
+    "multilint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/multilint/https%253A%252F%252Fgithub.com%252Fadamchainz%252Fmultilint.jpg"
+    ],
+    "mypy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mypy/http%253A%252F%252Fwww.mypy-lang.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mypy/https%253A%252F%252Fgithub.com%252Fpython%252Fmypy.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mypy/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D9gNnhNxra3E.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mypy/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DH5CnZQDKfhU.jpg"
+    ],
+    "mythril": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mythril/https%253A%252F%252Fgithub.com%252FConsenSys%252Fmythril.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mythril/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DQd9ubry-c_M.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mythril/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Diqf6epACgds.jpg"
+    ],
+    "mythx": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mythx/https%253A%252F%252Fmythx.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mythx/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DN-dAuqNztjA.jpg"
+    ],
+    "nagelfar": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nagelfar/https%253A%252F%252Fsourceforge.net%252Fp%252Fnagelfar%252Fcode%252Fci%252Fmaster%252Ftree.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nagelfar/https%253A%252F%252Fsourceforge.net%252Fprojects%252Fnagelfar.jpg"
+    ],
+    "nakedret": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nakedret/https%253A%252F%252Fgithub.com%252Falexkohler%252Fnakedret.jpg"
+    ],
+    "nargs": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nargs/https%253A%252F%252Fgithub.com%252Falexkohler%252Fnargs.jpg"
+    ],
+    "nauz-file-detector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nauz-file-detector/https%253A%252F%252Fgithub.com%252Fhorsicq%252FNauz-File-Detector.jpg"
+    ],
+    "ndepend": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ndepend/http%253A%252F%252Fwww.ndepend.com.jpg"
+    ],
+    "net-analyzers": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/net-analyzers/https%253A%252F%252Fgithub.com%252FDotNetAnalyzers.jpg"
+    ],
+    "nimfmt": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nimfmt/https%253A%252F%252Fgithub.com%252FFedericoCeratto%252Fnimfmt.jpg"
+    ],
+    "nitpick-ci": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nitpick-ci/https%253A%252F%252Fnitpick-ci.com.jpg"
+    ],
+    "njsscan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/njsscan/https%253A%252F%252Fgithub.com%252Fajinabraham%252Fnjsscan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/njsscan/https%253A%252F%252Fopensecurity.in.jpg"
+    ],
+    "nodejsscan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nodejsscan/https%253A%252F%252Fgithub.com%252Fajinabraham%252FNodeJsScan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nodejsscan/https%253A%252F%252Fopensecurity.in.jpg"
+    ],
+    "nu-html-checker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nu-html-checker/https%253A%252F%252Fgithub.com%252Fvalidator%252Fvalidator.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nu-html-checker/https%253A%252F%252Fvalidator.github.io%252Fvalidator%252F.jpg"
+    ],
+    "nullaway": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nullaway/https%253A%252F%252Fgithub.com%252Fuber%252FNullAway.jpg"
+    ],
+    "oclint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/oclint/http%253A%252F%252Foclint.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/oclint/https%253A%252F%252Fgithub.com%252Foclint%252Foclint.jpg"
+    ],
+    "ocular": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ocular/https%253A%252F%252Fwww.shiftleft.io%252Focular%252F.jpg"
+    ],
+    "oelint-adv": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/oelint-adv/https%253A%252F%252Fgithub.com%252Fpriv-kweihmann%252Foelint-adv.jpg"
+    ],
+    "offensive-360": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/offensive-360/https%253A%252F%252Foffensive360.com%252F.jpg"
+    ],
+    "openscap": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/openscap/https%253A%252F%252Fgithub.com%252FOpenSCAP%252Fopenscap.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/openscap/https%253A%252F%252Fwww.open-scap.org%252F.jpg"
+    ],
+    "oversecured": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/oversecured/https%253A%252F%252Foversecured.com.jpg"
+    ],
+    "owasp-dependency-check": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/owasp-dependency-check/https%253A%252F%252Fgithub.com%252Fjeremylong%252FDependencyCheck.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/owasp-dependency-check/https%253A%252F%252Fowasp.org%252Fwww-project-dependency-check.jpg"
+    ],
+    "packj": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/packj/https%253A%252F%252Fgithub.com%252Fossillate-inc%252Fpackj.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/packj/https%253A%252F%252Fpackj.dev.jpg"
+    ],
+    "paprika": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/paprika/https%253A%252F%252Fgithub.com%252FGeoffreyHecht%252Fpaprika.jpg"
+    ],
+    "parallel-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/parallel-lint/https%253A%252F%252Fgithub.com%252Fphp-parallel-lint%252FPHP-Parallel-Lint.jpg"
+    ],
+    "parasoft": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/parasoft/https%253A%252F%252Fwww.parasoft.com%252F.jpg"
+    ],
+    "parker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/parker/https%253A%252F%252Fgithub.com%252Fkatiefenn%252Fparker.jpg"
+    ],
+    "parse": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/parse/https%253A%252F%252Fgithub.com%252Fpsecio%252Fparse.jpg"
+    ],
+    "pascal-analyzer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pascal-analyzer/https%253A%252F%252Fpeganza.com%252Fproducts_pal.html.jpg"
+    ],
+    "pascal-expert": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pascal-expert/https%253A%252F%252Fpeganza.com%252Fproducts_pex.html.jpg"
+    ],
+    "pc-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pc-lint/https%253A%252F%252Fwww.gimpel.com.jpg"
+    ],
+    "pdepend": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pdepend/https%253A%252F%252Fgithub.com%252Fpdepend%252Fpdepend.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pdepend/https%253A%252F%252Fpdepend.org.jpg"
+    ],
+    "pelusa": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pelusa/https%253A%252F%252Fgithub.com%252Fcodegram%252Fpelusa.jpg"
+    ],
+    "perl-critic": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/perl-critic/https%253A%252F%252Fmetacpan.org%252Fpod%252FPerl%253A%253ACritic.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/perl-critic/https%253A%252F%252Fmetacpan.org%252Frelease%252FPerl-Critic%252Fsource%252Flib%252FPerl%252FCritic.pm.jpg"
+    ],
+    "pfff": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pfff/https%253A%252F%252Fgithub.com%252Ffacebookarchive%252Fpfff%252Fwiki%252FMain.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pfff/https%253A%252F%252Fgithub.com%252Freturntocorp%252Fpfff.jpg"
+    ],
+    "phan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phan/https%253A%252F%252Fgithub.com%252Fetsy%252Fphan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phan/https%253A%252F%252Fgithub.com%252Fphan%252Fphan%252Fwiki.jpg"
+    ],
+    "phasar": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phasar/https%253A%252F%252Fgithub.com%252Fsecure-software-engineering%252Fphasar.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phasar/https%253A%252F%252Fphasar.org.jpg"
+    ],
+    "php-architecture-tester": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-architecture-tester/https%253A%252F%252Fgithub.com%252Fcarlosas%252Fphpat.jpg"
+    ],
+    "php-assumptions": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-assumptions/https%253A%252F%252Fgithub.com%252Frskuipers%252Fphp-assumptions.jpg"
+    ],
+    "php-codesniffer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-codesniffer/https%253A%252F%252Fgithub.com%252Fsquizlabs%252FPHP_CodeSniffer.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-codesniffer/https%253A%252F%252Fpear.php.net%252Fpackage%252FPHP_CodeSniffer.jpg"
+    ],
+    "php-coding-standards-fixer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-coding-standards-fixer/https%253A%252F%252Fcs.symfony.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-coding-standards-fixer/https%253A%252F%252Fgithub.com%252FFriendsOfPHP%252FPHP-CS-Fixer.jpg"
+    ],
+    "php-insights": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-insights/https%253A%252F%252Fgithub.com%252Fnunomaduro%252Fphpinsights.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-insights/https%253A%252F%252Fphpinsights.com.jpg"
+    ],
+    "php-inspections-ea-extended": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-inspections-ea-extended/https%253A%252F%252Fgithub.com%252Fkalessil%252Fphpinspectionsea.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-inspections-ea-extended/https%253A%252F%252Fplugins.jetbrains.com%252Fplugin%252F7622-php-inspections-ea-extended-.jpg"
+    ],
+    "php-parser": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-parser/https%253A%252F%252Fgithub.com%252Fnikic%252FPHP-Parser.jpg"
+    ],
+    "php-refactoring-browser": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-refactoring-browser/http%253A%252F%252Fqafoolabs.github.io%252Fphp-refactoring-browser.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-refactoring-browser/https%253A%252F%252Fgithub.com%252FQafooLabs%252Fphp-refactoring-browser.jpg"
+    ],
+    "php-semantic-versioning-checker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-semantic-versioning-checker/https%253A%252F%252Fgithub.com%252Ftomzx%252Fphp-semver-checker.jpg"
+    ],
+    "php-speller": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-speller/https%253A%252F%252Fgithub.com%252Fmekras%252Fphp-speller.jpg"
+    ],
+    "php-token-reflection": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-token-reflection/https%253A%252F%252Fgithub.com%252FAndrewsville%252FPHP-Token-Reflection.jpg"
+    ],
+    "php7cc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php7cc/https%253A%252F%252Fgithub.com%252Fsstalle%252Fphp7cc.jpg"
+    ],
+    "php7mar": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php7mar/https%253A%252F%252Fgithub.com%252FAlexia%252Fphp7mar.jpg"
+    ],
+    "phpca": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpca/https%253A%252F%252Fgithub.com%252Fwapmorgan%252FPhpCodeAnalyzer.jpg"
+    ],
+    "phpcpd": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpcpd/https%253A%252F%252Fgithub.com%252Fsebastianbergmann%252Fphpcpd.jpg"
+    ],
+    "phpdcd": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpdcd/https%253A%252F%252Fgithub.com%252Fsebastianbergmann%252Fphpdcd.jpg"
+    ],
+    "phpdependencyanalysis": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpdependencyanalysis/https%253A%252F%252Fgithub.com%252Fmamuz%252FPhpDependencyAnalysis.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpdependencyanalysis/https%253A%252F%252Fmamuz.github.io%252FPhpDependencyAnalysis.jpg"
+    ],
+    "phpdeprecationdetector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpdeprecationdetector/https%253A%252F%252Fgithub.com%252Fwapmorgan%252FPhpDeprecationDetector.jpg"
+    ],
+    "phpdoc-to-typehint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpdoc-to-typehint/https%253A%252F%252Fgithub.com%252Fdunglas%252Fphpdoc-to-typehint.jpg"
+    ],
+    "phpdocumentor": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpdocumentor/https%253A%252F%252Fgithub.com%252FphpDocumentor%252FphpDocumentor.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpdocumentor/https%253A%252F%252Fwww.phpdoc.org.jpg"
+    ],
+    "phploc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phploc/https%253A%252F%252Fgithub.com%252Fsebastianbergmann%252Fphploc.jpg"
+    ],
+    "phpmd": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpmd/https%253A%252F%252Fgithub.com%252Fphpmd%252Fphpmd.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpmd/https%253A%252F%252Fphpmd.org.jpg"
+    ],
+    "phpmetrics": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpmetrics/http%253A%252F%252Fwww.phpmetrics.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpmetrics/https%253A%252F%252Fgithub.com%252Fphpmetrics%252FPhpMetrics.jpg"
+    ],
+    "phpmnd": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpmnd/https%253A%252F%252Fgithub.com%252Fpovils%252Fphpmnd.jpg"
+    ],
+    "phpqa": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpqa/https%253A%252F%252Fedgedesigncz.github.io%252Fphpqa.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpqa/https%253A%252F%252Fgithub.com%252FEdgedesignCZ%252Fphpqa.jpg"
+    ],
+    "phpqa-jakzal": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpqa-jakzal/https%253A%252F%252Fgithub.com%252Fjakzal%252Fphpqa.jpg"
+    ],
+    "phpqa-jmolivas": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpqa-jmolivas/https%253A%252F%252Fgithub.com%252Fjmolivas%252Fphpqa.jpg"
+    ],
+    "phpsa": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpsa/https%253A%252F%252Fgithub.com%252Fovr%252Fphpsa.jpg"
+    ],
+    "phpstan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpstan/https%253A%252F%252Fgithub.com%252Fphpstan%252Fphpstan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpstan/https%253A%252F%252Fphpstan.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/phpstan/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DOiS2xGVWEa0.jpg"
+    ],
+    "plato": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/plato/https%253A%252F%252Fgithub.com%252Fes-analysis%252Fplato.jpg"
+    ],
+    "pmd": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pmd/https%253A%252F%252Fgithub.com%252Fpmd%252Fpmd.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pmd/https%253A%252F%252Fpmd.github.io.jpg"
+    ],
+    "polymer-analyzer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/polymer-analyzer/https%253A%252F%252Fgithub.com%252FPolymer%252Ftools%252Ftree%252Fmaster%252Fpackages%252Fanalyzer.jpg"
+    ],
+    "polyspace-bug-finder": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/polyspace-bug-finder/https%253A%252F%252Fwww.mathworks.com%252Fproducts%252Fpolyspace-bug-finder.html.jpg"
+    ],
+    "polyspace-code-prover": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/polyspace-code-prover/https%253A%252F%252Fwww.mathworks.com%252Fproducts%252Fpolyspace-code-prover.html.jpg"
+    ],
+    "polyspace-for-ada": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/polyspace-for-ada/https%253A%252F%252Fwww.mathworks.com%252Fproducts%252Fpolyspace-ada.html.jpg"
+    ],
+    "portlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/portlint/https%253A%252F%252Fwww.freebsd.org%252Fcgi%252Fman.cgi%253Fquery%253Dportlint%2526sektion%253D1%2526manpath%253DFreeBSD%252B8.1-RELEASE%252Band%252BPorts.jpg"
+    ],
+    "postcss": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/postcss/https%253A%252F%252Fgithub.com%252Fpostcss%252Fpostcss.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/postcss/https%253A%252F%252Fpostcss.org.jpg"
+    ],
+    "prae": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prae/https%253A%252F%252Fgithub.com%252Fteenjuna%252Fprae.jpg"
+    ],
+    "pre-commit": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pre-commit/https%253A%252F%252Fgithub.com%252Fpre-commit%252Fpre-commit.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pre-commit/https%253A%252F%252Fpre-commit.com.jpg"
+    ],
+    "prealloc": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prealloc/https%253A%252F%252Fgithub.com%252Falexkohler%252Fprealloc.jpg"
+    ],
+    "prettier": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prettier/https%253A%252F%252Fgithub.com%252Fprettier%252Fprettier.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prettier/https%253A%252F%252Fprettier.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prettier/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSydnKbGc7W8.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prettier/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dh3PJjP0nE98.jpg"
+    ],
+    "primitive-erlang-security-tool-pest": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/primitive-erlang-security-tool-pest/https%253A%252F%252Fgithub.com%252Fokeuday%252Fpest.jpg"
+    ],
+    "progpilot": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/progpilot/https%253A%252F%252Fgithub.com%252Fdesignsecurity%252Fprogpilot.jpg"
+    ],
+    "project-wallace-css-analyzer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/project-wallace-css-analyzer/https%253A%252F%252Fgithub.com%252Fprojectwallace%252Fcss-analyzer.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/project-wallace-css-analyzer/https%253A%252F%252Fwww.projectwallace.com.jpg"
+    ],
+    "pronto": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pronto/https%253A%252F%252Fgithub.com%252Fprontolabs%252Fpronto.jpg"
+    ],
+    "proselint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/proselint/http%253A%252F%252Fproselint.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/proselint/https%253A%252F%252Fgithub.com%252Famperser%252Fproselint.jpg"
+    ],
+    "prospector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prospector/https%253A%252F%252Fgithub.com%252FPyCQA%252Fprospector.jpg"
+    ],
+    "protolint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/protolint/https%253A%252F%252Fgithub.com%252Fyoheimuta%252Fprotolint.jpg"
+    ],
+    "prusti": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prusti/https%253A%252F%252Fgithub.com%252Fviperproject%252Fprusti-dev.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prusti/https%253A%252F%252Fwww.pm.inf.ethz.ch%252Fresearch%252Fprusti.html.jpg"
+    ],
+    "psalm": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/psalm/https%253A%252F%252Fgithub.com%252Fvimeo%252Fpsalm.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/psalm/https%253A%252F%252Fpsalm.dev.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/psalm/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZxXw5Fkp9R8.jpg"
+    ],
+    "pt-application-inspector": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pt-application-inspector/https%253A%252F%252Fwww.ptsecurity.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pt-application-inspector/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DgtFH6tV2dlM.jpg"
+    ],
+    "pt-pm": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pt-pm/https%253A%252F%252Fgithub.com%252FPositiveTechnologies%252FPT.PM.jpg"
+    ],
+    "pullrequest": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pullrequest/https%253A%252F%252Fwww.pullrequest.com.jpg"
+    ],
+    "puma-scan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/puma-scan/https%253A%252F%252Fgithub.com%252Fpumasecurity%252Fpuma-scan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/puma-scan/https%253A%252F%252Fpumasecurity.io.jpg"
+    ],
+    "puppet-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/puppet-lint/https%253A%252F%252Fgithub.com%252Frodjek%252Fpuppet-lint.jpg"
+    ],
+    "pure": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pure/https%253A%252F%252Fgithub.com%252Fronomon%252Fpure.jpg"
+    ],
+    "putout": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/putout/https%253A%252F%252Fgithub.com%252Fcoderaiser%252Fputout.jpg"
+    ],
+    "pvs-studio": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pvs-studio/https%253A%252F%252Fpvs-studio.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pvs-studio/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DFkfMGqxIR-I.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pvs-studio/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dhw5npZqB3b8.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pvs-studio/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DvYW6TOwFK2M.jpg"
+    ],
+    "py-find-injection": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/py-find-injection/https%253A%252F%252Fgithub.com%252Fuber%252Fpy-find-injection.jpg"
+    ],
+    "pyanalyze": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyanalyze/https%253A%252F%252Fgithub.com%252Fquora%252Fpyanalyze.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyanalyze/https%253A%252F%252Fpyanalyze.readthedocs.io%252Fen%252Flatest%252F.jpg"
+    ],
+    "pycodequal": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pycodequal/https%253A%252F%252Fpycodequ.al.jpg"
+    ],
+    "pycodestyle": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pycodestyle/https%253A%252F%252Fgithub.com%252FPyCQA%252Fpycodestyle.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pycodestyle/https%253A%252F%252Fpycodestyle.pycqa.org%252Fen%252Flatest.jpg"
+    ],
+    "pydocstyle": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pydocstyle/http%253A%252F%252Fwww.pydocstyle.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pydocstyle/https%253A%252F%252Fgithub.com%252FPyCQA%252Fpydocstyle.jpg"
+    ],
+    "pyflakes": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyflakes/https%253A%252F%252Fgithub.com%252Fpyflakes%252Fpyflakes.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyflakes/https%253A%252F%252Fpypi.org%252Fproject%252Fpyflakes.jpg"
+    ],
+    "pylama": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pylama/https%253A%252F%252Fgithub.com%252Fklen%252Fpylama.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pylama/https%253A%252F%252Fklen.github.io%252Fpylama%252F.jpg"
+    ],
+    "pylint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pylint/http%253A%252F%252Fpylint.pycqa.org%252Fen%252Flatest.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pylint/https%253A%252F%252Fgithub.com%252FPyCQA%252Fpylint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pylint/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DfFY5103p5-c.jpg"
+    ],
+    "pyre-check": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyre-check/https%253A%252F%252Fgithub.com%252Ffacebook%252Fpyre-check.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyre-check/https%253A%252F%252Fpyre-check.org.jpg"
+    ],
+    "pyright": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyright/https%253A%252F%252Fgithub.com%252FMicrosoft%252Fpyright.jpg"
+    ],
+    "pyroma": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyroma/https%253A%252F%252Fgithub.com%252Fregebro%252Fpyroma.jpg"
+    ],
+    "pysa": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pysa/https%253A%252F%252Fgithub.com%252Ffacebook%252Fpyre-check.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pysa/https%253A%252F%252Fpyre-check.org%252Fdocs%252Fpysa-basics.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pysa/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D8I3zlvtpOww.jpg"
+    ],
+    "pyt-python-taint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyt-python-taint/https%253A%252F%252Fgithub.com%252Fpython-security%252Fpyt.jpg"
+    ],
+    "pytype": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pytype/https%253A%252F%252Fgithub.com%252Fgoogle%252Fpytype.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pytype/https%253A%252F%252Fgoogle.github.io%252Fpytype.jpg"
+    ],
+    "qafoo-quality-analyzer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qafoo-quality-analyzer/https%253A%252F%252Fgithub.com%252FQafoo%252FQualityAnalyzer.jpg"
+    ],
+    "qark": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qark/https%253A%252F%252Fgithub.com%252Flinkedin%252Fqark.jpg"
+    ],
+    "quality": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/quality/https%253A%252F%252Fgithub.com%252Fapiology%252Fquality.jpg"
+    ],
+    "qualys-container-security": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qualys-container-security/https%253A%252F%252Fwww.qualys.com%252Fapps%252Fcontainer-security.jpg"
+    ],
+    "quantifiedcode": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/quantifiedcode/https%253A%252F%252Fgithub.com%252Fquantifiedcode%252Fquantifiedcode.jpg"
+    ],
+    "querly": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/querly/https%253A%252F%252Fgithub.com%252Fsoutaro%252Fquerly.jpg"
+    ],
+    "qulice": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qulice/https%253A%252F%252Fgithub.com%252Fteamed%252Fqulice.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qulice/https%253A%252F%252Fwww.qulice.com.jpg"
+    ],
+    "radon": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/radon/https%253A%252F%252Fgithub.com%252Frubik%252Fradon.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/radon/https%253A%252F%252Fradon.readthedocs.io%252Fen%252Flatest.jpg"
+    ],
+    "railroader": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/railroader/https%253A%252F%252Fgithub.com%252Fdavid-a-wheeler%252Frailroader.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/railroader/https%253A%252F%252Frailroader.org.jpg"
+    ],
+    "rails-best-practices": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rails-best-practices/https%253A%252F%252Fgithub.com%252Fflyerhzm%252Frails_best_practices.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rails-best-practices/https%253A%252F%252Frails-bestpractices.com.jpg"
+    ],
+    "redex": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/redex/https%253A%252F%252Fengineering.fb.com%252Fandroid%252Foptimizing-android-bytecode-with-redex%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/redex/https%253A%252F%252Ffbredex.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/redex/https%253A%252F%252Fgithub.com%252Ffacebook%252Fredex.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/redex/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dh_Gkl5eAdc4.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/redex/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DvtxJvJj6gSE.jpg"
+    ],
+    "reek": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/reek/https%253A%252F%252Fgithub.com%252Ftroessner%252Freek.jpg"
+    ],
+    "refactoring-essentials": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/refactoring-essentials/https%253A%252F%252Fgithub.com%252Ficsharpcode%252FRefactoringEssentials.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/refactoring-essentials/https%253A%252F%252Fmarketplace.visualstudio.com%252Fitems%253FitemName%253DSharpDevelopTeam.RefactoringEssentialsforVisualStudio.jpg"
+    ],
+    "refurb": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/refurb/https%253A%252F%252Fgithub.com%252Fdosisod%252Frefurb.jpg"
+    ],
+    "relint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/relint/https%253A%252F%252Fgithub.com%252Fcodingjoe%252Frelint.jpg"
+    ],
+    "remark-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/remark-lint/https%253A%252F%252Fgithub.com%252Fremarkjs%252Fremark-lint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/remark-lint/https%253A%252F%252Fremark.js.org.jpg"
+    ],
+    "resharper": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/resharper/https%253A%252F%252Fwww.jetbrains.com%252Fresharper.jpg"
+    ],
+    "reshift": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/reshift/https%253A%252F%252Fwww.reshiftsecurity.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/reshift/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DGspuLMF3Vyo.jpg"
+    ],
+    "retire-js": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/retire-js/http%253A%252F%252Fretirejs.github.io%252Fretire.js.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/retire-js/https%253A%252F%252Fgithub.com%252FRetireJS%252Fretire.js.jpg"
+    ],
+    "reviewdog": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/reviewdog/https%253A%252F%252Fgithub.com%252Fhaya14busa%252Freviewdog.jpg"
+    ],
+    "revive": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/revive/https%253A%252F%252Fgithub.com%252Fmgechev%252Frevive.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/revive/https%253A%252F%252Frevive.run.jpg"
+    ],
+    "rezilion": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rezilion/https%253A%252F%252Fwww.rezilion.com%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rezilion/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DOIhfnVKq-MU.jpg"
+    ],
+    "rips": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rips/https%253A%252F%252Fwww.ripstech.com.jpg"
+    ],
+    "rome": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rome/https%253A%252F%252Fgithub.com%252Frome%252Ftools.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rome/https%253A%252F%252Frome.tools%252F.jpg"
+    ],
+    "rome-formatter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rome-formatter/https%253A%252F%252Fgithub.com%252Frome%252Ftools%252Ftree%252Fmain%252Fcrates%252Frome_js_formatter.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rome-formatter/https%253A%252F%252Fmarketplace.visualstudio.com%252Fitems%253FitemName%253Drome.rome.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rome-formatter/https%253A%252F%252Frome.tools%252Fblog%252F2022%252F04%252F05%252Frome-formatter-release.jpg"
+    ],
+    "roodi": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/roodi/https%253A%252F%252Fgithub.com%252Froodi%252Froodi.jpg"
+    ],
+    "roslyn-analyzers": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/roslyn-analyzers/https%253A%252F%252Fgithub.com%252Fdotnet%252Froslyn-analyzers.jpg"
+    ],
+    "roslyn-security-guard": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/roslyn-security-guard/https%253A%252F%252Fgithub.com%252Fsecurity-code-scan%252Fsecurity-code-scan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/roslyn-security-guard/https%253A%252F%252Fsecurity-code-scan.github.io.jpg"
+    ],
+    "roslynator": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/roslynator/https%253A%252F%252Fgithub.com%252FJosefPihrt%252FRoslynator.jpg"
+    ],
+    "rpmlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rpmlint/https%253A%252F%252Fgithub.com%252Frpm-software-management%252Frpmlint.jpg"
+    ],
+    "rslint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rslint/http%253A%252F%252Frslint.org%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rslint/https%253A%252F%252Fgithub.com%252FRDambrosio016%252FRSLint.jpg"
+    ],
+    "rubocop": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rubocop/https%253A%252F%252Fdocs.rubocop.org%252Frubocop.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rubocop/https%253A%252F%252Fgithub.com%252Frubocop-hq%252Frubocop.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rubocop/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DsfOGjcMVQ9U.jpg"
+    ],
+    "rubrowser": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rubrowser/https%253A%252F%252Fgithub.com%252Fblazeeboy%252Frubrowser.jpg"
+    ],
+    "ruby-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ruby-lint/http%253A%252F%252Fcode.yorickpeterse.com%252Fruby-lint%252Flatest.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ruby-lint/https%253A%252F%252Fgitlab.com%252Fyorickpeterse%252Fruby-lint.jpg"
+    ],
+    "rubycritic": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rubycritic/https%253A%252F%252Fgithub.com%252Fwhitesmith%252Frubycritic.jpg"
+    ],
+    "rudra": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rudra/https%253A%252F%252Fgithub.com%252Fsslab-gatech%252FRudra.jpg"
+    ],
+    "ruff": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ruff/https%253A%252F%252Fgithub.com%252Fcharliermarsh%252Fruff.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ruff/https%253A%252F%252Fnotes.crmarsh.com%252Fpython-tooling-could-be-much-much-faster.jpg"
+    ],
+    "rufo": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rufo/https%253A%252F%252Fgithub.com%252Fruby-formatter%252Frufo.jpg"
+    ],
+    "rust-analyzer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rust-analyzer/https%253A%252F%252Fgithub.com%252Frust-analyzer%252Frust-analyzer.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rust-analyzer/https%253A%252F%252Frust-analyzer.github.io.jpg"
+    ],
+    "rust-audit": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rust-audit/https%253A%252F%252Fgithub.com%252FShnatsel%252Frust-audit.jpg"
+    ],
+    "rust-language-server": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rust-language-server/https%253A%252F%252Fgithub.com%252Frust-lang-nursery%252Frls.jpg"
+    ],
+    "rustfix": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rustfix/https%253A%252F%252Fgithub.com%252Frust-lang%252Frustfix.jpg"
+    ],
+    "rustfmt": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rustfmt/https%253A%252F%252Fgithub.com%252Frust-lang%252Frustfmt.jpg"
+    ],
+    "rustviz": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rustviz/https%253A%252F%252Fgithub.com%252Frustviz%252Frustviz.jpg"
+    ],
+    "safesql": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/safesql/https%253A%252F%252Fgithub.com%252Fstripe%252Fsafesql.jpg"
+    ],
+    "saikuro": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/saikuro/https%253A%252F%252Fgithub.com%252Fmetricfu%252FSaikuro.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/saikuro/https%253A%252F%252Fmetricfu.github.io%252FSaikuro.jpg"
+    ],
+    "sandimeter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sandimeter/https%253A%252F%252Fgithub.com%252Fmakaroni4%252Fsandi_meter.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sandimeter/https%253A%252F%252Frubygems.org%252Fgems%252Fsandi_meter.jpg"
+    ],
+    "sass-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sass-lint/https%253A%252F%252Fgithub.com%252Fsasstools%252Fsass-lint.jpg"
+    ],
+    "scalastyle": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scalastyle/http%253A%252F%252Fwww.scalastyle.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scalastyle/https%253A%252F%252Fgithub.com%252Fscalastyle%252Fscalastyle.jpg"
+    ],
+    "scan-build": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scan-build/https%253A%252F%252Fclang-analyzer.llvm.org%252Fscan-build.html.jpg"
+    ],
+    "scanmycode-ce-community-edition": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scanmycode-ce-community-edition/http%253A%252F%252Fwww.scanmycode.today.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scanmycode-ce-community-edition/https%253A%252F%252Fgithub.com%252Fmarcinguy%252Fscanmycode-ce.jpg"
+    ],
+    "scapegoat": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scapegoat/https%253A%252F%252Fgithub.com%252Fsksamuel%252Fscapegoat.jpg"
+    ],
+    "scorecard": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scorecard/https%253A%252F%252Fgithub.com%252Fossf%252Fscorecard.jpg"
+    ],
+    "scrutinizer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scrutinizer/https%253A%252F%252Fscrutinizer-ci.com.jpg"
+    ],
+    "scsslint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scsslint/https%253A%252F%252Fgithub.com%252Fbrigade%252Fscss-lint.jpg"
+    ],
+    "searchdiggity": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/searchdiggity/https%253A%252F%252Fresources.bishopfox.com%252Fresources%252Ftools%252Fgoogle-hacking-diggity%252Fattack-tools%252F.jpg"
+    ],
+    "security-code-scan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/security-code-scan/https%253A%252F%252Fgithub.com%252Fsecurity-code-scan%252Fsecurity-code-scan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/security-code-scan/https%253A%252F%252Fsecurity-code-scan.github.io.jpg"
+    ],
+    "semgrep": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/semgrep/https%253A%252F%252Fgithub.com%252Freturntocorp%252Fsemgrep.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/semgrep/https%253A%252F%252Fsemgrep.dev.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/semgrep/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D8jyp8DkhmYo.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/semgrep/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dpul1bRIOYc8.jpg"
+    ],
+    "semgrep-supply-chain": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/semgrep-supply-chain/https%253A%252F%252Fr2c.dev%252Fblog%252F2022%252Fintroducing-semgrep-supply-chain%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/semgrep-supply-chain/https%253A%252F%252Fsemgrep.dev%252Fproducts%252Fsemgrep-supply-chain.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/semgrep-supply-chain/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdzmiQXhVMAw.jpg"
+    ],
+    "sh": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sh/https%253A%252F%252Fgithub.com%252Fmvdan%252Fsh.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sh/https%253A%252F%252Fpkg.go.dev%252Fmvdan.cc%252Fsh%252Fv3.jpg"
+    ],
+    "shellcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shellcheck/https%253A%252F%252Fgithub.com%252Fkoalaman%252Fshellcheck.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shellcheck/https%253A%252F%252Fwww.shellcheck.net.jpg"
+    ],
+    "shellharden": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shellharden/https%253A%252F%252Fgithub.com%252Fanordal%252Fshellharden.jpg"
+    ],
+    "shiftleft": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shiftleft/https%253A%252F%252Fvimeo.com%252F233423863.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shiftleft/https%253A%252F%252Fvimeo.com%252F383381584.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shiftleft/https%253A%252F%252Fwww.shiftleft.io.jpg"
+    ],
+    "shiftleft-scan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shiftleft-scan/https%253A%252F%252Fgithub.com%252FShiftLeftSecurity%252Fsast-scan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shiftleft-scan/https%253A%252F%252Fslscan.io.jpg"
+    ],
+    "shipshape": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shipshape/https%253A%252F%252Fgithub.com%252Fgoogle%252Fshipshape.jpg"
+    ],
+    "shisho": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shisho/https%253A%252F%252Fdocs.shisho.dev%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shisho/https%253A%252F%252Fgithub.com%252Fflatt-security%252Fshisho.jpg"
+    ],
+    "sider": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sider/https%253A%252F%252Fsider.review.jpg"
+    ],
+    "sigrid": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sigrid/https%253A%252F%252Fwww.softwareimprovementgroup.com%252Fsolutions%252Fsigrid-software-assurance-platform%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sigrid/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DUvhV9dyXWIU.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sigrid/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DmpQxzdv4oc8.jpg"
+    ],
+    "similarity-tester": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/similarity-tester/https%253A%252F%252Fdickgrune.com%252FPrograms%252Fsimilarity_tester%252F.jpg"
+    ],
+    "slim-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/slim-lint/https%253A%252F%252Fgithub.com%252Fsds%252Fslim-lint.jpg"
+    ],
+    "slither": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/slither/https%253A%252F%252Fgithub.com%252Ftrailofbits%252Fslither.jpg"
+    ],
+    "snyk": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/snyk/https%253A%252F%252Fsnyk.io.jpg"
+    ],
+    "snyk-code": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/snyk-code/https%253A%252F%252Fsnyk.io%252Fproduct%252Fsnyk-code%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/snyk-code/https%253A%252F%252Fsnyk.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/snyk-code/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DfNYf0fgWOFQ.jpg"
+    ],
+    "sobelow": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sobelow/https%253A%252F%252Fgithub.com%252Fnccgroup%252Fsobelow.jpg"
+    ],
+    "solhint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/solhint/https%253A%252F%252Fgithub.com%252Fprotofire%252Fsolhint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/solhint/https%253A%252F%252Fprotofire.github.io%252Fsolhint.jpg"
+    ],
+    "solium": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/solium/https%253A%252F%252Fethlint.readthedocs.io%252Fen%252Flatest.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/solium/https%253A%252F%252Fgithub.com%252Fduaraghav8%252FSolium.jpg"
+    ],
+    "sonarcloud": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarcloud/https%253A%252F%252Fsonarcloud.io.jpg"
+    ],
+    "sonarlint-for-visual-studio": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarlint-for-visual-studio/https%253A%252F%252Fgithub.com%252FSonarSource%252Fsonarlint-visualstudio.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarlint-for-visual-studio/https%253A%252F%252Fvs.sonarlint.org.jpg"
+    ],
+    "sonarqube": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarqube/http%253A%252F%252Fwww.sonarqube.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarqube/https%253A%252F%252Fgithub.com%252FSonarSource%252Fsonarqube.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarqube/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DWPHVPbxCAwE.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarqube/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dow-yuIlCuHk.jpg"
+    ],
+    "sonatype": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonatype/https%253A%252F%252Fwww.sonatype.com.jpg"
+    ],
+    "soot": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/soot/https%253A%252F%252Fgithub.com%252Fsoot-oss%252Fsoot.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/soot/https%253A%252F%252Fsoot-oss.github.io%252Fsoot.jpg"
+    ],
+    "sorbet": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sorbet/https%253A%252F%252Fgithub.com%252Fsorbet%252Fsorbet.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sorbet/https%253A%252F%252Fsorbet.org.jpg"
+    ],
+    "soto-platform": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/soto-platform/https%253A%252F%252Fwww.hello2morrow.com%252Fproducts%252Fsotograph.jpg"
+    ],
+    "sourcemeter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sourcemeter/https%253A%252F%252Fwww.sourcemeter.com%252F.jpg"
+    ],
+    "spark": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spark/https%253A%252F%252Fwww.adacore.com%252Fabout-spark.jpg"
+    ],
+    "specificity-graph": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/specificity-graph/https%253A%252F%252Fgithub.com%252Fpocketjoso%252Fspecificity-graph.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/specificity-graph/https%253A%252F%252Fjonassebastianohlsson.com%252Fspecificity-graph.jpg"
+    ],
+    "spectral": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spectral/https%253A%252F%252Fgithub.com%252Fstoplightio%252Fspectral.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spectral/https%253A%252F%252Fstoplight.io%252Fopen-source%252Fspectral.jpg"
+    ],
+    "splint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/splint/http%253A%252F%252Fsplint.org.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/splint/https%253A%252F%252Fgithub.com%252Fravenexp%252Fsplint.jpg"
+    ],
+    "spoon": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spoon/http%253A%252F%252Fspoon.gforge.inria.fr.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spoon/https%253A%252F%252Fgithub.com%252FINRIA%252Fspoon.jpg"
+    ],
+    "spotbugs": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spotbugs/https%253A%252F%252Fgithub.com%252Fspotbugs%252Fspotbugs.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spotbugs/https%253A%252F%252Fspotbugs.github.io.jpg"
+    ],
+    "sqlcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sqlcheck/https%253A%252F%252Fgithub.com%252Fjarulraj%252Fsqlcheck.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sqlcheck/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D5vHhuuPy3FI.jpg"
+    ],
+    "sqlfluff": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sqlfluff/https%253A%252F%252Fdocs.sqlfluff.com%252Fen%252Fstable%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sqlfluff/https%253A%252F%252Fgithub.com%252Fsqlfluff%252Fsqlfluff.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sqlfluff/https%253A%252F%252Fwww.sqlfluff.com%252F.jpg"
+    ],
+    "sqlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sqlint/https%253A%252F%252Fgithub.com%252Fpurcell%252Fsqlint.jpg"
+    ],
+    "sqlvet": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sqlvet/https%253A%252F%252Fgithub.com%252Fhouqp%252Fsqlvet.jpg"
+    ],
+    "squawk": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/squawk/https%253A%252F%252Fgithub.com%252Fsbdchd%252Fsquawk.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/squawk/https%253A%252F%252Fsquawkhq.com.jpg"
+    ],
+    "stan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stan/https%253A%252F%252Fgithub.com%252Fkowainik%252Fstan.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stan/https%253A%252F%252Fkowainik.github.io%252Fprojects%252Fstan.jpg"
+    ],
+    "standard": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/standard/http%253A%252F%252Fstandardjs.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/standard/https%253A%252F%252Fgithub.com%252Fstandard%252Fstandard.jpg"
+    ],
+    "standard-ruby": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/standard-ruby/https%253A%252F%252Fgithub.com%252Ftestdouble%252Fstandard.jpg"
+    ],
+    "staticcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/staticcheck/https%253A%252F%252Fgithub.com%252Fdominikh%252Fgo-tools.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/staticcheck/https%253A%252F%252Fstaticcheck.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/staticcheck/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D1U-Gzz4TYP0.jpg"
+    ],
+    "staticlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/staticlint/https%253A%252F%252Fgithub.com%252Fjulia-vscode%252FStaticLint.jl.jpg"
+    ],
+    "statix": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/statix/https%253A%252F%252Fgit.peppe.rs%252Flanguages%252Fstatix%252Fabout%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/statix/https%253A%252F%252Fgithub.com%252Fnerdypepper%252Fstatix.jpg"
+    ],
+    "steep": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/steep/https%253A%252F%252Fgithub.com%252Fsoutaro%252Fsteep.jpg"
+    ],
+    "stoke": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stoke/https%253A%252F%252Fgithub.com%252FStanfordPL%252Fstoke.jpg"
+    ],
+    "structcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/structcheck/https%253A%252F%252Fgitlab.com%252Fopennota%252Fcheck.jpg"
+    ],
+    "structslop": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/structslop/https%253A%252F%252Fgithub.com%252Forijtech%252Fstructslop.jpg"
+    ],
+    "stylelint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stylelint/http%253A%252F%252Fstylelint.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stylelint/https%253A%252F%252Fgithub.com%252Fstylelint%252Fstylelint.jpg"
+    ],
+    "styler": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/styler/https%253A%252F%252Fgithub.com%252Fr-lib%252Fstyler.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/styler/https%253A%252F%252Fstyler.r-lib.org.jpg"
+    ],
+    "super-linter": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/super-linter/https%253A%252F%252Fgithub.com%252Fgithub%252Fsuper-linter.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/super-linter/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBCrtoZ04L1Y.jpg"
+    ],
+    "svace": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/svace/https%253A%252F%252Fwww.ispras.ru%252Fen%252Ftechnologies%252Fsvace%252F.jpg"
+    ],
+    "svf": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/svf/http%253A%252F%252Fsvf-tools.github.io%252FSVF.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/svf/https%253A%252F%252Fgithub.com%252FSVF-tools%252FSVF.jpg"
+    ],
+    "svls": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/svls/https%253A%252F%252Fgithub.com%252Fdalance%252Fsvls.jpg"
+    ],
+    "swiftformat": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/swiftformat/https%253A%252F%252Fgithub.com%252Fnicklockwood%252FSwiftFormat.jpg"
+    ],
+    "swiftlint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/swiftlint/https%253A%252F%252Fgithub.com%252Frealm%252FSwiftLint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/swiftlint/https%253A%252F%252Frealm.github.io%252FSwiftLint.jpg"
+    ],
+    "symfony-insight": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/symfony-insight/https%253A%252F%252Finsight.symfony.com%252F.jpg"
+    ],
+    "synopsys": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/synopsys/https%253A%252F%252Fwww.synopsys.com%252Fsoftware-integrity%252Fsecurity-testing%252Fstatic-analysis-sast.html.jpg"
+    ],
+    "sys": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sys/https%253A%252F%252Fgithub.com%252FPLSysSec%252Fsys.jpg"
+    ],
+    "sysdig": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sysdig/https%253A%252F%252Fsysdig.com%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sysdig/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DKXfZWprVr0w.jpg"
+    ],
+    "tailor": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tailor/https%253A%252F%252Fgithub.com%252Fsleekbyte%252Ftailor.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tailor/https%253A%252F%252Fsleekbyte.github.io%252Ftailor.jpg"
+    ],
+    "tclchecker": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tclchecker/https%253A%252F%252Fgithub.com%252FActiveState%252Ftdk%252Fblob%252Fmaster%252Fdocs%252F3.0%252FTDK_3.0_Checker.txt.jpg"
+    ],
+    "teamscale": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/teamscale/https%253A%252F%252Fmarketplace.visualstudio.com%252Fitems%253FitemName%253DCQSEGmbH.Teamscale.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/teamscale/https%253A%252F%252Fwww.cqse.eu%252Fen%252Fteamscale%252Foverview%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/teamscale/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DfJVjv0153-U.jpg"
+    ],
+    "tencentcodeanalysis": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tencentcodeanalysis/https%253A%252F%252Fgithub.com%252FTencent%252FCodeAnalysis.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tencentcodeanalysis/https%253A%252F%252Ftca.tencent.com%252F.jpg"
+    ],
+    "tern": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tern/https%253A%252F%252Fgithub.com%252Fternjs%252Ftern.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tern/https%253A%252F%252Fternjs.net.jpg"
+    ],
+    "terraform-compliance": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/terraform-compliance/https%253A%252F%252Fgithub.com%252Feerkunt%252Fterraform-compliance.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/terraform-compliance/https%253A%252F%252Fterraform-compliance.com.jpg"
+    ],
+    "terrascan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/terrascan/https%253A%252F%252Fgithub.com%252Fcesar-rodriguez%252Fterrascan.jpg"
+    ],
+    "test": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/test/http%253A%252F%252Fgolang.org%252Fpkg%252Ftesting.jpg"
+    ],
+    "texlab": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/texlab/https%253A%252F%252Fgithub.com%252Flatex-lsp%252Ftexlab.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/texlab/https%253A%252F%252Ftexlab.netlify.app.jpg"
+    ],
+    "tflint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tflint/https%253A%252F%252Fgithub.com%252Fwata727%252Ftflint.jpg"
+    ],
+    "tfsec": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tfsec/https%253A%252F%252Fgithub.com%252Ftfsec%252Ftfsec.jpg"
+    ],
+    "threatmapper": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/threatmapper/https%253A%252F%252Fgithub.com%252Fdeepfence%252FThreatMapper.jpg"
+    ],
+    "todocheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/todocheck/https%253A%252F%252Fgithub.com%252Fpreslavmihaylov%252Ftodocheck.jpg"
+    ],
+    "trivy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trivy/https%253A%252F%252Fgithub.com%252Faquasecurity%252Ftrivy.jpg"
+    ],
+    "trufflehog": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trufflehog/https%253A%252F%252Fgithub.com%252Ftrufflesecurity%252Ftrufflehog.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trufflehog/https%253A%252F%252Ftrufflesecurity.com.jpg"
+    ],
+    "trunk": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trunk/https%253A%252F%252Fgithub.com%252Ftrunk-io%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trunk/https%253A%252F%252Fgithub.com%252Ftrunk-io%252Ftrunk-action.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trunk/https%253A%252F%252Fslack.trunk.io.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trunk/https%253A%252F%252Ftrunk.io.jpg"
+    ],
+    "tscancode": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tscancode/https%253A%252F%252Fgithub.com%252FTencent%252FTscanCode.jpg"
+    ],
+    "tslint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tslint/https%253A%252F%252Fgithub.com%252Fpalantir%252Ftslint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tslint/https%253A%252F%252Fpalantir.github.io%252Ftslint%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tslint/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DqXzIW4CfpxA.jpg"
+    ],
+    "tslint-clean-code": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tslint-clean-code/https%253A%252F%252Fgithub.com%252FGlavin001%252Ftslint-clean-code.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tslint-clean-code/https%253A%252F%252Fwww.npmjs.com%252Fpackage%252Ftslint-clean-code.jpg"
+    ],
+    "tslint-microsoft-contrib": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tslint-microsoft-contrib/https%253A%252F%252Fgithub.com%252FMicrosoft%252Ftslint-microsoft-contrib.jpg"
+    ],
+    "tsqllint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tsqllint/https%253A%252F%252Fgithub.com%252Ftsqllint%252Ftsqllint.jpg"
+    ],
+    "tsqlrules": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tsqlrules/https%253A%252F%252Fgithub.com%252Fashleyglee%252FTSqlRules.jpg"
+    ],
+    "tsunami-security-scanner": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tsunami-security-scanner/https%253A%252F%252Fgithub.com%252Fgoogle%252Ftsunami-security-scanner.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tsunami-security-scanner/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSMlWes1XnWw.jpg"
+    ],
+    "tuli": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tuli/https%253A%252F%252Fgithub.com%252Fircmaxell%252FTuli.jpg"
+    ],
+    "twig-lint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/twig-lint/https%253A%252F%252Fgithub.com%252Fasm89%252Ftwig-lint.jpg"
+    ],
+    "twiggy": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/twiggy/https%253A%252F%252Fgithub.com%252Frustwasm%252Ftwiggy.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/twiggy/https%253A%252F%252Frustwasm.github.io%252Ftwiggy.jpg"
+    ],
+    "typescript-call-graph": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/typescript-call-graph/https%253A%252F%252Fgithub.com%252Fwhyboris%252FTypeScript-Call-Graph.jpg"
+    ],
+    "typescript-eslint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/typescript-eslint/https%253A%252F%252Fgithub.com%252Ftypescript-eslint%252Ftypescript-eslint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/typescript-eslint/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSydnKbGc7W8.jpg"
+    ],
+    "typl": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/typl/https%253A%252F%252Fgithub.com%252Fgetify%252FTypL.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/typl/https%253A%252F%252Ftypl.dev.jpg"
+    ],
+    "unconvert": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/unconvert/https%253A%252F%252Fgithub.com%252Fmdempsky%252Funconvert.jpg"
+    ],
+    "undebt": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/undebt/https%253A%252F%252Fgithub.com%252FYelp%252Fundebt.jpg"
+    ],
+    "understand": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/understand/https%253A%252F%252Fwww.scitools.com.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/understand/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DQXxciTA1R4k.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/understand/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DYDd9J2Fs5Ug.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/understand/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DmZRWN6ukUig.jpg"
+    ],
+    "unibeautify": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/unibeautify/https%253A%252F%252Fgithub.com%252Funibeautify%252Funibeautify.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/unibeautify/https%253A%252F%252Funibeautify.com.jpg"
+    ],
+    "unimport": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/unimport/https%253A%252F%252Fgithub.com%252Fhakancelikdev%252Funimport.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/unimport/https%253A%252F%252Funimport.hakancelik.dev.jpg"
+    ],
+    "unparam": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/unparam/https%253A%252F%252Fgithub.com%252Fmvdan%252Funparam.jpg"
+    ],
+    "upsource": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/upsource/https%253A%252F%252Fwww.jetbrains.com%252Fupsource.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/upsource/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DEjwD7Pi7J_0.jpg"
+    ],
+    "vale": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vale/https%253A%252F%252Fdocs.errata.ai%252Fvale%252Fabout.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vale/https%253A%252F%252Fgithub.com%252Ferrata-ai%252Fvale.jpg"
+    ],
+    "varcheck": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/varcheck/https%253A%252F%252Fgitlab.com%252Fopennota%252Fcheck.jpg"
+    ],
+    "vera": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vera/https%253A%252F%252Fbitbucket.org%252Fverateam%252Fvera%252Fsrc%252Fmaster.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vera/https%253A%252F%252Fbitbucket.org%252Fverateam%252Fvera%252Fwiki%252FIntroduction.jpg"
+    ],
+    "veracode": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/veracode/http%253A%252F%252Fwww.veracode.com%252Fproducts%252Fstatic-analysis-sast%252Fstatic-code-analysis.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/veracode/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D6Fq_UMgwX4I.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/veracode/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DCacOX9ytugc.jpg"
+    ],
+    "verible-linter-action": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/verible-linter-action/https%253A%252F%252Fgithub.com%252Fchipsalliance%252Fverible-linter-action.jpg"
+    ],
+    "verifast": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/verifast/https%253A%252F%252Fgithub.com%252Fverifast%252Fverifast.jpg"
+    ],
+    "verilator": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/verilator/https%253A%252F%252Fgithub.com%252Fverilator%252Fverilator.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/verilator/https%253A%252F%252Fwww.veripool.org%252Fverilator.jpg"
+    ],
+    "vetur": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vetur/https%253A%252F%252Fgithub.com%252Fvuejs%252Fvetur.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vetur/https%253A%252F%252Fmarketplace.visualstudio.com%252Fitems%253FitemName%253Doctref.vetur.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vetur/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D05tNXJ-Kric.jpg"
+    ],
+    "vint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vint/https%253A%252F%252Fgithub.com%252FKuniwak%252Fvint.jpg"
+    ],
+    "violations-lib": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/violations-lib/https%253A%252F%252Fgithub.com%252Ftomasbjerre%252Fviolations-lib.jpg"
+    ],
+    "visual-expert": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/visual-expert/https%253A%252F%252Fwww.visual-expert.com.jpg"
+    ],
+    "vmware-chap": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vmware-chap/https%253A%252F%252Fgithub.com%252Fvmware%252Fchap.jpg"
+    ],
+    "vscode-verilog-hdl-support": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vscode-verilog-hdl-support/https%253A%252F%252Fgithub.com%252Fmshr-h%252Fvscode-verilog-hdl-support.jpg"
+    ],
+    "vsdiagnostics": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vsdiagnostics/https%253A%252F%252Fgithub.com%252FVannevelj%252FVSDiagnostics.jpg"
+    ],
+    "vuls": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vuls/https%253A%252F%252Fgithub.com%252Ffuture-architect%252Fvuls.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vuls/https%253A%252F%252Fvuls.io%252F.jpg"
+    ],
+    "vulture": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vulture/https%253A%252F%252Fgithub.com%252Fjendrikseipp%252Fvulture.jpg"
+    ],
+    "wala": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wala/https%253A%252F%252Fgithub.com%252Fwala%252FWALA.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wala/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DQtrJEopSSuw.jpg"
+    ],
+    "wap": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wap/http%253A%252F%252Fawap.sourceforge.net%252Findex.html.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wap/https%253A%252F%252Fsecurityonline.info%252Fowasp-wap-web-application-protection-project.jpg"
+    ],
+    "warnalyzer": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/warnalyzer/https%253A%252F%252Fgithub.com%252Fest31%252Fwarnalyzer.jpg"
+    ],
+    "wartremover": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wartremover/https%253A%252F%252Fgithub.com%252Fpuffnfresh%252Fwartremover.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wartremover/https%253A%252F%252Fwww.wartremover.org.jpg"
+    ],
+    "weeder": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/weeder/https%253A%252F%252Fgithub.com%252Focharles%252Fweeder.jpg"
+    ],
+    "weggli": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/weggli/https%253A%252F%252Fgithub.com%252Fgoogleprojectzero%252Fweggli.jpg"
+    ],
+    "wemake-python-styleguide": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wemake-python-styleguide/https%253A%252F%252Fgithub.com%252Fwemake-services%252Fwemake-python-styleguide.jpg"
+    ],
+    "whitehat-application-security-platform": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/whitehat-application-security-platform/https%253A%252F%252Fwww.whitehatsec.com%252Fplatform%252Fstatic-application-security-testing.jpg"
+    ],
+    "wily": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wily/https%253A%252F%252Fgithub.com%252Ftonybaloney%252Fwily.jpg"
+    ],
+    "wintellect-analyzers": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wintellect-analyzers/https%253A%252F%252Fgithub.com%252FWintellect%252FWintellect.Analyzers.jpg"
+    ],
+    "wotan": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wotan/https%253A%252F%252Fgithub.com%252Ffimbullinter%252Fwotan.jpg"
+    ],
+    "write-good": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/write-good/https%253A%252F%252Fgithub.com%252Fbtford%252Fwrite-good.jpg"
+    ],
+    "wsl": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wsl/https%253A%252F%252Fgithub.com%252Fbombsimon%252Fwsl.jpg"
+    ],
+    "xcode": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/xcode/https%253A%252F%252Fdeveloper.apple.com%252Fxcode.jpg"
+    ],
+    "xenon": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/xenon/https%253A%252F%252Fgithub.com%252Frubik%252Fxenon.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/xenon/https%253A%252F%252Fxenon.readthedocs.io.jpg"
+    ],
+    "xo": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/xo/https%253A%252F%252Fgithub.com%252Fxojs%252Fxo.jpg"
+    ],
+    "yamllint": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/yamllint/https%253A%252F%252Fgithub.com%252Fadrienverge%252Fyamllint.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/yamllint/https%253A%252F%252Fyamllint.readthedocs.io.jpg"
+    ],
+    "yardstick": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/yardstick/https%253A%252F%252Fgithub.com%252Fcalmh%252Fyardstick.jpg"
+    ],
+    "zod": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/zod/https%253A%252F%252Fgithub.com%252Fcolinhacks%252Fzod.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/zod/https%253A%252F%252Fzod.dev.jpg"
+    ],
+    "zpa": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/zpa/https%253A%252F%252Ffelipezorzo.com.br%252Fzpa%252F.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/zpa/https%253A%252F%252Fgithub.com%252Ffelipebz%252Fzpa.jpg"
+    ],
+    "zydis": [
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/zydis/https%253A%252F%252Fgithub.com%252Fzyantific%252Fzydis.jpg",
+        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/zydis/https%253A%252F%252Fzydis.re.jpg"
+    ]
+}
