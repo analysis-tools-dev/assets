@@ -435,9 +435,6 @@
             "url": "https://github.com/iomentum/cargo-breaking"
         }
     ],
-    "cargo-breaking": [
-        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-breaking/https%253A%252F%252Fgithub.com%252Fiomentum%252Fcargo-breaking.jpg"
-    ],
     "cargo-deny": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-deny/https%253A%252F%252Fembarkstudios.github.io%252Fcargo-deny.jpg",
@@ -465,9 +462,6 @@
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-show-asm/https%253A%252F%252Fgithub.com%252Fpacak%252Fcargo-show-asm.jpg",
             "url": "https://github.com/pacak/cargo-show-asm"
         }
-    ],
-    "cargo-show-asm": [
-        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-show-asm/https%253A%252F%252Fgithub.com%252Fpacak%252Fcargo-show-asm.jpg"
     ],
     "cargo-spellcheck": [
         {
@@ -1779,10 +1773,6 @@
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gcc/https%253A%252F%252Fgithub.com%252Fgcc-mirror%252Fgcc.jpg",
             "url": "https://github.com/gcc-mirror/gcc"
         }
-    ],
-    "gcc": [
-        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gcc/https%253A%252F%252Fgcc.gnu.org%252Fonlinedocs%252Fgcc%252FStatic-Analyzer-Options.html.jpg",
-        "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/gcc/https%253A%252F%252Fgithub.com%252Fgcc-mirror%252Fgcc.jpg"
     ],
     "gendarme": [
         {
