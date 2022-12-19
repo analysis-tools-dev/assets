@@ -12,12 +12,20 @@
 // Example JSON output:
 // {
 //   "tool1": [
-//     "https://raw.githubusercontent.com/analysis-tools-dev/assets/branch/screenshots/tool1/screenshot1.jpg",
-//     "https://raw.githubusercontent.com/analysis-tools-dev/assets/branch/screenshots/tool1/screenshot2.jpg"
+//     { 
+//       "path": "/assets/branch/screenshots/tool1/screenshot1.jpg",
+//       "url": "https://example.com"
+//     },
+//     { 
+//       "path": "/assets/branch/screenshots/tool1/screenshot2.jpg",
+//       "url": "https://example.com"
+//     }
 //   ],
 //   "tool2": [
-//     "https://raw.githubusercontent.com/analysis-tools-dev/assets/branch/screenshots/tool2/screenshot1.jpg",
-//     "https://raw.githubusercontent.com/analysis-tools-dev/assets/branch/screenshots/tool2/screenshot2.jpg"
+//     { 
+//       "path": "/assets/branch/screenshots/tool2/screenshot1.jpg",
+//       "url": "https://example.org/foo"
+//     },
 //   ]
 // }
 //
@@ -35,9 +43,26 @@ foreach ($tools as $tool) {
     $screenshots = array_values($screenshots);
     $json[$tool] = array();
     foreach ($screenshots as $screenshot) {
-        // Encode all screenshot with `rawurlencode()` just like Github does
+        // Get the last part of the path (the filename), remove the extension
+        // and urldecode it to get the URL to the tool.
+        $url = urldecode(pathinfo($screenshot, PATHINFO_FILENAME));
+
+        // Urlencode screenshot to prevent issues with special characters
         $screenshot = rawurlencode($screenshot);
-        $json[$tool][] = 'https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/' . $tool . '/' . $screenshot;
+
+        // Full path to screenshot
+        $path = $tool . '/' . $screenshot;
+
+        // Prefix to get the URL to the raw file.
+        $prefix = 'https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/';
+
+        $fullPath = $prefix . $path;
+
+        // Add screenshot to JSON object
+        $json[$tool][] = array(
+            'path' => $fullPath,
+            'url' => $url
+        );
     }
 }
 
