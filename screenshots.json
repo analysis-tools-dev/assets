@@ -225,6 +225,16 @@
             "url": "https://www.youtube.com/watch?v=oBz6rXG0XT8"
         }
     ],
+    "autocorrect": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/autocorrect/https%253A%252F%252Fgithub.com%252Fhuacnlee%252Fautocorrect.jpg",
+            "url": "https://github.com/huacnlee/autocorrect"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/autocorrect/https%253A%252F%252Fhuacnlee.github.io%252Fautocorrect.jpg",
+            "url": "https://huacnlee.github.io/autocorrect"
+        }
+    ],
     "aws-cloudformation-guard": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/aws-cloudformation-guard/https%253A%252F%252Fgithub.com%252Faws-cloudformation%252Fcloudformation-guard.jpg",
@@ -839,6 +849,32 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeql/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DY6PjAaZKNYk.jpg",
             "url": "https://www.youtube.com/watch?v=Y6PjAaZKNYk"
+        }
+    ],
+    "codeque": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeque/https%253A%252F%252Fcodeque.co%252Fdocs.jpg",
+            "url": "https://codeque.co/docs"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeque/https%253A%252F%252Fcodeque.co%252Fr%252Fvsc.jpg",
+            "url": "https://codeque.co/r/vsc"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeque/https%253A%252F%252Fcodeque.co.jpg",
+            "url": "https://codeque.co"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeque/https%253A%252F%252Fgithub.com%252Fcodeque-co%252Fcodeque.jpg",
+            "url": "https://github.com/codeque-co/codeque"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeque/https%253A%252F%252Fwww.npmjs.com%252Fpackage%252F%2540codeque%252Fcli.jpg",
+            "url": "https://www.npmjs.com/package/@codeque/cli"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeque/https%253A%252F%252Fwww.npmjs.com%252Fpackage%252F%2540codeque%252Fcore.jpg",
+            "url": "https://www.npmjs.com/package/@codeque/core"
         }
     ],
     "coderrect": [
