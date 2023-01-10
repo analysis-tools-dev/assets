@@ -3064,6 +3064,16 @@
             "url": "https://github.com/codegram/pelusa"
         }
     ],
+    "perl-analyzer": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/perl-analyzer/https%253A%252F%252Fgithub.com%252Ftechnix%252FPerl-Analyzer.jpg",
+            "url": "https://github.com/technix/Perl-Analyzer"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/perl-analyzer/https%253A%252F%252Ftechnix.github.io%252FPerl-Analyzer%252F.jpg",
+            "url": "https://technix.github.io/Perl-Analyzer/"
+        }
+    ],
     "perl-critic": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/perl-critic/https%253A%252F%252Fmetacpan.org%252Fpod%252FPerl%253A%253ACritic.jpg",
