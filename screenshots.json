@@ -779,6 +779,24 @@
             "url": "https://github.com/Ericsson/codechecker"
         }
     ],
+    "codecov": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codecov/https%253A%252F%252Fabout.codecov.io%252F.jpg",
+            "url": "https://about.codecov.io/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codecov/https%253A%252F%252Fdocs.codecov.com%252Fdocs%252Fgithub-tutorial.jpg",
+            "url": "https://docs.codecov.com/docs/github-tutorial"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codecov/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D8xToLcchs4Y.jpg",
+            "url": "https://www.youtube.com/watch?v=8xToLcchs4Y"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codecov/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DwwFookaYHoo.jpg",
+            "url": "https://www.youtube.com/watch?v=wwFookaYHoo"
+        }
+    ],
     "codefactor": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codefactor/https%253A%252F%252Fcodefactor.io.jpg",
