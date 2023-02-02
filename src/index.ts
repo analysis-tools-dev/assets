@@ -47,6 +47,7 @@ const SCREENSHOT_OPTIONS = {
     ".disclaimer-container",
     "[id*='sp_message_container']",
     "#gdpr-cookie-message", // rezilion.com
+    "#hs-eu-cookie-confirmation", // diffblue.com
   ],
 };
 
