@@ -1368,6 +1368,28 @@
             "url": "https://www.youtube.com/watch?v=k4au7VioXNk"
         }
     ],
+    "diffblue": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fdocs.codecov.com%252Fdocs%252Fgithub-tutorial.jpg",
+            "url": "https://docs.codecov.com/docs/github-tutorial"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fwww.diffblue.com%252F.jpg",
+            "url": "https://www.diffblue.com/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D9vt1szlaAKw.jpg",
+            "url": "https://www.youtube.com/watch?v=9vt1szlaAKw"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdhN-mbgOSMo.jpg",
+            "url": "https://www.youtube.com/watch?v=dhN-mbgOSMo"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DjiUgMs21NNE.jpg",
+            "url": "https://www.youtube.com/watch?v=jiUgMs21NNE"
+        }
+    ],
     "diktat": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diktat/https%253A%252F%252Fdiktat.saveourtool.com.jpg",
