@@ -5224,6 +5224,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wemake-python-styleguide/https%253A%252F%252Fgithub.com%252Fwemake-services%252Fwemake-python-styleguide.jpg",
             "url": "https://github.com/wemake-services/wemake-python-styleguide"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wemake-python-styleguide/https%253A%252F%252Fwemake-python-styleguide.rtfd.io%252F.jpg",
+            "url": "https://wemake-python-styleguide.rtfd.io/"
         }
     ],
     "whitehat-application-security-platform": [
