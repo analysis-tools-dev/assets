@@ -971,6 +971,10 @@
             "url": "http://www.coffeelint.org"
         },
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coffeelint/https%253A%252F%252Fcoffeelint.github.io%252F.jpg",
+            "url": "https://coffeelint.github.io/"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coffeelint/https%253A%252F%252Fgithub.com%252Fclutchski%252Fcoffeelint.jpg",
             "url": "https://github.com/clutchski/coffeelint"
         }
