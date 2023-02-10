@@ -235,6 +235,16 @@
             "url": "https://huacnlee.github.io/autocorrect"
         }
     ],
+    "autopep8": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/autopep8/https%253A%252F%252Fgithub.com%252Fhhatto%252Fautopep8.jpg",
+            "url": "https://github.com/hhatto/autopep8"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/autopep8/https%253A%252F%252Fpypi.org%252Fproject%252Fautopep8%252F.jpg",
+            "url": "https://pypi.org/project/autopep8/"
+        }
+    ],
     "aws-cloudformation-guard": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/aws-cloudformation-guard/https%253A%252F%252Fgithub.com%252Faws-cloudformation%252Fcloudformation-guard.jpg",
@@ -2476,6 +2486,16 @@
             "url": "https://github.com/ediardo/kmdr-cli"
         }
     ],
+    "ktfmt": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktfmt/https%253A%252F%252Ffacebook.github.io%252Fktfmt%252F.jpg",
+            "url": "https://facebook.github.io/ktfmt/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktfmt/https%253A%252F%252Fgithub.com%252Ffacebook%252Fktfmt.jpg",
+            "url": "https://github.com/facebook/ktfmt"
+        }
+    ],
     "ktlint": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktlint/https%253A%252F%252Fgithub.com%252Fshyiko%252Fktlint.jpg",
@@ -4616,6 +4636,16 @@
             "url": "https://github.com/nerdypepper/statix"
         }
     ],
+    "stc": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stc/https%253A%252F%252Fgithub.com%252Fdudykr%252Fstc.jpg",
+            "url": "https://github.com/dudykr/stc"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stc/https%253A%252F%252Fstc.dudy.dev.jpg",
+            "url": "https://stc.dudy.dev"
+        }
+    ],
     "steep": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/steep/https%253A%252F%252Fgithub.com%252Fsoutaro%252Fsteep.jpg",
@@ -5300,6 +5330,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/yamllint/https%253A%252F%252Fyamllint.readthedocs.io.jpg",
             "url": "https://yamllint.readthedocs.io"
+        }
+    ],
+    "yapf": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/yapf/https%253A%252F%252Fgithub.com%252Fgoogle%252Fyapf.jpg",
+            "url": "https://github.com/google/yapf"
         }
     ],
     "yardstick": [
