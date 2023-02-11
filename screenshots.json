@@ -275,6 +275,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bandit/https%253A%252F%252Fgithub.com%252FPyCQA%252Fbandit.jpg",
             "url": "https://github.com/PyCQA/bandit"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bandit/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DYZOKnvisJpw.jpg",
+            "url": "https://www.youtube.com/watch?v=YZOKnvisJpw"
         }
     ],
     "bashate": [
@@ -383,6 +387,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/brakeman/https%253A%252F%252Fgithub.com%252Fpresidentbeef%252Fbrakeman.jpg",
             "url": "https://github.com/presidentbeef/brakeman"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/brakeman/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DpTUlPq4glOg.jpg",
+            "url": "https://www.youtube.com/watch?v=pTUlPq4glOg"
         }
     ],
     "brittany": [
@@ -441,6 +449,14 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-audit/https%253A%252F%252Frustsec.org.jpg",
             "url": "https://rustsec.org"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-audit/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DV8RfQ0uihzE.jpg",
+            "url": "https://www.youtube.com/watch?v=V8RfQ0uihzE"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-audit/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dw2Co88TzrsQ.jpg",
+            "url": "https://www.youtube.com/watch?v=w2Co88TzrsQ"
         }
     ],
     "cargo-bloat": [
@@ -1093,6 +1109,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppcheck/https%253A%252F%252Fwww.viva64.com%252Fen%252Ft%252F0083%252F.jpg",
             "url": "https://www.viva64.com/en/t/0083/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppcheck/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DoJ8SXVoefaA.jpg",
+            "url": "https://www.youtube.com/watch?v=oJ8SXVoefaA"
         }
     ],
     "cppdepend": [
@@ -1248,6 +1268,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepcode/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D5ThvYN3nWcg.jpg",
             "url": "https://www.youtube.com/watch?v=5ThvYN3nWcg"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepcode/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DPG8PmrKEuLY.jpg",
+            "url": "https://www.youtube.com/watch?v=PG8PmrKEuLY"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepcode/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dd-fvZ83O_es.jpg",
@@ -2404,6 +2428,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jedi/https%253A%252F%252Fjedi.readthedocs.io%252Fen%252Flatest.jpg",
             "url": "https://jedi.readthedocs.io/en/latest"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jedi/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DQa-5mYCqPto.jpg",
+            "url": "https://www.youtube.com/watch?v=Qa-5mYCqPto"
         }
     ],
     "joern": [
@@ -2806,6 +2834,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mega-linter/https%253A%252F%252Fnvuillam.github.io%252Fmega-linter%252Fsupported-linters%252F.jpg",
             "url": "https://nvuillam.github.io/mega-linter/supported-linters/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mega-linter/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D3xgTU1GhRvs.jpg",
+            "url": "https://www.youtube.com/watch?v=3xgTU1GhRvs"
         }
     ],
     "metadata-json-lint": [
@@ -4730,12 +4762,20 @@
     ],
     "swiftlint": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/swiftlint/https%253A%252F%252Facademy.realm.io%252Fposts%252Fslug-jp-simard-swiftlint%252F.jpg",
+            "url": "https://academy.realm.io/posts/slug-jp-simard-swiftlint/"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/swiftlint/https%253A%252F%252Fgithub.com%252Frealm%252FSwiftLint.jpg",
             "url": "https://github.com/realm/SwiftLint"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/swiftlint/https%253A%252F%252Frealm.github.io%252FSwiftLint.jpg",
             "url": "https://realm.github.io/SwiftLint"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/swiftlint/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D4YQ6DJ-xovY.jpg",
+            "url": "https://www.youtube.com/watch?v=4YQ6DJ-xovY"
         }
     ],
     "symfony-insight": [
