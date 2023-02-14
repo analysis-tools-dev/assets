@@ -299,6 +299,10 @@
     ],
     "better-code-hub": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/better-code-hub/https%253A%252F%252Fbettercodehub.com%252Fpricing.jpg",
+            "url": "https://bettercodehub.com/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/better-code-hub/https%253A%252F%252Fbettercodehub.com.jpg",
             "url": "https://bettercodehub.com"
         },
@@ -519,6 +523,10 @@
     ],
     "cast-highlight": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cast-highlight/https%253A%252F%252Fwww.castsoftware.com%252Fproducts%252Fhighlight%252Fpricing%2523pricing.jpg",
+            "url": "https://www.castsoftware.com/products/highlight/pricing#pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cast-highlight/https%253A%252F%252Fwww.castsoftware.com%252Fproducts%252Fhighlight.jpg",
             "url": "https://www.castsoftware.com/products/highlight"
         }
@@ -659,6 +667,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clayton/https%253A%252F%252Fwww.getclayton.com%252F.jpg",
             "url": "https://www.getclayton.com/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clayton/https%253A%252F%252Fwww.getclayton.com%252Fpricing.jpg",
+            "url": "https://www.getclayton.com/pricing"
         }
     ],
     "clazy": [
@@ -737,6 +749,10 @@
     ],
     "codacy": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codacy/https%253A%252F%252Fwww.codacy.com%252Fpricing.jpg",
+            "url": "https://www.codacy.com/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codacy/https%253A%252F%252Fwww.codacy.com.jpg",
             "url": "https://www.codacy.com"
         },
@@ -811,6 +827,10 @@
             "url": "https://about.codecov.io/"
         },
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codecov/https%253A%252F%252Fabout.codecov.io%252Fpricing%252F.jpg",
+            "url": "https://about.codecov.io/pricing/"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codecov/https%253A%252F%252Fdocs.codecov.com%252Fdocs%252Fgithub-tutorial.jpg",
             "url": "https://docs.codecov.com/docs/github-tutorial"
         },
@@ -824,6 +844,10 @@
         }
     ],
     "codefactor": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codefactor/https%253A%252F%252Fcodefactor.io%252Fpricing.jpg",
+            "url": "https://codefactor.io/pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codefactor/https%253A%252F%252Fcodefactor.io.jpg",
             "url": "https://codefactor.io"
@@ -875,6 +899,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/http%253A%252F%252Fwww.adacore.com%252Fcodepeer.jpg",
             "url": "http://www.adacore.com/codepeer"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/http%253A%252F%252Fwww.adacore.com%252Fpricing.jpg",
+            "url": "http://www.adacore.com/pricing"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D8837TUpLLMo.jpg",
@@ -941,6 +969,10 @@
     ],
     "coderush": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coderush/https%253A%252F%252Fwww.devexpress.com%252Fbuy%252Fnet%252F.jpg",
+            "url": "https://www.devexpress.com/buy/net/"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/coderush/https%253A%252F%252Fwww.devexpress.com%252Fproducts%252Fcoderush.jpg",
             "url": "https://www.devexpress.com/products/coderush"
         }
@@ -949,9 +981,17 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescan/https%253A%252F%252Fwww.codescan.io%252F.jpg",
             "url": "https://www.codescan.io/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescan/https%253A%252F%252Fwww.codescan.io%252Fpricing.jpg",
+            "url": "https://www.codescan.io/pricing"
         }
     ],
     "codescene": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescene/https%253A%252F%252Fcodescene.com%252Fpricing.jpg",
+            "url": "https://codescene.com/pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codescene/https%253A%252F%252Fcodescene.com.jpg",
             "url": "https://codescene.com"
@@ -982,6 +1022,10 @@
         }
     ],
     "codiga": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codiga/https%253A%252F%252Fwww.codiga.io%252Fpricing.jpg",
+            "url": "https://www.codiga.io/pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codiga/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DalS_h2ig7ZI.jpg",
             "url": "https://www.youtube.com/watch?v=alS_h2ig7ZI"
@@ -1116,6 +1160,10 @@
         }
     ],
     "cppdepend": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppdepend/https%253A%252F%252Fwww.cppdepend.com%252Fpurchase.jpg",
+            "url": "https://www.cppdepend.com/purchase"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppdepend/https%253A%252F%252Fwww.cppdepend.com.jpg",
             "url": "https://www.cppdepend.com"
@@ -1280,11 +1328,19 @@
     ],
     "deepscan": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepscan/https%253A%252F%252Fdeepscan.io%252Fpricing.jpg",
+            "url": "https://deepscan.io/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepscan/https%253A%252F%252Fdeepscan.io.jpg",
             "url": "https://deepscan.io"
         }
     ],
     "deepsource": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepsource/https%253A%252F%252Fdeepsource.io%252Fpricing.jpg",
+            "url": "https://deepsource.io/pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepsource/https%253A%252F%252Fdeepsource.io.jpg",
             "url": "https://deepsource.io"
@@ -1336,11 +1392,19 @@
     ],
     "designite": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/designite/http%253A%252F%252Fwww.designite-tools.com%252Fbuy.jpg",
+            "url": "http://www.designite-tools.com/buy"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/designite/http%253A%252F%252Fwww.designite-tools.com.jpg",
             "url": "http://www.designite-tools.com"
         }
     ],
     "designitejava": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/designitejava/http%253A%252F%252Fwww.designite-tools.com%252Fbuy.jpg",
+            "url": "http://www.designite-tools.com/buy"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/designitejava/http%253A%252F%252Fwww.designite-tools.com%252Fdesignitejava.jpg",
             "url": "http://www.designite-tools.com/designitejava"
@@ -1414,6 +1478,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fwww.diffblue.com%252F.jpg",
             "url": "https://www.diffblue.com/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fwww.diffblue.com%252Fpricing%252F.jpg",
+            "url": "https://www.diffblue.com/pricing/"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D9vt1szlaAKw.jpg",
@@ -1574,6 +1642,10 @@
     ],
     "embold": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/embold/https%253A%252F%252Fembold.io%252Fpricing.jpg",
+            "url": "https://embold.io/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/embold/https%253A%252F%252Fembold.io.jpg",
             "url": "https://embold.io"
         }
@@ -1709,6 +1781,10 @@
         }
     ],
     "fix-insight": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fix-insight/https%253A%252F%252Ftmssoftware.com%252Fsite%252Ftmsallaccess.asp%2523product-buy-online.jpg",
+            "url": "https://tmssoftware.com/site/tmsallaccess.asp#product-buy-online"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fix-insight/https%253A%252F%252Fwww.tmssoftware.com%252Fsite%252Ffixinsight.asp.jpg",
             "url": "https://www.tmssoftware.com/site/fixinsight.asp"
@@ -2218,6 +2294,10 @@
             "url": "https://www.perforce.com/products/helix-qac"
         },
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/helix-qac/https%253A%252F%252Fwww.perforce.com%252Fpurchase.jpg",
+            "url": "https://www.perforce.com/purchase"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/helix-qac/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DHHaBnZx2fGY.jpg",
             "url": "https://www.youtube.com/watch?v=HHaBnZx2fGY"
         },
@@ -2382,6 +2462,10 @@
     ],
     "intellij-idea": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/intellij-idea/https%253A%252F%252Fwww.jetbrains.com%252Fbuy.jpg",
+            "url": "https://www.jetbrains.com/buy"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/intellij-idea/https%253A%252F%252Fwww.jetbrains.com%252Fidea.jpg",
             "url": "https://www.jetbrains.com/idea"
         }
@@ -2494,6 +2578,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kiuwan/https%253A%252F%252Fwww.kiuwan.com%252Fcode-security-sast.jpg",
             "url": "https://www.kiuwan.com/code-security-sast"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kiuwan/https%253A%252F%252Fwww.kiuwan.com%252Fpricing.jpg",
+            "url": "https://www.kiuwan.com/pricing"
         }
     ],
     "klint": [
@@ -2506,6 +2594,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/klocwork/https%253A%252F%252Fwww.perforce.com%252Fproducts%252Fklocwork.jpg",
             "url": "https://www.perforce.com/products/klocwork"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/klocwork/https%253A%252F%252Fwww.perforce.com%252Fpurchase.jpg",
+            "url": "https://www.perforce.com/purchase"
         }
     ],
     "kmdr": [
@@ -2633,6 +2725,10 @@
         }
     ],
     "ldra": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ldra/https%253A%252F%252Fldra.com%252Fregister%252F.jpg",
+            "url": "https://ldra.com/register/"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ldra/https%253A%252F%252Fldra.com.jpg",
             "url": "https://ldra.com"
@@ -2936,6 +3032,10 @@
     ],
     "mythx": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mythx/https%253A%252F%252Fmythx.io%252Fplans%252F.jpg",
+            "url": "https://mythx.io/plans/"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mythx/https%253A%252F%252Fmythx.io.jpg",
             "url": "https://mythx.io"
         },
@@ -2976,6 +3076,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ndepend/http%253A%252F%252Fwww.ndepend.com.jpg",
             "url": "http://www.ndepend.com"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ndepend/https%253A%252F%252Fwww.ndepend.com%252Fpurchase.jpg",
+            "url": "https://www.ndepend.com/purchase"
         }
     ],
     "net-analyzers": [
@@ -2991,6 +3095,10 @@
         }
     ],
     "nitpick-ci": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nitpick-ci/https%253A%252F%252Fnitpick-ci.com%252F%2523pricing.jpg",
+            "url": "https://nitpick-ci.com/#pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/nitpick-ci/https%253A%252F%252Fnitpick-ci.com.jpg",
             "url": "https://nitpick-ci.com"
@@ -3046,6 +3154,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ocular/https%253A%252F%252Fwww.shiftleft.io%252Focular%252F.jpg",
             "url": "https://www.shiftleft.io/ocular/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ocular/https%253A%252F%252Fwww.shiftleft.io%252Fpricing.jpg",
+            "url": "https://www.shiftleft.io/pricing"
         }
     ],
     "oelint-adv": [
@@ -3071,6 +3183,10 @@
         }
     ],
     "oversecured": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/oversecured/https%253A%252F%252Foversecured.com%252Fpricing.jpg",
+            "url": "https://oversecured.com/pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/oversecured/https%253A%252F%252Foversecured.com.jpg",
             "url": "https://oversecured.com"
@@ -3128,6 +3244,10 @@
     ],
     "pascal-analyzer": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pascal-analyzer/https%253A%252F%252Fpeganza.com%252Forders.html.jpg",
+            "url": "https://peganza.com/orders.html"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pascal-analyzer/https%253A%252F%252Fpeganza.com%252Fproducts_pal.html.jpg",
             "url": "https://peganza.com/products_pal.html"
         }
@@ -3139,6 +3259,10 @@
         }
     ],
     "pc-lint": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pc-lint/https%253A%252F%252Fwww.gimpel.com%252Forder.html.jpg",
+            "url": "https://www.gimpel.com/order.html"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pc-lint/https%253A%252F%252Fwww.gimpel.com.jpg",
             "url": "https://www.gimpel.com"
@@ -3456,6 +3580,10 @@
     ],
     "polyspace-bug-finder": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/polyspace-bug-finder/https%253A%252F%252Fwww.mathworks.com%252Fcompany%252Faboutus%252Fcontact_us%252Freq_quote.html.jpg",
+            "url": "https://www.mathworks.com/company/aboutus/contact_us/req_quote.html"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/polyspace-bug-finder/https%253A%252F%252Fwww.mathworks.com%252Fproducts%252Fpolyspace-bug-finder.html.jpg",
             "url": "https://www.mathworks.com/products/polyspace-bug-finder.html"
         }
@@ -3620,6 +3748,10 @@
     ],
     "pullrequest": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pullrequest/https%253A%252F%252Fwww.pullrequest.com%252Fpricing.jpg",
+            "url": "https://www.pullrequest.com/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pullrequest/https%253A%252F%252Fwww.pullrequest.com.jpg",
             "url": "https://www.pullrequest.com"
         }
@@ -3654,6 +3786,10 @@
     ],
     "pvs-studio": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pvs-studio/https%253A%252F%252Fpvs-studio.com%252Fen%252Forder%252Flicense%252F.jpg",
+            "url": "https://pvs-studio.com/en/order/license/"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pvs-studio/https%253A%252F%252Fpvs-studio.com.jpg",
             "url": "https://pvs-studio.com"
         },
@@ -3687,6 +3823,10 @@
         }
     ],
     "pycodequal": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pycodequal/https%253A%252F%252Fpycodequ.al%252Fpricing.jpg",
+            "url": "https://pycodequ.al/pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pycodequal/https%253A%252F%252Fpycodequ.al.jpg",
             "url": "https://pycodequ.al"
@@ -3820,6 +3960,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qualys-container-security/https%253A%252F%252Fwww.qualys.com%252Fapps%252Fcontainer-security.jpg",
             "url": "https://www.qualys.com/apps/container-security"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qualys-container-security/https%253A%252F%252Fwww.qualys.com%252Ffree-trial%252F.jpg",
+            "url": "https://www.qualys.com/free-trial/"
         }
     ],
     "quantifiedcode": [
@@ -3936,11 +4080,19 @@
     ],
     "resharper": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/resharper/https%253A%252F%252Fwww.jetbrains.com%252Fbuy.jpg",
+            "url": "https://www.jetbrains.com/buy"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/resharper/https%253A%252F%252Fwww.jetbrains.com%252Fresharper.jpg",
             "url": "https://www.jetbrains.com/resharper"
         }
     ],
     "reshift": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/reshift/https%253A%252F%252Fwww.reshiftsecurity.com%252Fpricing.jpg",
+            "url": "https://www.reshiftsecurity.com/pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/reshift/https%253A%252F%252Fwww.reshiftsecurity.com.jpg",
             "url": "https://www.reshiftsecurity.com"
@@ -3987,6 +4139,10 @@
         }
     ],
     "rips": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rips/https%253A%252F%252Fsonarsource.com%252Fplans-and-pricing%252F.jpg",
+            "url": "https://sonarsource.com/plans-and-pricing/"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rips/https%253A%252F%252Fwww.ripstech.com.jpg",
             "url": "https://www.ripstech.com"
@@ -4230,6 +4386,10 @@
     ],
     "scrutinizer": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scrutinizer/https%253A%252F%252Fscrutinizer-ci.com%252Fpricing.jpg",
+            "url": "https://scrutinizer-ci.com/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scrutinizer/https%253A%252F%252Fscrutinizer-ci.com.jpg",
             "url": "https://scrutinizer-ci.com"
         }
@@ -4324,6 +4484,10 @@
             "url": "https://vimeo.com/383381584"
         },
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shiftleft/https%253A%252F%252Fwww.shiftleft.io%252Fpricing.jpg",
+            "url": "https://www.shiftleft.io/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/shiftleft/https%253A%252F%252Fwww.shiftleft.io.jpg",
             "url": "https://www.shiftleft.io"
         }
@@ -4361,6 +4525,10 @@
         }
     ],
     "sigrid": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sigrid/https%253A%252F%252Fwww.softwareimprovementgroup.com%252Fcontact%252F.jpg",
+            "url": "https://www.softwareimprovementgroup.com/contact/"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sigrid/https%253A%252F%252Fwww.softwareimprovementgroup.com%252Fsolutions%252Fsigrid-software-assurance-platform%252F.jpg",
             "url": "https://www.softwareimprovementgroup.com/solutions/sigrid-software-assurance-platform/"
@@ -4440,6 +4608,10 @@
     ],
     "sonarcloud": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarcloud/https%253A%252F%252Fsonarcloud.io%252Fpricing.jpg",
+            "url": "https://sonarcloud.io/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonarcloud/https%253A%252F%252Fsonarcloud.io.jpg",
             "url": "https://sonarcloud.io"
         }
@@ -4473,6 +4645,10 @@
         }
     ],
     "sonatype": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonatype/https%253A%252F%252Fwww.sonatype.com%252Fproducts%252Fpricing.jpg",
+            "url": "https://www.sonatype.com/products/pricing"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sonatype/https%253A%252F%252Fwww.sonatype.com.jpg",
             "url": "https://www.sonatype.com"
@@ -4508,12 +4684,20 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sourcemeter/https%253A%252F%252Fwww.sourcemeter.com%252F.jpg",
             "url": "https://www.sourcemeter.com/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sourcemeter/https%253A%252F%252Fwww.sourcemeter.com%252Fdownload.jpg",
+            "url": "https://www.sourcemeter.com/download"
         }
     ],
     "spark": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spark/https%253A%252F%252Fwww.adacore.com%252Fabout-spark.jpg",
             "url": "https://www.adacore.com/about-spark"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spark/https%253A%252F%252Fwww.adacore.com%252Fpricing.jpg",
+            "url": "https://www.adacore.com/pricing"
         }
     ],
     "specificity-graph": [
@@ -4782,6 +4966,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/symfony-insight/https%253A%252F%252Finsight.symfony.com%252F.jpg",
             "url": "https://insight.symfony.com/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/symfony-insight/https%253A%252F%252Finsight.symfony.com%252Fpricing.jpg",
+            "url": "https://insight.symfony.com/pricing"
         }
     ],
     "synopsys": [
@@ -4826,6 +5014,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/teamscale/https%253A%252F%252Fmarketplace.visualstudio.com%252Fitems%253FitemName%253DCQSEGmbH.Teamscale.jpg",
             "url": "https://marketplace.visualstudio.com/items?itemName=CQSEGmbH.Teamscale"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/teamscale/https%253A%252F%252Fwww.cqse.eu%252Fen%252Fteamscale%252Fbuy%252F.jpg",
+            "url": "https://www.cqse.eu/en/teamscale/buy/"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/teamscale/https%253A%252F%252Fwww.cqse.eu%252Fen%252Fteamscale%252Foverview%252F.jpg",
@@ -4940,6 +5132,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trunk/https%253A%252F%252Fslack.trunk.io.jpg",
             "url": "https://slack.trunk.io"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trunk/https%253A%252F%252Ftrunk.io%252Fpricing.jpg",
+            "url": "https://trunk.io/pricing"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trunk/https%253A%252F%252Ftrunk.io.jpg",
@@ -5080,6 +5276,10 @@
     ],
     "understand": [
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/understand/https%253A%252F%252Fwww.scitools.com%252Fpricing.jpg",
+            "url": "https://www.scitools.com/pricing"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/understand/https%253A%252F%252Fwww.scitools.com.jpg",
             "url": "https://www.scitools.com"
         },
@@ -5123,6 +5323,10 @@
         }
     ],
     "upsource": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/upsource/https%253A%252F%252Fwww.jetbrains.com%252Fbuy.jpg",
+            "url": "https://www.jetbrains.com/buy"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/upsource/https%253A%252F%252Fwww.jetbrains.com%252Fupsource.jpg",
             "url": "https://www.jetbrains.com/upsource"
@@ -5221,6 +5425,10 @@
         }
     ],
     "visual-expert": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/visual-expert/https%253A%252F%252Fwww.visual-expert.com%252FEN%252Fvisual-expert-price.html.jpg",
+            "url": "https://www.visual-expert.com/EN/visual-expert-price.html"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/visual-expert/https%253A%252F%252Fwww.visual-expert.com.jpg",
             "url": "https://www.visual-expert.com"
