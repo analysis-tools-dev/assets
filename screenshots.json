@@ -255,6 +255,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/axivion-bauhaus-suite/https%253A%252F%252Fwww.axivion.com%252Fen%252Fproducts-services-9%2523products_bauhaussuite.jpg",
             "url": "https://www.axivion.com/en/products-services-9#products_bauhaussuite"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/axivion-bauhaus-suite/https%253A%252F%252Fwww.axivion.com%252Fpricing.jpg",
+            "url": "https://www.axivion.com/pricing"
         }
     ],
     "azsk": [
@@ -2483,6 +2487,10 @@
         }
     ],
     "jarchitect": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jarchitect/https%253A%252F%252Fwww.jarchitect.com%252Fpurchase.jpg",
+            "url": "https://www.jarchitect.com/purchase"
+        },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jarchitect/https%253A%252F%252Fwww.jarchitect.com.jpg",
             "url": "https://www.jarchitect.com"
