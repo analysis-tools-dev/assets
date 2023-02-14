@@ -4946,6 +4946,20 @@
             "url": "https://trunk.io"
         }
     ],
+    "trustinsoft-analyzer": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trustinsoft-analyzer/https%253A%252F%252Ftrust-in-soft.com%252Fresources%252Fnews%252F%253F_types%253Dwhite-papers.jpg",
+            "url": "https://trust-in-soft.com/resources/news/?_types=white-papers"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trustinsoft-analyzer/https%253A%252F%252Ftrust-in-soft.com%252Fresources%252Fnews%252F.jpg",
+            "url": "https://trust-in-soft.com/resources/news/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/trustinsoft-analyzer/https%253A%252F%252Ftrust-in-soft.com.jpg",
+            "url": "https://trust-in-soft.com"
+        }
+    ],
     "tscancode": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tscancode/https%253A%252F%252Fgithub.com%252FTencent%252FTscanCode.jpg",
