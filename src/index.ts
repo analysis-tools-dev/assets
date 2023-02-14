@@ -94,6 +94,9 @@ const collectUrls = (tool: any) => {
   for (const resource of tool["resources"] || []) {
     urls.push(resource["url"]);
   }
+  if (tool["pricing"] != null) {
+    urls.push(tool["pricing"]);
+  }
   return urls;
 };
 
