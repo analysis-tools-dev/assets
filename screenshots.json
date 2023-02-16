@@ -3312,6 +3312,16 @@
             "url": "https://metacpan.org/release/Perl-Critic/source/lib/Perl/Critic.pm"
         }
     ],
+    "perltidy": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/perltidy/https%253A%252F%252Fgithub.com%252Fperltidy%252Fperltidy.jpg",
+            "url": "https://github.com/perltidy/perltidy"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/perltidy/https%253A%252F%252Fperltidy.sourceforge.net%252F.jpg",
+            "url": "https://perltidy.sourceforge.net/"
+        }
+    ],
     "pfff": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pfff/https%253A%252F%252Fgithub.com%252Ffacebookarchive%252Fpfff%252Fwiki%252FMain.jpg",
