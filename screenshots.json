@@ -1013,6 +1013,7 @@
             "url": "https://www.youtube.com/watch?v=tbCA2JiO_K8"
         }
     ],
+    "codesee": [],
     "codesonar-from-grammatech": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codesonar-from-grammatech/https%253A%252F%252Fwww.grammatech.com%252Fproducts%252Fcodesonar.jpg",
@@ -4860,6 +4861,7 @@
             "url": "https://github.com/julia-vscode/StaticLint.jl"
         }
     ],
+    "staticreviewer": [],
     "statix": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/statix/https%253A%252F%252Fgit.peppe.rs%252Flanguages%252Fstatix%252Fabout%252F.jpg",
