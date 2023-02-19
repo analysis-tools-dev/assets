@@ -4007,6 +4007,24 @@
             "url": "https://www.qulice.com"
         }
     ],
+    "qwiet-ai": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qwiet-ai/https%253A%252F%252Fqwiet.ai%252F.jpg",
+            "url": "https://qwiet.ai/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qwiet-ai/https%253A%252F%252Fvimeo.com%252F233423863.jpg",
+            "url": "https://vimeo.com/233423863"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qwiet-ai/https%253A%252F%252Fvimeo.com%252F383381584.jpg",
+            "url": "https://vimeo.com/383381584"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qwiet-ai/https%253A%252F%252Fwww.shiftleft.io%252Fpricing.jpg",
+            "url": "https://www.shiftleft.io/pricing"
+        }
+    ],
     "radon": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/radon/https%253A%252F%252Fgithub.com%252Frubik%252Fradon.jpg",
