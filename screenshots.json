@@ -175,6 +175,12 @@
             "url": "https://www.microsoft.com/security/blog/2020/01/16/introducing-microsoft-application-inspector/"
         }
     ],
+    "appscan-standard": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/appscan-standard/https%253A%252F%252Fwww.hcltechsw.com%252Fproducts%252Fappscan.jpg",
+            "url": "https://www.hcltechsw.com/products/appscan"
+        }
+    ],
     "appscreener": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/appscreener/https%253A%252F%252Fsolarappscreener.com.jpg",
@@ -371,6 +377,12 @@
             "url": "https://github.com/timakin/bodyclose"
         }
     ],
+    "bolt": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bolt/https%253A%252F%252Fgithub.com%252Ffacebookincubator%252FBOLT.jpg",
+            "url": "https://github.com/facebookincubator/BOLT"
+        }
+    ],
     "bootlint": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/bootlint/https%253A%252F%252Fgithub.com%252Ftwbs%252Fbootlint.jpg",
@@ -437,6 +449,12 @@
             "url": "https://www.youtube.com/watch?v=WEsR0Vv7jhg&t=233s"
         }
     ],
+    "cadvisor": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cadvisor/https%253A%252F%252Fgithub.com%252Fgoogle%252Fcadvisor.jpg",
+            "url": "https://github.com/google/cadvisor"
+        }
+    ],
     "callgraph": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/callgraph/https%253A%252F%252Fgithub.com%252Fkoknat%252FcallGraph.jpg",
@@ -477,6 +495,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-breaking/https%253A%252F%252Fgithub.com%252Fiomentum%252Fcargo-breaking.jpg",
             "url": "https://github.com/iomentum/cargo-breaking"
+        }
+    ],
+    "cargo-careful": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-careful/https%253A%252F%252Fgithub.com%252FRalfJung%252Fcargo-careful.jpg",
+            "url": "https://github.com/RalfJung/cargo-careful"
         }
     ],
     "cargo-deny": [
@@ -525,6 +549,16 @@
             "url": "https://github.com/TimonPost/cargo-unused-features"
         }
     ],
+    "casr": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/casr/https%253A%252F%252Fcrates.io%252Fcrates%252Fcasr.jpg",
+            "url": "https://crates.io/crates/casr"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/casr/https%253A%252F%252Fgithub.com%252Fispras%252Fcasr.jpg",
+            "url": "https://github.com/ispras/casr"
+        }
+    ],
     "cast-highlight": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cast-highlight/https%253A%252F%252Fwww.castsoftware.com%252Fproducts%252Fhighlight%252Fpricing%2523pricing.jpg",
@@ -555,6 +589,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cfn-nag/https%253A%252F%252Fgithub.com%252Fstelligent%252Fcfn_nag.jpg",
             "url": "https://github.com/stelligent/cfn_nag"
+        }
+    ],
+    "chap": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/chap/https%253A%252F%252Fgithub.com%252Fvmware%252Fchap.jpg",
+            "url": "https://github.com/vmware/chap"
         }
     ],
     "chart-testing": [
@@ -797,6 +837,16 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-intelligence/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DQfsz_ZTKM6Y.jpg",
             "url": "https://www.youtube.com/watch?v=Qfsz_ZTKM6Y"
+        }
+    ],
+    "code-pulse": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-pulse/http%253A%252F%252Fcode-pulse.com%252F.jpg",
+            "url": "http://code-pulse.com/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-pulse/https%253A%252F%252Fgithub.com%252Fcodedx%252Fcodepulse.jpg",
+            "url": "https://github.com/codedx/codepulse"
         }
     ],
     "codeac": [
@@ -1198,6 +1248,12 @@
             "url": "https://github.com/rrrene/credo"
         }
     ],
+    "crosshair": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/crosshair/https%253A%252F%252Fgithub.com%252Fpschanely%252FCrossHair.jpg",
+            "url": "https://github.com/pschanely/CrossHair"
+        }
+    ],
     "crystal": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/crystal/https%253A%252F%252Fcrystal-lang.org.jpg",
@@ -1561,6 +1617,16 @@
             "url": "https://github.com/dotenv-linter/dotenv-linter"
         }
     ],
+    "dr-memory": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dr-memory/https%253A%252F%252Fdrmemory.org%252F.jpg",
+            "url": "https://drmemory.org/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dr-memory/https%253A%252F%252Fgithub.com%252FDynamoRIO%252Fdrmemory.jpg",
+            "url": "https://github.com/DynamoRIO/drmemory"
+        }
+    ],
     "drnim": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/drnim/https%253A%252F%252Fnim-lang.org%252Fdocs%252Fdrnim.html.jpg",
@@ -1581,6 +1647,22 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dylint/https%253A%252F%252Fwww.trailofbits.com%252Fpost%252Fwrite-rust-lints-without-forking-clippy.jpg",
             "url": "https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy"
+        }
+    ],
+    "dynamorio": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dynamorio/http%253A%252F%252Fwww.dynamorio.org%252F.jpg",
+            "url": "http://www.dynamorio.org/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dynamorio/https%253A%252F%252Fgithub.com%252FDynamoRIO%252Fdynamorio.jpg",
+            "url": "https://github.com/DynamoRIO/dynamorio"
+        }
+    ],
+    "dynapyt": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dynapyt/https%253A%252F%252Fgithub.com%252Fsola-st%252FDynaPyt.jpg",
+            "url": "https://github.com/sola-st/DynaPyt"
         }
     ],
     "easycodingstandard": [
@@ -2419,6 +2501,12 @@
             "url": "https://github.com/steveicarus/iverilog"
         }
     ],
+    "icontract": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/icontract/https%253A%252F%252Fgithub.com%252FParquery%252Ficontract.jpg",
+            "url": "https://github.com/Parquery/icontract"
+        }
+    ],
     "ida-free": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ida-free/https%253A%252F%252Fwww.hex-rays.com%252Fproducts%252Fida%252Fsupport%252Fdownload_freeware.jpg",
@@ -2481,10 +2569,22 @@
             "url": "https://github.com/mvdan/interfacer"
         }
     ],
+    "iroh-js": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/iroh-js/https%253A%252F%252Fgithub.com%252Fmaierfelix%252FIroh.jpg",
+            "url": "https://github.com/maierfelix/Iroh"
+        }
+    ],
     "jakstab": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jakstab/https%253A%252F%252Fgithub.com%252Fjkinder%252Fjakstab.jpg",
             "url": "https://github.com/jkinder/jakstab"
+        }
+    ],
+    "jalangi2": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jalangi2/https%253A%252F%252Fgithub.com%252FSamsung%252Fjalangi2.jpg",
+            "url": "https://github.com/Samsung/jalangi2"
         }
     ],
     "jarchitect": [
@@ -2495,6 +2595,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jarchitect/https%253A%252F%252Fwww.jarchitect.com.jpg",
             "url": "https://www.jarchitect.com"
+        }
+    ],
+    "java-pathfinder": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/java-pathfinder/https%253A%252F%252Fgithub.com%252Fjavapathfinder%252Fjpf-core.jpg",
+            "url": "https://github.com/javapathfinder/jpf-core"
         }
     ],
     "jbmc": [
@@ -2591,6 +2697,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/kiuwan/https%253A%252F%252Fwww.kiuwan.com%252Fpricing.jpg",
             "url": "https://www.kiuwan.com/pricing"
+        }
+    ],
+    "klee": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/klee/https%253A%252F%252Fgithub.com%252Fklee%252Fklee.jpg",
+            "url": "https://github.com/klee/klee"
         }
     ],
     "klint": [
@@ -2827,10 +2939,28 @@
             "url": "https://github.com/walle/lll"
         }
     ],
+    "llvm-clang-sanitizers": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/llvm-clang-sanitizers/https%253A%252F%252Fgithub.com%252Fgoogle%252Fsanitizers.jpg",
+            "url": "https://github.com/google/sanitizers"
+        }
+    ],
+    "llvm-propeller": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/llvm-propeller/https%253A%252F%252Fgithub.com%252Fgoogle%252Fllvm-propeller.jpg",
+            "url": "https://github.com/google/llvm-propeller"
+        }
+    ],
     "lockfile-lint": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/lockfile-lint/https%253A%252F%252Fgithub.com%252Flirantal%252Flockfile-lint.jpg",
             "url": "https://github.com/lirantal/lockfile-lint"
+        }
+    ],
+    "loom": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/loom/https%253A%252F%252Fgithub.com%252Ftokio-rs%252Floom.jpg",
+            "url": "https://github.com/tokio-rs/loom"
         }
     ],
     "luacheck": [
@@ -2957,10 +3087,22 @@
             "url": "https://github.com/metricfu/metric_fu"
         }
     ],
+    "microsoft-intellitest": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/microsoft-intellitest/https%253A%252F%252Fdocs.microsoft.com%252Fen-us%252Fvisualstudio%252Ftest%252Fintellitest-manual%252Fgetting-started%253Fview%253Dvs-2019.jpg",
+            "url": "https://docs.microsoft.com/en-us/visualstudio/test/intellitest-manual/getting-started?view=vs-2019"
+        }
+    ],
     "mirai": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mirai/https%253A%252F%252Fgithub.com%252Ffacebookexperimental%252FMIRAI.jpg",
             "url": "https://github.com/facebookexperimental/MIRAI"
+        }
+    ],
+    "miri": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/miri/https%253A%252F%252Fgithub.com%252Frust-lang%252Fmiri.jpg",
+            "url": "https://github.com/rust-lang/miri"
         }
     ],
     "misspell": [
@@ -3239,6 +3381,12 @@
             "url": "https://www.parasoft.com/"
         }
     ],
+    "parasoft-jtest": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/parasoft-jtest/https%253A%252F%252Fwww.parasoft.com%252Fproducts%252Fjtest.jpg",
+            "url": "https://www.parasoft.com/products/jtest"
+        }
+    ],
     "parker": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/parker/https%253A%252F%252Fgithub.com%252Fkatiefenn%252Fparker.jpg",
@@ -3321,6 +3469,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/perltidy/https%253A%252F%252Fperltidy.sourceforge.net%252F.jpg",
             "url": "https://perltidy.sourceforge.net/"
+        }
+    ],
+    "pex-and-moles": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pex-and-moles/https%253A%252F%252Fwww.microsoft.com%252Fen-us%252Fresearch%252Fproject%252Fpex-and-moles-isolation-and-white-box-unit-testing-for-net%252F.jpg",
+            "url": "https://www.microsoft.com/en-us/research/project/pex-and-moles-isolation-and-white-box-unit-testing-for-net/"
         }
     ],
     "pfff": [
@@ -3575,6 +3729,12 @@
             "url": "https://www.youtube.com/watch?v=OiS2xGVWEa0"
         }
     ],
+    "pin-tools": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pin-tools/https%253A%252F%252Fsoftware.intel.com%252Fen-us%252Farticles%252Fpin-a-dynamic-binary-instrumentation-tool.jpg",
+            "url": "https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool"
+        }
+    ],
     "plato": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/plato/https%253A%252F%252Fgithub.com%252Fes-analysis%252Fplato.jpg",
@@ -3725,6 +3885,20 @@
             "url": "https://github.com/yoheimuta/protolint"
         }
     ],
+    "prowler": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prowler/https%253A%252F%252Fgithub.com%252Fprowler-cloud%252Fprowler.jpg",
+            "url": "https://github.com/prowler-cloud/prowler"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prowler/https%253A%252F%252Fprowler.pro.jpg",
+            "url": "https://prowler.pro"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prowler/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DOo5e45NCKFw.jpg",
+            "url": "https://www.youtube.com/watch?v=Oo5e45NCKFw"
+        }
+    ],
     "prusti": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/prusti/https%253A%252F%252Fgithub.com%252Fviperproject%252Fprusti-dev.jpg",
@@ -3763,6 +3937,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pt-pm/https%253A%252F%252Fgithub.com%252FPositiveTechnologies%252FPT.PM.jpg",
             "url": "https://github.com/PositiveTechnologies/PT.PM"
+        }
+    ],
+    "puffin": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/puffin/https%253A%252F%252Fgithub.com%252FEmbarkStudios%252Fpuffin.jpg",
+            "url": "https://github.com/EmbarkStudios/puffin"
         }
     ],
     "pullrequest": [
@@ -4333,6 +4513,12 @@
             "url": "https://github.com/rust-lang-nursery/rls"
         }
     ],
+    "rust-san": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rust-san/https%253A%252F%252Fgithub.com%252Fjaparic%252Frust-san.jpg",
+            "url": "https://github.com/japaric/rust-san"
+        }
+    ],
     "rustfix": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rustfix/https%253A%252F%252Fgithub.com%252Frust-lang%252Frustfix.jpg",
@@ -4391,6 +4577,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scalastyle/https%253A%252F%252Fgithub.com%252Fscalastyle%252Fscalastyle.jpg",
             "url": "https://github.com/scalastyle/scalastyle"
+        }
+    ],
+    "scalene": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scalene/https%253A%252F%252Fgithub.com%252Femeryberger%252Fscalene.jpg",
+            "url": "https://github.com/emeryberger/scalene"
         }
     ],
     "scan-build": [
@@ -4597,6 +4789,12 @@
             "url": "https://github.com/trailofbits/slither"
         }
     ],
+    "smartbear": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/smartbear/https%253A%252F%252Fsmartbear.com%252F.jpg",
+            "url": "https://smartbear.com/"
+        }
+    ],
     "snyk": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/snyk/https%253A%252F%252Fsnyk.io.jpg",
@@ -4715,6 +4913,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/soto-platform/https%253A%252F%252Fwww.hello2morrow.com%252Fproducts%252Fsotograph.jpg",
             "url": "https://www.hello2morrow.com/products/sotograph"
+        }
+    ],
+    "souper": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/souper/https%253A%252F%252Fgithub.com%252Fgoogle%252Fsouper.jpg",
+            "url": "https://github.com/google/souper"
         }
     ],
     "sourcemeter": [
@@ -4890,6 +5094,12 @@
             "url": "https://github.com/nerdypepper/statix"
         }
     ],
+    "statsviz": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/statsviz/https%253A%252F%252Fgithub.com%252Farl%252Fstatsviz.jpg",
+            "url": "https://github.com/arl/statsviz"
+        }
+    ],
     "stc": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stc/https%253A%252F%252Fgithub.com%252Fdudykr%252Fstc.jpg",
@@ -4924,6 +5134,12 @@
             "url": "https://github.com/orijtech/structslop"
         }
     ],
+    "stuck": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stuck/https%253A%252F%252Fgithub.com%252Fjonhoo%252Fstuck.jpg",
+            "url": "https://github.com/jonhoo/stuck"
+        }
+    ],
     "stylelint": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stylelint/http%253A%252F%252Fstylelint.io.jpg",
@@ -4952,6 +5168,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/super-linter/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBCrtoZ04L1Y.jpg",
             "url": "https://www.youtube.com/watch?v=BCrtoZ04L1Y"
+        }
+    ],
+    "suture": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/suture/https%253A%252F%252Fgithub.com%252Ftestdouble%252Fsuture.jpg",
+            "url": "https://github.com/testdouble/suture"
         }
     ],
     "svace": [
@@ -4998,6 +5220,16 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/swiftlint/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D4YQ6DJ-xovY.jpg",
             "url": "https://www.youtube.com/watch?v=4YQ6DJ-xovY"
+        }
+    ],
+    "sydr": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sydr/https%253A%252F%252Fsydr-fuzz.github.io%252F.jpg",
+            "url": "https://sydr-fuzz.github.io/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sydr/https%253A%252F%252Fwww.ispras.ru%252Fconf%252F2020%252Fvideo%252Fcompiler-technology-11-december.mp4%2523t%253D6021.jpg",
+            "url": "https://www.ispras.ru/conf/2020/video/compiler-technology-11-december.mp4#t=6021"
         }
     ],
     "symfony-insight": [
@@ -5136,10 +5368,26 @@
             "url": "https://github.com/deepfence/ThreatMapper"
         }
     ],
+    "tis-interpreter": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/tis-interpreter/https%253A%252F%252Fgithub.com%252FTrustInSoft%252Ftis-interpreter.jpg",
+            "url": "https://github.com/TrustInSoft/tis-interpreter"
+        }
+    ],
     "todocheck": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/todocheck/https%253A%252F%252Fgithub.com%252Fpreslavmihaylov%252Ftodocheck.jpg",
             "url": "https://github.com/preslavmihaylov/todocheck"
+        }
+    ],
+    "triton": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/triton/https%253A%252F%252Fgithub.com%252FJonathanSalwan%252FTriton.jpg",
+            "url": "https://github.com/JonathanSalwan/Triton"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/triton/https%253A%252F%252Ftriton.quarkslab.com%252F.jpg",
+            "url": "https://triton.quarkslab.com/"
         }
     ],
     "trivy": [
@@ -5300,6 +5548,12 @@
             "url": "https://typl.dev"
         }
     ],
+    "typo": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/typo/https%253A%252F%252Fgithub.com%252Faldanor%252Ftypo.jpg",
+            "url": "https://github.com/aldanor/typo"
+        }
+    ],
     "unconvert": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/unconvert/https%253A%252F%252Fgithub.com%252Fmdempsky%252Funconvert.jpg",
@@ -5384,10 +5638,26 @@
             "url": "https://github.com/errata-ai/vale"
         }
     ],
+    "valgrind": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/valgrind/https%253A%252F%252Fsourceware.org%252Fgit%252F%253Fp%253Dvalgrind.git.jpg",
+            "url": "https://sourceware.org/git/?p=valgrind.git"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/valgrind/https%253A%252F%252Fvalgrind.org%252F.jpg",
+            "url": "https://valgrind.org/"
+        }
+    ],
     "varcheck": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/varcheck/https%253A%252F%252Fgitlab.com%252Fopennota%252Fcheck.jpg",
             "url": "https://gitlab.com/opennota/check"
+        }
+    ],
+    "vb-watch": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/vb-watch/https%253A%252F%252Fwww.aivosto.com%252Fvbwatch.html.jpg",
+            "url": "https://www.aivosto.com/vbwatch.html"
         }
     ],
     "vera": [
@@ -5542,6 +5812,12 @@
             "url": "https://www.wartremover.org"
         }
     ],
+    "wasabi": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wasabi/https%253A%252F%252Fgithub.com%252Fdanleh%252Fwasabi.jpg",
+            "url": "https://github.com/danleh/wasabi"
+        }
+    ],
     "weeder": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/weeder/https%253A%252F%252Fgithub.com%252Focharles%252Fweeder.jpg",
@@ -5568,6 +5844,12 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/whitehat-application-security-platform/https%253A%252F%252Fwww.whitehatsec.com%252Fplatform%252Fstatic-application-security-testing.jpg",
             "url": "https://www.whitehatsec.com/platform/static-application-security-testing"
+        }
+    ],
+    "whitehat-sentinel-dynamic": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/whitehat-sentinel-dynamic/https%253A%252F%252Fwww.synopsys.com%252Fsoftware-integrity%252Fsecurity-testing%252Fdast.html.jpg",
+            "url": "https://www.synopsys.com/software-integrity/security-testing/dast.html"
         }
     ],
     "wily": [
