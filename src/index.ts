@@ -52,14 +52,52 @@ const SCREENSHOT_OPTIONS = {
   ],
 };
 
-const TOOLS_JSON_FILE =
+const STATIC_TOOLS_JSON_FILE =
   "https://raw.githubusercontent.com/analysis-tools-dev/static-analysis/master/data/api/tools.json";
+
+const DYNAMIC_TOOLS_JSON_FILE =
+  "https://raw.githubusercontent.com/analysis-tools-dev/dynamic-analysis/master/data/api/tools.json";
 
 const limiter = new Bottleneck({
   maxConcurrent: 4,
   minTime: 500,
 });
 const throttledScreenshot = limiter.wrap(captureWebsite.file);
+
+export interface ToolsApiData {
+  [key: string]: ApiTool;
+}
+
+export interface ToolPricePlan {
+  free: boolean;
+  oss: boolean;
+}
+
+export interface ToolResource {
+  title: string;
+  url: string;
+}
+
+export interface ApiTool {
+  name: string;
+  categories: string[];
+  languages: string[];
+  other: string[];
+  licenses: string[];
+  types: string[];
+  homepage: string;
+  source: string | null;
+  pricing: string | null;
+  plans: ToolPricePlan | null;
+  description: string | null;
+  discussion: string | null;
+  deprecated: boolean | null;
+  resources: ToolResource[] | null;
+  wrapper: string | null;
+  votes: number;
+  upVotes?: number;
+  downVotes?: number;
+}
 
 export const isGithubRepo = (url: string) => {
   const regex = /https:\/\/github.com\/[a-zA-Z0-9-]+\/[a-zA-Z0-9-]+\/?$/;
@@ -87,7 +125,7 @@ const youtubeThumbnail = async (url: string) => {
 };
 
 // Fetch all screenshot URLs for tool
-const collectUrls = (tool: any) => {
+const collectUrls = (tool: ApiTool) => {
   const urls = [tool["homepage"]];
   if (tool["source"] && tool["source"] !== tool["homepage"]) {
     urls.push(tool["source"]);
@@ -105,6 +143,17 @@ const collectUrls = (tool: any) => {
 const isFresh = (outPath: string) => {
   const fileAge = new Date().getTime() - fs.statSync(outPath).mtime.getTime();
   return fileAge < MAX_AGE;
+};
+
+const getTools = async (): Promise<ToolsApiData> => {
+  const staticResponse = await fetch(STATIC_TOOLS_JSON_FILE);
+  const staticTools = (await staticResponse.json()) as ToolsApiData;
+
+  const dynamicResponse = await fetch(DYNAMIC_TOOLS_JSON_FILE);
+  const dynamicTools = (await dynamicResponse.json()) as ToolsApiData;
+
+  // Merge static and dynamic tools
+  return { ...staticTools, ...dynamicTools };
 };
 
 // Take screenshot of all URLs
@@ -148,13 +197,12 @@ const fetchScreenshots = async (urls: string[], outDir: string) => {
   }
 };
 
-const response = await fetch(TOOLS_JSON_FILE);
-const json: any = await response.json();
+const tools: ToolsApiData = await getTools();
 
-for (const tool in json) {
+for (const tool in tools) {
   const outDir = `screenshots/${tool}/`;
   fs.mkdirSync(outDir, { recursive: true });
 
-  const urls = collectUrls(json[tool]);
+  const urls = collectUrls(tools[tool]);
   fetchScreenshots(urls, outDir);
 }
