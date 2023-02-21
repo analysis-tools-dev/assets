@@ -67,6 +67,12 @@
             "url": "https://gitlab.com/opennota/check"
         }
     ],
+    "allocscope": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/allocscope/https%253A%252F%252Fgithub.com%252Fmatt-kimball%252Fallocscope.jpg",
+            "url": "https://github.com/matt-kimball/allocscope"
+        }
+    ],
     "alquitran": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/alquitran/https%253A%252F%252Fgithub.com%252Fferivoz%252Falquitran.jpg",
