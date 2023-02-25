@@ -1591,6 +1591,16 @@
             "url": "https://github.com/garethr/docker-label-inspector"
         }
     ],
+    "dodgy": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dodgy/https%253A%252F%252Fgithub.com%252Flandscapeio%252Fdodgy.jpg",
+            "url": "https://github.com/landscapeio/dodgy"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dodgy/https%253A%252F%252Fsmirnov-am.github.io%252Fpython-linters-for-better-code-quality%252F.jpg",
+            "url": "https://smirnov-am.github.io/python-linters-for-better-code-quality/"
+        }
+    ],
     "dogsled": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/dogsled/https%253A%252F%252Fgithub.com%252Falexkohler%252Fdogsled.jpg",
@@ -3339,6 +3349,12 @@
             "url": "https://www.open-scap.org/"
         }
     ],
+    "openstaticanalyzer": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/openstaticanalyzer/https%253A%252F%252Fgithub.com%252Fsed-inf-u-szeged%252FOpenStaticAnalyzer.jpg",
+            "url": "https://github.com/sed-inf-u-szeged/OpenStaticAnalyzer"
+        }
+    ],
     "oversecured": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/oversecured/https%253A%252F%252Foversecured.com%252Fpricing.jpg",
@@ -4143,6 +4159,20 @@
             "url": "https://google.github.io/pytype"
         }
     ],
+    "pyupgrade": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyupgrade/https%253A%252F%252Fgithub.com%252Fasottile%252Fpyupgrade.jpg",
+            "url": "https://github.com/asottile/pyupgrade"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyupgrade/https%253A%252F%252Finventwithpython.com%252Fblog%252F2022%252F11%252F19%252Fpython-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe%252F.jpg",
+            "url": "https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/pyupgrade/https%253A%252F%252Fpypi.org%252Fproject%252Fpyupgrade-docs%252F.jpg",
+            "url": "https://pypi.org/project/pyupgrade-docs/"
+        }
+    ],
     "qafoo-quality-analyzer": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/qafoo-quality-analyzer/https%253A%252F%252Fgithub.com%252FQafoo%252FQualityAnalyzer.jpg",
@@ -4541,6 +4571,16 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/rustviz/https%253A%252F%252Fgithub.com%252Frustviz%252Frustviz.jpg",
             "url": "https://github.com/rustviz/rustviz"
+        }
+    ],
+    "safeql": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/safeql/https%253A%252F%252Fgithub.com%252Fts-safeql%252Fsafeql.jpg",
+            "url": "https://github.com/ts-safeql/safeql"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/safeql/https%253A%252F%252Fsafeql.dev.jpg",
+            "url": "https://safeql.dev"
         }
     ],
     "safesql": [
