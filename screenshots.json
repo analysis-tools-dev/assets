@@ -247,6 +247,12 @@
             "url": "https://huacnlee.github.io/autocorrect"
         }
     ],
+    "autoflake": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/autoflake/https%253A%252F%252Fgithub.com%252FPyCQA%252Fautoflake.jpg",
+            "url": "https://github.com/PyCQA/autoflake"
+        }
+    ],
     "autopep8": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/autopep8/https%253A%252F%252Fgithub.com%252Fhhatto%252Fautopep8.jpg",
