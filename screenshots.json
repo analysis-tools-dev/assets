@@ -509,6 +509,12 @@
             "url": "https://github.com/iomentum/cargo-breaking"
         }
     ],
+    "cargo-call-stack": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-call-stack/https%253A%252F%252Fgithub.com%252Fjaparic%252Fcargo-call-stack.jpg",
+            "url": "https://github.com/japaric/cargo-call-stack"
+        }
+    ],
     "cargo-careful": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cargo-careful/https%253A%252F%252Fgithub.com%252FRalfJung%252Fcargo-careful.jpg",
@@ -1381,6 +1387,16 @@
             "url": "https://github.com/astro/deadnix"
         }
     ],
+    "deal": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deal/https%253A%252F%252Fdeal.readthedocs.io%252F.jpg",
+            "url": "https://deal.readthedocs.io/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deal/https%253A%252F%252Fgithub.com%252Flife4%252Fdeal.jpg",
+            "url": "https://github.com/life4/deal"
+        }
+    ],
     "deepcode": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/deepcode/https%253A%252F%252Fwww.deepcode.ai.jpg",
@@ -1861,6 +1877,16 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/exakat/https%253A%252F%252Fwww.exakat.io.jpg",
             "url": "https://www.exakat.io"
+        }
+    ],
+    "ezno": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ezno/https%253A%252F%252Fgithub.com%252Fkaleidawave%252Fezno.jpg",
+            "url": "https://github.com/kaleidawave/ezno"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ezno/https%253A%252F%252Fkaleidawave.github.io%252Fposts%252Fintroducing-ezno%252F.jpg",
+            "url": "https://kaleidawave.github.io/posts/introducing-ezno/"
         }
     ],
     "fasterer": [
@@ -2749,6 +2775,12 @@
             "url": "https://github.com/ediardo/kmdr-cli"
         }
     ],
+    "krane": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/krane/https%253A%252F%252Fgithub.com%252Fappvia%252Fkrane.jpg",
+            "url": "https://github.com/appvia/krane"
+        }
+    ],
     "ktfmt": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktfmt/https%253A%252F%252Ffacebook.github.io%252Fktfmt%252F.jpg",
@@ -3029,10 +3061,30 @@
             "url": "https://github.com/JusticeRage/Manalyze"
         }
     ],
+    "mariana-trench": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mariana-trench/https%253A%252F%252Fgithub.com%252Ffacebook%252Fmariana-trench.jpg",
+            "url": "https://github.com/facebook/mariana-trench"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mariana-trench/https%253A%252F%252Fmariana-tren.ch%252F.jpg",
+            "url": "https://mariana-tren.ch/"
+        }
+    ],
     "markdownlint": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/markdownlint/https%253A%252F%252Fgithub.com%252FDavidAnson%252Fmarkdownlint.jpg",
             "url": "https://github.com/DavidAnson/markdownlint"
+        }
+    ],
+    "mate": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mate/https%253A%252F%252Fgaloisinc.github.io%252FMATE%252F.jpg",
+            "url": "https://galoisinc.github.io/MATE/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mate/https%253A%252F%252Fgithub.com%252FGaloisInc%252FMATE.jpg",
+            "url": "https://github.com/GaloisInc/MATE"
         }
     ],
     "mccabe": [
@@ -4315,6 +4367,12 @@
             "url": "https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio"
         }
     ],
+    "reflection": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/reflection/https%253A%252F%252Fgithub.com%252FphpDocumentor%252FReflection.jpg",
+            "url": "https://github.com/phpDocumentor/Reflection"
+        }
+    ],
     "refurb": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/refurb/https%253A%252F%252Fgithub.com%252Fdosisod%252Frefurb.jpg",
@@ -5160,6 +5218,16 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/stc/https%253A%252F%252Fstc.dudy.dev.jpg",
             "url": "https://stc.dudy.dev"
+        }
+    ],
+    "steady": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/steady/https%253A%252F%252Feclipse.github.io%252Fsteady%252F.jpg",
+            "url": "https://eclipse.github.io/steady/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/steady/https%253A%252F%252Fgithub.com%252Feclipse%252Fsteady.jpg",
+            "url": "https://github.com/eclipse/steady"
         }
     ],
     "steep": [
