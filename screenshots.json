@@ -717,6 +717,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clang-tidy/http%253A%252F%252Fclang.llvm.org%252Fextra%252Fclang-tidy.jpg",
             "url": "http://clang.llvm.org/extra/clang-tidy"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/clang-tidy/https%253A%252F%252Fclang.llvm.org%252Fextra%252Fclang-tidy.jpg",
+            "url": "https://clang.llvm.org/extra/clang-tidy"
         }
     ],
     "classgraph": [
@@ -843,6 +847,10 @@
             "url": "http://code-cracker.github.io"
         },
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-cracker/https%253A%252F%252Fcode-cracker.github.io.jpg",
+            "url": "https://code-cracker.github.io"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/code-cracker/https%253A%252F%252Fgithub.com%252Fcode-cracker%252Fcode-cracker.jpg",
             "url": "https://github.com/code-cracker/code-cracker"
         }
@@ -881,6 +889,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeburner/https%253A%252F%252Fgithub.com%252Fgroupon%252Fcodeburner.jpg",
             "url": "https://github.com/groupon/codeburner"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codeburner/https%253A%252F%252Fgroupon.github.io%252Fcodeburner.jpg",
+            "url": "https://groupon.github.io/codeburner"
         }
     ],
     "codechecker": [
@@ -975,6 +987,14 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/http%253A%252F%252Fwww.adacore.com%252Fpricing.jpg",
             "url": "http://www.adacore.com/pricing"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/https%253A%252F%252Fwww.adacore.com%252Fpricing.jpg",
+            "url": "https://www.adacore.com/pricing"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/https%253A%252F%252Fwww.adacore.com%252Fstatic-analysis%252Fcodepeer.jpg",
+            "url": "https://www.adacore.com/static-analysis/codepeer"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/codepeer/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D8837TUpLLMo.jpg",
@@ -1218,6 +1238,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppcheck/http%253A%252F%252Fcppcheck.sourceforge.net.jpg",
             "url": "http://cppcheck.sourceforge.net"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppcheck/https%253A%252F%252Fcppcheck.sourceforge.io.jpg",
+            "url": "https://cppcheck.sourceforge.io"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/cppcheck/https%253A%252F%252Fgithub.com%252Fdanmar%252Fcppcheck.jpg",
@@ -1731,6 +1755,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/electrolysis/https%253A%252F%252Fgithub.com%252FKha%252Felectrolysis.jpg",
             "url": "https://github.com/Kha/electrolysis"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/electrolysis/https%253A%252F%252Fkha.github.io%252Felectrolysis.jpg",
+            "url": "https://kha.github.io/electrolysis"
         }
     ],
     "elm-analyse": [
@@ -2059,6 +2087,14 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/frama-c/http%253A%252F%252Fframa-c.com.jpg",
             "url": "http://frama-c.com"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/frama-c/https%253A%252F%252Fwww.frama-c.com%252Fhtml%252Fget-frama-c.html.jpg",
+            "url": "https://www.frama-c.com/html/get-frama-c.html"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/frama-c/https%253A%252F%252Fwww.frama-c.com.jpg",
+            "url": "https://www.frama-c.com"
         }
     ],
     "frink": [
@@ -2071,6 +2107,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fsharplint/http%253A%252F%252Ffsprojects.github.io%252FFSharpLint.jpg",
             "url": "http://fsprojects.github.io/FSharpLint"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fsharplint/https%253A%252F%252Ffsprojects.github.io%252FFSharpLint.jpg",
+            "url": "https://fsprojects.github.io/FSharpLint"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/fsharplint/https%253A%252F%252Fgithub.com%252Ffsprojects%252FFSharpLint.jpg",
@@ -2287,6 +2327,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goodpractice/https%253A%252F%252Fgithub.com%252Fmangothecat%252Fgoodpractice.jpg",
             "url": "https://github.com/mangothecat/goodpractice"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/goodpractice/https%253A%252F%252Fmangothecat.github.io%252Fgoodpractice.jpg",
+            "url": "https://mangothecat.github.io/goodpractice"
         }
     ],
     "google-java-format": [
@@ -2401,6 +2445,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/haxe-checkstyle/https%253A%252F%252Fgithub.com%252FHaxeCheckstyle%252Fhaxe-checkstyle.jpg",
             "url": "https://github.com/HaxeCheckstyle/haxe-checkstyle"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/haxe-checkstyle/https%253A%252F%252Fhaxecheckstyle.github.io%252Fdocs%252Fhaxe-checkstyle%252Fhome.html.jpg",
+            "url": "https://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html"
         }
     ],
     "hcl-appscan-source": [
@@ -2721,6 +2769,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jsprime/http%253A%252F%252Fdpnishant.github.io%252Fjsprime.jpg",
             "url": "http://dpnishant.github.io/jsprime"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jsprime/https%253A%252F%252Fdpnishant.github.io%252Fjsprime.jpg",
+            "url": "https://dpnishant.github.io/jsprime"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/jsprime/https%253A%252F%252Fgithub.com%252Fdpnishant%252Fjsprime.jpg",
@@ -3215,6 +3267,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mondrian/https%253A%252F%252Fgithub.com%252FTrismegiste%252FMondrian.jpg",
             "url": "https://github.com/Trismegiste/Mondrian"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/mondrian/https%253A%252F%252Ftrismegiste.github.io%252FMondrian.jpg",
+            "url": "https://trismegiste.github.io/Mondrian"
         }
     ],
     "multilint": [
@@ -3653,6 +3709,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-refactoring-browser/https%253A%252F%252Fgithub.com%252FQafooLabs%252Fphp-refactoring-browser.jpg",
             "url": "https://github.com/QafooLabs/php-refactoring-browser"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/php-refactoring-browser/https%253A%252F%252Fqafoolabs.github.io%252Fphp-refactoring-browser.jpg",
+            "url": "https://qafoolabs.github.io/php-refactoring-browser"
         }
     ],
     "php-semantic-versioning-checker": [
@@ -4427,6 +4487,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/retire-js/https%253A%252F%252Fgithub.com%252FRetireJS%252Fretire.js.jpg",
             "url": "https://github.com/RetireJS/retire.js"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/retire-js/https%253A%252F%252Fretirejs.github.io%252Fretire.js.jpg",
+            "url": "https://retirejs.github.io/retire.js"
         }
     ],
     "reviewdog": [
@@ -5089,6 +5153,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spoon/https%253A%252F%252Fgithub.com%252FINRIA%252Fspoon.jpg",
             "url": "https://github.com/INRIA/spoon"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/spoon/https%253A%252F%252Fspoon.gforge.inria.fr.jpg",
+            "url": "https://spoon.gforge.inria.fr"
         }
     ],
     "spotbugs": [
@@ -5310,6 +5378,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/svf/https%253A%252F%252Fgithub.com%252FSVF-tools%252FSVF.jpg",
             "url": "https://github.com/SVF-tools/SVF"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/svf/https%253A%252F%252Fsvf-tools.github.io%252FSVF.jpg",
+            "url": "https://svf-tools.github.io/SVF"
         }
     ],
     "svls": [
@@ -5458,6 +5530,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/test/http%253A%252F%252Fgolang.org%252Fpkg%252Ftesting.jpg",
             "url": "http://golang.org/pkg/testing"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/test/https%253A%252F%252Fpkg.go.dev%252Ftesting.jpg",
+            "url": "https://pkg.go.dev/testing"
         }
     ],
     "texlab": [
@@ -5796,6 +5872,10 @@
             "url": "http://www.veracode.com/products/static-analysis-sast/static-code-analysis"
         },
         {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/veracode/https%253A%252F%252Fwww.veracode.com%252Fsecurity%252Fstatic-code-analysis.jpg",
+            "url": "https://www.veracode.com/security/static-code-analysis"
+        },
+        {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/veracode/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D6Fq_UMgwX4I.jpg",
             "url": "https://www.youtube.com/watch?v=6Fq_UMgwX4I"
         },
@@ -5910,6 +5990,10 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wap/http%253A%252F%252Fawap.sourceforge.net%252Findex.html.jpg",
             "url": "http://awap.sourceforge.net/index.html"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wap/https%253A%252F%252Fawap.sourceforge.io.jpg",
+            "url": "https://awap.sourceforge.io"
         },
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/wap/https%253A%252F%252Fsecurityonline.info%252Fowasp-wap-web-application-protection-project.jpg",
