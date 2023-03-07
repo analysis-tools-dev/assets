@@ -4743,6 +4743,16 @@
             "url": "https://github.com/sasstools/sass-lint"
         }
     ],
+    "sast-online": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sast-online/https%253A%252F%252Fsast.online%252F.jpg",
+            "url": "https://sast.online/"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/sast-online/https%253A%252F%252Fsast.online%252Fpricing.jpg",
+            "url": "https://sast.online/pricing"
+        }
+    ],
     "scalastyle": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/scalastyle/http%253A%252F%252Fwww.scalastyle.org.jpg",
