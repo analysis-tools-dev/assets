@@ -1583,6 +1583,16 @@
             "url": "https://www.youtube.com/watch?v=k4au7VioXNk"
         }
     ],
+    "diff-rs": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diff-rs/https%253A%252F%252Fdiff.rs.jpg",
+            "url": "https://diff.rs"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diff-rs/https%253A%252F%252Fgithub.com%252Fxfbs%252Fdiff.rs.jpg",
+            "url": "https://github.com/xfbs/diff.rs"
+        }
+    ],
     "diffblue": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/diffblue/https%253A%252F%252Fdocs.codecov.com%252Fdocs%252Fgithub-tutorial.jpg",
