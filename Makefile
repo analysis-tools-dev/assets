@@ -1,4 +1,4 @@
-.PHONY: json
-json:
-	@echo "Generating JSON file..."
+.PHONY: build
+build:
+	@echo "Uploading images and generating JSON file..."
 	php screenshots.php
