@@ -34,9 +34,8 @@ jobs:
       - name: Run
         run: node dist/index.js
 
-      # Use the screenshots.php script to generate the screenshots.json file
-      - name: Screenshots
-        run: php screenshots.php
+      - name: Upload images to CDN and generate JSON file
+        run: make build
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
