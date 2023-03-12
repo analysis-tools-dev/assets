@@ -25,7 +25,7 @@ jobs:
           cache: "npm"
           cache-dependency-path: package-lock.json
 
-      - name: Install dependencies
+      - name: Install Node dependencies
         run: npm ci
 
       - name: Build
@@ -34,8 +34,14 @@ jobs:
       - name: Run
         run: node dist/index.js
 
+      - name: Install PHP dependencies
+        uses: php-actions/composer@v6
+
       - name: Upload images to CDN and generate JSON file
         run: make build
+        env:
+          IMAGEKIT_PUBLIC_KEY: ${{ secrets.IMAGEKIT_PUBLIC_KEY }}
+          IMAGEKIT_PRIVATE_KEY: ${{ secrets.IMAGEKIT_PRIVATE_KEY }}
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:

@@ -4,3 +4,5 @@ dist
 .vscode
 src/*.js
 tsconfig.build.tsbuildinfo
+.env
+vendor
