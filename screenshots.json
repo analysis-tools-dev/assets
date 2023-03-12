@@ -2511,6 +2511,12 @@
             "url": "https://github.com/ndmitchell/hlint"
         }
     ],
+    "holistic": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/holistic/https%253A%252F%252Fholistic.dev%252F.jpg",
+            "url": "https://holistic.dev/"
+        }
+    ],
     "hopper": [
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/hopper/https%253A%252F%252Fgithub.com%252Fcuplv%252Fhopper.jpg",
@@ -2861,6 +2867,16 @@
         {
             "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktlint/https%253A%252F%252Fktlint.github.io.jpg",
             "url": "https://ktlint.github.io"
+        }
+    ],
+    "ktool": [
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktool/https%253A%252F%252Fgithub.com%252Fcxnder%252Fktool.jpg",
+            "url": "https://github.com/cxnder/ktool"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/analysis-tools-dev/assets/master/screenshots/ktool/https%253A%252F%252Fktool.cynder.me%252Fen%252Flatest%252Fktool.html.jpg",
+            "url": "https://ktool.cynder.me/en/latest/ktool.html"
         }
     ],
     "kube-hunter": [
