@@ -62,10 +62,12 @@ foreach ($tools as $tool) {
             continue;
         }
 
+        $fileName = $tool . '/' . $screenshot;
+
         echo "Uploading file to ImageKit" . PHP_EOL;
         $response = $uploadFile = $imageKit->uploadFile([
             'file' => $encodedImageData,
-            'fileName' => $tool . '/' . $screenshot
+            'fileName' => $fileName
         ]);
 
         if ($response->error) {
@@ -76,9 +78,15 @@ foreach ($tools as $tool) {
         // Get CDN image URL
         $path = $response->result->url;
 
+        if (!$path || $path === '') {
+            echo "Error getting CDN image URL for $fileName" . PHP_EOL;
+            continue;
+        }
+
         // Get the last part of the path (the filename), remove the extension
         // and urldecode it to get the website URL of the tool.
         $url = urldecode(pathinfo($screenshot, PATHINFO_FILENAME));
+
 
         // Add screenshot to JSON object
         $json[$tool][] = array(
