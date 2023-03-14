@@ -41,9 +41,10 @@ foreach ($tools as $tool) {
 
         // Check if `$screenshotPath` was changed since yesterday
         $lastModified = filemtime($screenshotPath);
-        $yesterday = strtotime('yesterday');
+        $yesterday = time() - (60 * 60 * 24);
+
         if ($lastModified < $yesterday) {
-            echo "Screenshot was not changed since yesterday. Skipping" . PHP_EOL;
+            echo "Screenshot was not changed recently. Skipping" . PHP_EOL;
             continue;
         }
 
