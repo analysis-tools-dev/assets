@@ -39,11 +39,11 @@ foreach ($tools as $tool) {
         $screenshotPath = 'screenshots/' . $tool . '/' . $screenshot;
         echo "Handling $screenshotPath" . PHP_EOL;
 
-        // Check if `$screenshotPath` was changed since yesterday
-        $lastModified = filemtime($screenshotPath);
+        // Check if `$screenshotPath` was created since yesterday
+        $created  = filectime($screenshotPath);
         $yesterday = time() - (60 * 60 * 24);
 
-        if ($lastModified < $yesterday) {
+        if ($created < $yesterday) {
             echo "Screenshot was not changed recently. Skipping" . PHP_EOL;
             continue;
         }
