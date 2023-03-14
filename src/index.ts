@@ -49,6 +49,7 @@ const SCREENSHOT_OPTIONS = {
     "#gdpr-cookie-message", // rezilion.com
     "#hs-eu-cookie-confirmation", // diffblue.com
     ".cc-floating", // trust-in-soft.com
+    "#usercentrics-root", // usercentrics.com used by e.g. snyk.io
   ],
 };
 
