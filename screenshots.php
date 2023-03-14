@@ -43,12 +43,12 @@ foreach ($tools as $tool) {
         $created  = filectime($screenshotPath);
         $yesterday = time() - (60 * 60 * 24);
 
-        if ($created < $yesterday) {
+        if ($created > $yesterday) {
             echo "Screenshot was not changed recently. Skipping" . PHP_EOL;
             continue;
         }
 
-        echo "Uploading $screenshotPath. Changed " . date('Y-m-d H:i:s', $lastModified) . PHP_EOL;
+        echo "Uploading $screenshotPath. Changed " . date('Y-m-d H:i:s', $created) . PHP_EOL;
 
         // Load screenshot from disk
         $screenshotFile = file_get_contents($screenshotPath);
