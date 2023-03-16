@@ -32,7 +32,7 @@ $tools = array_values($tools);
 // Generate JSON object
 $json = array();
 foreach ($tools as $tool) {
-    $screenshots = array_diff(scandir('screenshots/' . $tool), array('..', '.'));
+    $screenshots = array_diff(scandir('screenshots/' . $tool), array('..', '.', '.DS_Store'));
     $screenshots = array_values($screenshots);
     $json[$tool] = array();
     foreach ($screenshots as $screenshot) {
