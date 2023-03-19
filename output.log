@@ -177,3 +177,64 @@ Skipping env variable PWD
 Skipping env variable HOME
 Skipping env variable SHLVL
 Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/analysis-tools-dev/assets/php-actions_composer_assets:php-latest-build2.1.0
+php-latest-build2.1.0: Pulling from analysis-tools-dev/assets/php-actions_composer_assets
+63b65145d645: Already exists
+e80fdb865a69: Pulling fs layer
+f4dbeadc75c1: Pulling fs layer
+257b31b3391b: Pulling fs layer
+29e346bcb759: Pulling fs layer
+de40f5bacc1b: Pulling fs layer
+fa433694c66f: Pulling fs layer
+d0b9749a0e49: Pulling fs layer
+46cd6428474b: Pulling fs layer
+2ae28027994f: Pulling fs layer
+d0b9749a0e49: Waiting
+29e346bcb759: Waiting
+de40f5bacc1b: Waiting
+fa433694c66f: Waiting
+46cd6428474b: Waiting
+2ae28027994f: Waiting
+f4dbeadc75c1: Verifying Checksum
+f4dbeadc75c1: Download complete
+257b31b3391b: Verifying Checksum
+257b31b3391b: Download complete
+e80fdb865a69: Verifying Checksum
+e80fdb865a69: Download complete
+de40f5bacc1b: Verifying Checksum
+de40f5bacc1b: Download complete
+e80fdb865a69: Pull complete
+f4dbeadc75c1: Pull complete
+fa433694c66f: Verifying Checksum
+fa433694c66f: Download complete
+257b31b3391b: Pull complete
+29e346bcb759: Verifying Checksum
+29e346bcb759: Download complete
+d0b9749a0e49: Verifying Checksum
+d0b9749a0e49: Download complete
+29e346bcb759: Pull complete
+de40f5bacc1b: Pull complete
+46cd6428474b: Verifying Checksum
+46cd6428474b: Download complete
+2ae28027994f: Verifying Checksum
+2ae28027994f: Download complete
+fa433694c66f: Pull complete
+d0b9749a0e49: Pull complete
+46cd6428474b: Pull complete
+2ae28027994f: Pull complete
+Digest: sha256:e83850bc3be07bf5c79734f8677c32118fb8575156424e9c79c6879f982cbc41
+Status: Downloaded newer image for docker.pkg.github.com/analysis-tools-dev/assets/php-actions_composer_assets:php-latest-build2.1.0
+docker.pkg.github.com/analysis-tools-dev/assets/php-actions_composer_assets:php-latest-build2.1.0
+Docker tag: docker.pkg.github.com/analysis-tools-dev/assets/php-actions_composer_assets:php-latest-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
