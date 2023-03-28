@@ -9,6 +9,8 @@ require_once('vendor/autoload.php');
 use ImageKit\ImageKit;
 use Dotenv\Dotenv;
 
+const SCREENSHOTS_JSON = 'screenshots.json';
+
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->safeLoad();
@@ -33,11 +35,17 @@ $tools = array_diff(scandir('screenshots'), array('..', '.', '.DS_Store'));
 $tools = array_values($tools);
 
 // Load existing screenshots.json file if exists
-if (file_exists('screenshots.json')) {
-    $json = json_decode(file_get_contents('screenshots.json'), true);
+if (file_exists(SCREENSHOTS_JSON)) {
+    $json = json_decode(file_get_contents(SCREENSHOTS_JSON), true);
+    $total = 0;
+    foreach ($json as $tool) {
+        $total += count($tool);
+    }
+    echo "Loaded $total screenshots from existing screenshots.json file." . PHP_EOL;
 } else {
     $json = array();
 }
+
 // Update screenshots.json file
 foreach ($tools as $tool) {
     $screenshots = array_diff(scandir('screenshots/' . $tool), array('..', '.', '.DS_Store'));
@@ -105,4 +113,4 @@ foreach ($tools as $tool) {
     }
 }
 
-file_put_contents('screenshots.json', json_encode($json, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
+file_put_contents(SCREENSHOTS_JSON, json_encode($json, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
