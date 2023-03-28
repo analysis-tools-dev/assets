@@ -50,7 +50,7 @@ if (file_exists(SCREENSHOTS_JSON)) {
 foreach ($tools as $tool) {
     $screenshots = array_diff(scandir('screenshots/' . $tool), array('..', '.', '.DS_Store'));
     $screenshots = array_values($screenshots);
-    $json[$tool] = array();
+    $newScreenshots = array();
     foreach ($screenshots as $screenshot) {
         $screenshotPath = 'screenshots/' . $tool . '/' . $screenshot;
         echo "Handling $screenshotPath" . PHP_EOL;
@@ -106,10 +106,15 @@ foreach ($tools as $tool) {
 
 
         // Add screenshot to JSON object
-        $json[$tool][] = array(
+        $newScreenshots[] = array(
             'path' => $path,
             'url' => $url
         );
+    }
+
+    if (count($newScreenshots) > 0) {
+        // Add only new screenshots to JSON object
+        $json[$tool] = array_merge($json[$tool] ?? [], $newScreenshots);
     }
 }
 
