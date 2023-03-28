@@ -43,8 +43,10 @@ jobs:
           IMAGEKIT_PUBLIC_KEY: ${{ secrets.IMAGEKIT_PUBLIC_KEY }}
           IMAGEKIT_PRIVATE_KEY: ${{ secrets.IMAGEKIT_PRIVATE_KEY }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit new screenshots
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          file_pattern: "screenshots"
           branch: ${{ github.head_ref }}
           commit_message: Commit new screenshots
           commit_user_name: Analysis Tools Bot

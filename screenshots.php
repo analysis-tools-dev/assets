@@ -19,6 +19,9 @@ if (!getenv('IMAGEKIT_PUBLIC_KEY') || !getenv('IMAGEKIT_PRIVATE_KEY')) {
     exit(1);
 }
 
+
+
+
 $imageKit = new ImageKit(
     getenv('IMAGEKIT_PUBLIC_KEY'),
     getenv('IMAGEKIT_PRIVATE_KEY'),
@@ -29,8 +32,13 @@ $imageKit = new ImageKit(
 $tools = array_diff(scandir('screenshots'), array('..', '.', '.DS_Store'));
 $tools = array_values($tools);
 
-// Generate JSON object
-$json = array();
+// Load existing screenshots.json file if exists
+if (file_exists('screenshots.json')) {
+    $json = json_decode(file_get_contents('screenshots.json'), true);
+} else {
+    $json = array();
+}
+// Update screenshots.json file
 foreach ($tools as $tool) {
     $screenshots = array_diff(scandir('screenshots/' . $tool), array('..', '.', '.DS_Store'));
     $screenshots = array_values($screenshots);

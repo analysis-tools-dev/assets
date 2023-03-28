@@ -6,3 +6,5 @@ src/*.js
 tsconfig.build.tsbuildinfo
 .env
 vendor
+DOCKER_ENV
+output.log
