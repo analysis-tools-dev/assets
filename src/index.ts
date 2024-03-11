@@ -72,6 +72,26 @@ const SCREENSHOT_OPTIONS = {
     ".cc-floating", // trust-in-soft.com
     "#usercentrics-root", // usercentrics.com used by e.g. snyk.io
     ".adroll_consent_container", // codeclimate.com
+    ".cky-overlay", // bugprove.com
+    ".cky-consent-container", // bugprove.com
+    ".cookiefirst-root", // claranet.com
+    ".cc-banner", // https://eclipse.dev/cognicrypt
+    ".onetrust-consent-sdk", // https://www.microfocus.com/en-us/cyberres/application-security
+    ".iubenda-cs-banner", // https://docs.gitguardian.com/
+    ".truste_box_overlay", // redhat
+    ".truste_overlay", // redhat
+    ".qc-cmp2-container", // mathworks.com
+    ".cmpboxBG", // sourceforge.net
+    ".cmpbox", // sourceforge.net 
+    ".personal-data-confirm", // https://pvs-studio.com/en/pvs-studio/
+    ".block-cookie-block", // https://www.hackerone.com/
+    ".jetbrains-cookies-banner", // https://www.jetbrains.com/
+    ".wt-cli-cookie-bar-container", // https://www.styra.com
+    ".gdprconsent-container", // https://engineering.fb.com/
+    ".q-cookie-consent__container q-cookie-consent__open", // https://www.qualys.com/
+    ".cookie-consent", // https://steampunk.si/spotter/
+    ".ch2-container", // https://smartbear.com/
+    ".md-consent" // https://unimport.hakancelik.dev/latest/
   ],
 };
 
@@ -200,7 +220,7 @@ const takeScreenshots = async (urls: string[], outDir: string) => {
     const outPath = getScreenshotPathFromUrl(outDir, url);
 
     if (fs.existsSync(outPath) && isFresh(outPath)) {
-      console.log(`Skipping screenshot for ${url} (is fresh)`);
+      console.log(`[FRESH] ${url}`);
       continue;
     }
 
@@ -209,7 +229,7 @@ const takeScreenshots = async (urls: string[], outDir: string) => {
       url,
     });
 
-    console.log(`Fetching screenshot for ${url} to ${outPath}`);
+    console.log(`[LOAD] Fetching screenshot for ${url} to ${outPath}`);
 
     // Youtube thumbnail URL
     const res = await youtubeThumbnail(url);
@@ -240,65 +260,76 @@ const takeScreenshots = async (urls: string[], outDir: string) => {
   return newScreenshots;
 };
 
-const uploadScreenshots = async (tools: string[]) => {
+// Upload screenshot to ImageKit
+//
+// Returns the URL of the uploaded image, or null if the upload failed
+const uploadScreenshotToImageKit = async (
+  screenshotPath: string,
+  fileName: string
+): Promise<string | null> => {
+  try {
+    const response = await imageKit.upload({
+      file: fs.readFileSync(screenshotPath), // Directly pass the file buffer
+      fileName: fileName,
+      useUniqueFileName: true,
+    });
+    return response.url;
+  } catch (error) {
+    console.error("Error uploading file to ImageKit:", error);
+    return null;
+  }
+};
+
+// Update screenshots.json file with new screenshots
+//
+// `tool` is the name of the tool
+// `newScreenshots` is an array of PathMapping objects (the new screenshots)
+const updateScreenshotsJson = async (
+  tool: string,
+  newScreenshots: PathMapping[]
+) => {
+  let json: { [key: string]: PathMapping[] } = {};
+
+  if (fs.existsSync(SCREENSHOTS_JSON)) {
+    json = JSON.parse(fs.readFileSync(SCREENSHOTS_JSON, "utf8"));
+  }
+
+  json[tool] = (json[tool] || []).concat(newScreenshots);
+
+  fs.writeFileSync(SCREENSHOTS_JSON, JSON.stringify(json, null, 2));
+};
+
+// Upload all screenshots to ImageKit and update screenshots.json
+//
+// This function iterates over all tools in the `screenshots` directory and
+// uploads all screenshots to ImageKit. It then updates the `screenshots.json`
+// file with the new URLs.
+const uploadScreenshots = async () => {
+  const tools = fs
+    .readdirSync("screenshots")
+    .filter((file) => !file.startsWith("."));
+
   for (const tool of tools) {
+    const screenshotsDir = path.join("screenshots", tool);
     const screenshots = fs
-      .readdirSync(path.join("screenshots", tool))
+      .readdirSync(screenshotsDir)
       .filter((file) => !file.startsWith("."));
 
     const newScreenshots: PathMapping[] = [];
 
     for (const screenshot of screenshots) {
-      const screenshotPath = path.join("screenshots", tool, screenshot);
-      console.log(`Handling ${screenshotPath}`);
+      const screenshotPath = path.join(screenshotsDir, screenshot);
+      console.log(`Uploading ${screenshotPath}...`);
 
-      const created = fs.statSync(screenshotPath).ctime.getTime();
-      const yesterday = Date.now() - 86400000;
+      const url = await uploadScreenshotToImageKit(screenshotPath, screenshot);
 
-      if (created <= yesterday) {
-        console.log("Screenshot was not changed recently. Skipping");
-        continue;
+      if (url) {
+        newScreenshots.push({ path: url, url: screenshot });
       }
+    }
 
-      console.log(
-        `Uploading ${screenshotPath}. Changed ${new Date(
-          created
-        ).toISOString()}`
-      );
-
-      // Load screenshot from disk
-      const screenshotFile = fs.readFileSync(screenshotPath);
-      const encodedImageData = screenshotFile.toString("base64");
-
-      const filePath = path.join(tool, screenshot);
-
-      console.log("Uploading file to ImageKit");
-      try {
-        const response = await imageKit.upload({
-          file: encodedImageData,
-          fileName: filePath,
-          folder: "/screenshots/",
-        });
-
-        console.log("ImageKit response:", response);
-
-        const url = response.url;
-
-        if (!url) {
-          console.error(`Error getting CDN image URL for ${filePath}`);
-          continue;
-        }
-
-        console.log(`Image uploaded to ${url}`);
-
-        // Add screenshot to JSON object
-        newScreenshots.push({
-          path: filePath,
-          url,
-        });
-      } catch (error) {
-        console.error("Error during ImageKit upload:", error);
-      }
+    if (newScreenshots.length > 0) {
+      await updateScreenshotsJson(tool, newScreenshots);
     }
   }
 };
@@ -322,8 +353,7 @@ export const generateScreenshotFile = async () => {
     );
   }
 
-  const screenshots = uploadScreenshots(tools);
-  fs.writeFileSync(SCREENSHOTS_JSON, JSON.stringify(screenshots, null, 2));
+  await uploadScreenshots();
 };
 
 console.log("Downloading tool files from GitHub");
@@ -336,7 +366,9 @@ for (const tool in tools) {
 
   const urls = collectUrls(tools[tool]);
   const newScreenshots = await takeScreenshots(urls, outDir);
-  console.log(`Took ${newScreenshots.length} new screenshots for ${tool}`);
+  console.log(
+    `[DONE] Took ${newScreenshots.length} new screenshots for ${tool}`
+  );
   console.log(
     newScreenshots
       .map((s) => `  - ${s.url} -> ${s.path}`)
