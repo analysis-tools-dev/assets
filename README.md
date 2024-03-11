@@ -40,7 +40,5 @@ Screenshots are created via a Github actions pipeline and some glue code.
 ## Usage
 
 ```
-npm ci
-npm run build
-node src/index.js
+npm run dev
 ```
