@@ -13,12 +13,15 @@ import path from "path";
 import dotenv from "dotenv";
 import ImageKit from "imagekit";
 import fetch from "node-fetch";
+import { Logger } from "tslog";
 
 dotenv.config();
 
+const logger = new Logger();
+
 // Ensure required environment variables are set
 if (!process.env.IMAGEKIT_PUBLIC_KEY || !process.env.IMAGEKIT_PRIVATE_KEY) {
-  console.error(
+  logger.error(
     "Please set the IMAGEKIT_PUBLIC_KEY and IMAGEKIT_PRIVATE_KEY environment variables."
   );
   process.exit(1);
@@ -40,7 +43,7 @@ const SCREENSHOT_OPTIONS = {
   scaleFactor: 1.0,
   type: "jpeg",
   quality: 0.95,
-  timeout: 30,
+  timeout: 5,
   waitUntil: "networkidle0", // Wait until network is idle
   overwrite: true,
   darkMode: true,
@@ -241,7 +244,7 @@ const downloadScreenshot = async (url: string, outPath: string) => {
       });
       return true;
     } catch (err) {
-      console.log(`[FAIL] Error fetching GitHub screenshot for ${url}: ${err}`);
+      logger.warn(`[FAIL] Error fetching GitHub screenshot for ${url}: ${err}`);
       return false;
     }
   }
@@ -251,7 +254,7 @@ const downloadScreenshot = async (url: string, outPath: string) => {
     await throttledScreenshot(url, outPath, SCREENSHOT_OPTIONS);
     return true;
   } catch (err) {
-    console.log(`[FAIL] Error fetching normal screenshot for ${url}: ${err}`);
+    logger.warn(`[FAIL] Error fetching normal screenshot for ${url}: ${err}`);
     return false;
   }
 };
@@ -264,11 +267,11 @@ const takeScreenshots = async (urls: string[], outDir: string) => {
     const screenshotFsPath = getScreenshotPathFromUrl(outDir, url);
 
     if (fs.existsSync(screenshotFsPath) && isFresh(screenshotFsPath)) {
-      console.log(`[SKIP] ${url}`);
+      logger.debug(`[SKIP] ${url}`);
       continue;
     }
 
-    console.log(`[LOAD] Fetching screenshot for ${url} to ${screenshotFsPath}`);
+    logger.debug(`[LOAD] ${url} (${screenshotFsPath})`);
     const success = await downloadScreenshot(url, screenshotFsPath);
     if (success) {
       newScreenshots.push({ path: screenshotFsPath, url });
@@ -293,7 +296,7 @@ const uploadScreenshotToImageKit = async (
     });
     return response.url;
   } catch (error) {
-    console.error("Error uploading file to ImageKit:", error);
+    logger.error("Error uploading file to ImageKit:", error);
     return null;
   }
 };
@@ -323,8 +326,6 @@ const updateScreenshotsJson = async (
   } else {
     json[tool] = newScreenshots;
   }
-
-  console.log(`Final JSON object before writing to file:`, json);
   fs.writeFileSync(SCREENSHOTS_JSON, JSON.stringify(json, null, 2));
 };
 
@@ -348,7 +349,7 @@ const uploadScreenshots = async () => {
 
     for (const screenshot of screenshots) {
       const screenshotPath = path.join(screenshotsDir, screenshot);
-      console.log(`[PUSH] Uploading ${screenshotPath}...`);
+      logger.info(`[PUSH] Uploading ${screenshotPath}...`);
 
       const imageKitUrl = await uploadScreenshotToImageKit(
         screenshotPath,
@@ -362,7 +363,7 @@ const uploadScreenshots = async () => {
     }
 
     if (newScreenshots.length > 0) {
-      console.log(`New screenshots for tool ${tool}:`, newScreenshots);
+      logger.debug(`New screenshots for tool ${tool}:`, newScreenshots);
       await updateScreenshotsJson(tool, newScreenshots);
     }
   }
@@ -375,14 +376,14 @@ export const generateScreenshotFile = async () => {
     .readdirSync("screenshots")
     .filter((file) => !file.startsWith("."));
 
-  console.log(`Found ${tools.length} tools with screenshots.`);
+  logger.debug(`Found ${tools.length} tools with screenshots.`);
 
   // Load existing screenshots.json file if exists
   let json: { [key: string]: PathMapping[] } = {};
   if (fs.existsSync(SCREENSHOTS_JSON)) {
     json = JSON.parse(fs.readFileSync(SCREENSHOTS_JSON, "utf-8"));
     const total = Object.values(json).flat().length;
-    console.log(
+    logger.debug(
       `Loaded ${total} screenshots from existing screenshots.json file.`
     );
   }
@@ -399,15 +400,15 @@ for (const tool in tools) {
   const urls = collectUrls(tools[tool]);
   const newScreenshots = await takeScreenshots(urls, outDir);
   if (newScreenshots.length > 0) {
-    console.log(
+    logger.info(
       `[DONE] Took ${newScreenshots.length} new screenshots for ${tool}`
     );
-    console.log(
+    logger.info(
       newScreenshots.map((s) => `[DONE]  - ${s.url} -> ${s.path}`).join("\n")
     );
   }
 }
 
-console.log("Uploading screenshots to ImageKit");
+logger.info("Uploading screenshots to ImageKit");
 await generateScreenshotFile();
-console.log("Done");
+logger.info("Done");
