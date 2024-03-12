@@ -96,6 +96,7 @@ const SCREENSHOT_OPTIONS = {
     "#cookie-consent", // https://steampunk.si/spotter/
     ".ch2-container", // https://smartbear.com/
     ".md-consent", // https://unimport.hakancelik.dev/latest/
+    ".t-consentPrompt", // pixee.ai
   ],
 };
 
