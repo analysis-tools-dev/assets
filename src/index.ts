@@ -40,7 +40,8 @@ const SCREENSHOT_OPTIONS = {
   scaleFactor: 1.0,
   type: "jpeg",
   quality: 0.95,
-  timeout: 10,
+  timeout: 30,
+  waitUntil: "networkidle0", // Wait until network is idle
   overwrite: true,
   darkMode: true,
   removeElements: [
@@ -77,21 +78,21 @@ const SCREENSHOT_OPTIONS = {
     ".cookiefirst-root", // claranet.com
     ".cc-banner", // https://eclipse.dev/cognicrypt
     ".onetrust-consent-sdk", // https://www.microfocus.com/en-us/cyberres/application-security
-    ".iubenda-cs-banner", // https://docs.gitguardian.com/
+    "#iubenda-cs-banner", // https://docs.gitguardian.com/
     ".truste_box_overlay", // redhat
     ".truste_overlay", // redhat
     ".qc-cmp2-container", // mathworks.com
     ".cmpboxBG", // sourceforge.net
-    ".cmpbox", // sourceforge.net 
+    ".cmpbox", // sourceforge.net
     ".personal-data-confirm", // https://pvs-studio.com/en/pvs-studio/
     ".block-cookie-block", // https://www.hackerone.com/
     ".jetbrains-cookies-banner", // https://www.jetbrains.com/
     ".wt-cli-cookie-bar-container", // https://www.styra.com
     ".gdprconsent-container", // https://engineering.fb.com/
     ".q-cookie-consent__container q-cookie-consent__open", // https://www.qualys.com/
-    ".cookie-consent", // https://steampunk.si/spotter/
+    "#cookie-consent", // https://steampunk.si/spotter/
     ".ch2-container", // https://smartbear.com/
-    ".md-consent" // https://unimport.hakancelik.dev/latest/
+    ".md-consent", // https://unimport.hakancelik.dev/latest/
   ],
 };
 
@@ -212,48 +213,65 @@ const getScreenshotPathFromUrl = (outDir: string, url: string) => {
   return `${outDir}/${encodeURIComponent(url)}.jpg`;
 };
 
+// Reverse operation, which converts strings like
+// https%3A%2F%2Fgithub.com%2Flarshp%2FabapOpenChecks.jpg
+// to a URL like
+// https://github.com/larshp/abapOpenChecks
+const getUrlFromScreenshotPath = (path: string) => {
+  return decodeURIComponent(path.replace(/\.jpg$/, ""));
+};
+
+const downloadScreenshot = async (url: string, outPath: string) => {
+  // YouTube thumbnail URL
+  const res = await youtubeThumbnail(url);
+  // if res is 200, we have our thumbnail
+  if (res && res.status === 200) {
+    const dest = fs.createWriteStream(outPath);
+    res.body?.pipe(dest);
+    return true;
+  }
+  // Otherwise it's a normal website screenshot
+  if (isGithubRepo(url)) {
+    try {
+      // @ts-ignore
+      await throttledScreenshot(url, outPath, {
+        ...SCREENSHOT_OPTIONS,
+        waitForElement: "#readme",
+        scrollToElement: "#readme",
+      });
+      return true;
+    } catch (err) {
+      console.log(`[FAIL] Error fetching GitHub screenshot for ${url}: ${err}`);
+      return false;
+    }
+  }
+
+  try {
+    // @ts-ignore
+    await throttledScreenshot(url, outPath, SCREENSHOT_OPTIONS);
+    return true;
+  } catch (err) {
+    console.log(`[FAIL] Error fetching normal screenshot for ${url}: ${err}`);
+    return false;
+  }
+};
+
 // Take screenshot of all URLs
 const takeScreenshots = async (urls: string[], outDir: string) => {
   const newScreenshots: PathMapping[] = [];
 
   for (const url of urls) {
-    const outPath = getScreenshotPathFromUrl(outDir, url);
+    const screenshotFsPath = getScreenshotPathFromUrl(outDir, url);
 
-    if (fs.existsSync(outPath) && isFresh(outPath)) {
-      console.log(`[FRESH] ${url}`);
+    if (fs.existsSync(screenshotFsPath) && isFresh(screenshotFsPath)) {
+      console.log(`[SKIP] ${url}`);
       continue;
     }
 
-    newScreenshots.push({
-      path: outPath,
-      url,
-    });
-
-    console.log(`[LOAD] Fetching screenshot for ${url} to ${outPath}`);
-
-    // Youtube thumbnail URL
-    const res = await youtubeThumbnail(url);
-    // if res is 200, we have our thumbnail
-    if (res && res.status === 200) {
-      const dest = fs.createWriteStream(outPath);
-      res.body?.pipe(dest);
-      continue;
-    }
-    // Otherwise it's a normal website screenshot
-    try {
-      if (isGithubRepo(url)) {
-        // @ts-ignore
-        await throttledScreenshot(url, outPath, {
-          ...SCREENSHOT_OPTIONS,
-          waitForElement: "#readme",
-          scrollToElement: "#readme",
-        });
-      } else {
-        // @ts-ignore
-        await throttledScreenshot(url, outPath, SCREENSHOT_OPTIONS);
-      }
-    } catch (err) {
-      console.log(`Error fetching screenshot for ${url}: ${err}`);
+    console.log(`[LOAD] Fetching screenshot for ${url} to ${screenshotFsPath}`);
+    const success = await downloadScreenshot(url, screenshotFsPath);
+    if (success) {
+      newScreenshots.push({ path: screenshotFsPath, url });
     }
   }
 
@@ -293,9 +311,20 @@ const updateScreenshotsJson = async (
   if (fs.existsSync(SCREENSHOTS_JSON)) {
     json = JSON.parse(fs.readFileSync(SCREENSHOTS_JSON, "utf8"));
   }
+  // Merge new screenshots with existing ones
+  // Make sure that the URL is unique
+  if (json[tool]) {
+    const existingUrls = json[tool].map((s) => s.url);
+    for (const newScreenshot of newScreenshots) {
+      if (!existingUrls.includes(newScreenshot.url)) {
+        json[tool].push(newScreenshot);
+      }
+    }
+  } else {
+    json[tool] = newScreenshots;
+  }
 
-  json[tool] = (json[tool] || []).concat(newScreenshots);
-
+  console.log(`Final JSON object before writing to file:`, json);
   fs.writeFileSync(SCREENSHOTS_JSON, JSON.stringify(json, null, 2));
 };
 
@@ -319,16 +348,21 @@ const uploadScreenshots = async () => {
 
     for (const screenshot of screenshots) {
       const screenshotPath = path.join(screenshotsDir, screenshot);
-      console.log(`Uploading ${screenshotPath}...`);
+      console.log(`[PUSH] Uploading ${screenshotPath}...`);
 
-      const url = await uploadScreenshotToImageKit(screenshotPath, screenshot);
+      const imageKitUrl = await uploadScreenshotToImageKit(
+        screenshotPath,
+        screenshot
+      );
 
-      if (url) {
-        newScreenshots.push({ path: url, url: screenshot });
+      if (imageKitUrl) {
+        const url = getUrlFromScreenshotPath(screenshot);
+        newScreenshots.push({ path: imageKitUrl, url });
       }
     }
 
     if (newScreenshots.length > 0) {
+      console.log(`New screenshots for tool ${tool}:`, newScreenshots);
       await updateScreenshotsJson(tool, newScreenshots);
     }
   }
@@ -356,25 +390,22 @@ export const generateScreenshotFile = async () => {
   await uploadScreenshots();
 };
 
-console.log("Downloading tool files from GitHub");
 const tools: ToolsApiData = await downloadToolsFromGithub();
 
-console.log("Taking screenshots");
 for (const tool in tools) {
-  const outDir = `screenshots/${tool}/`;
+  const outDir = `screenshots/${tool}`;
   fs.mkdirSync(outDir, { recursive: true });
 
   const urls = collectUrls(tools[tool]);
   const newScreenshots = await takeScreenshots(urls, outDir);
-  console.log(
-    `[DONE] Took ${newScreenshots.length} new screenshots for ${tool}`
-  );
-  console.log(
-    newScreenshots
-      .map((s) => `  - ${s.url} -> ${s.path}`)
-      .join("\n")
-      .trim()
-  );
+  if (newScreenshots.length > 0) {
+    console.log(
+      `[DONE] Took ${newScreenshots.length} new screenshots for ${tool}`
+    );
+    console.log(
+      newScreenshots.map((s) => `[DONE]  - ${s.url} -> ${s.path}`).join("\n")
+    );
+  }
 }
 
 console.log("Uploading screenshots to ImageKit");
