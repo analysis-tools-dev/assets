@@ -2,13 +2,16 @@ name: CI
 
 on:
   push:
-    branches: [master]
+    branches:
+      - master
   pull_request:
-    branches: [master]
+    branches:
+      - master
   schedule:
     - cron: "0 4 * * *"
   repository_dispatch:
-    types: [rebuild]
+    types:
+      - rebuild
   workflow_dispatch:
 
 jobs:
@@ -17,40 +20,29 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v4
         with:
-          node-version: 16.x
+          node-version: 20
           cache: "npm"
           cache-dependency-path: package-lock.json
 
-      - name: Install Node dependencies
-        run: npm ci
+      - name: Install dependencies
+        run: npm install
 
-      - name: Build
-        run: npm run build
+      - name: Upload images to CDN and generate JSON file
+        run: make dev
+        env:
+          IMAGEKIT_PUBLIC_KEY: ${{ secrets.IMAGEKIT_PUBLIC_KEY }}
+          IMAGEKIT_PRIVATE_KEY: ${{ secrets.IMAGEKIT_PRIVATE_KEY }}
 
-      - name: Run
-        run: node dist/index.js
-
-      # This part is temporarily disabled because it's not working.
-
-      # - name: Install PHP dependencies
-      #   uses: php-actions/composer@v6
-
-      # - name: Upload images to CDN and generate JSON file
-      #   run: make build
-      #   env:
-      #     IMAGEKIT_PUBLIC_KEY: ${{ secrets.IMAGEKIT_PUBLIC_KEY }}
-      #     IMAGEKIT_PRIVATE_KEY: ${{ secrets.IMAGEKIT_PRIVATE_KEY }}
-
-      # - name: Commit new screenshots
-      #   uses: stefanzweifel/git-auto-commit-action@v4
-      #   with:
-      #     file_pattern: "screenshots screenshots.json"
-      #     branch: ${{ github.head_ref }}
-      #     commit_message: Commit new screenshots
-      #     commit_user_name: Analysis Tools Bot
-      #     commit_user_email: bot@analysis-tools.dev
-      #     commit_author: Analysis Tools Bot <bot@analysis-tools.dev>
+      - name: Commit new screenshots
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: "screenshots screenshots.json"
+          branch: ${{ github.head_ref }}
+          commit_message: Commit new screenshots
+          commit_user_name: Analysis Tools Bot
+          commit_user_email: bot@analysis-tools.dev
+          commit_author: Analysis Tools Bot <bot@analysis-tools.dev>
