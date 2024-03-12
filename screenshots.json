@@ -1101,11 +1101,24 @@
       "url": "https://www.youtube.com/watch?v=tbCA2JiO_K8"
     }
   ],
-  "codesee": [],
+  "codesee": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.codesee.io_2F_yy6FvMAD4.jpg",
+      "url": "https://www.codesee.io/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.codesee.io_2Fpricing_Y2VfttmwK.jpg",
+      "url": "https://www.codesee.io/pricing"
+    }
+  ],
   "codesonar-from-grammatech": [
     {
       "path": "https://ik.imagekit.io/analysistools/codesonar-from-grammatech_https_3A_2F_2Fwww.grammatech.com_2Fproducts_2Fcodesonar_HX7uqk7YUU.jpg",
       "url": "https://www.grammatech.com/products/codesonar"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fcodesecure.com_2Four-products_2Fcodesonar_2F_f9zbAKb_1.jpg",
+      "url": "https://codesecure.com/our-products/codesonar/"
     }
   ],
   "codespell": [
@@ -1465,6 +1478,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/deepsource_https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DhgWui62Aa0E_W7wYUUW5_O.jpg",
       "url": "https://www.youtube.com/watch?v=hgWui62Aa0E"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fdeepsource.com_MnLZUeFxl.jpg",
+      "url": "https://deepsource.com"
     }
   ],
   "dennis": [
@@ -2087,6 +2104,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/fortify_https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3D7CfeUXtDlwQ_up0C6In3n2.jpg",
       "url": "https://www.youtube.com/watch?v=7CfeUXtDlwQ"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.microfocus.com_2Fen-us_2Fcyberres_2Fapplication-security_2Fstatic-code-analyzer_p5zZzIewc.jpg",
+      "url": "https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer"
     }
   ],
   "frama-c": [
@@ -3035,6 +3056,14 @@
     {
       "path": "https://ik.imagekit.io/analysistools/lintian_https_3A_2F_2Flintian.debian.org_zChmx3xXcb.jpg",
       "url": "https://lintian.debian.org"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fsalsa.debian.org_2Flintian_2Flintian_CIUGlvvBY.jpg",
+      "url": "https://salsa.debian.org/lintian/lintian"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwiki.debian.org_2FLintian_r5uz6DycY.jpg",
+      "url": "https://wiki.debian.org/Lintian"
     }
   ],
   "lintr": [
@@ -3099,6 +3128,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/luacheck_https_3A_2F_2Fgithub.com_2Fmpeterv_2Fluacheck_hFdAtvRNzh.jpg",
       "url": "https://github.com/mpeterv/luacheck"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Flunarmodules_2Fluacheck_N4nHV1Qtd.jpg",
+      "url": "https://github.com/lunarmodules/luacheck"
     }
   ],
   "lualint": [
@@ -3585,6 +3618,14 @@
     {
       "path": "https://ik.imagekit.io/analysistools/pc-lint_https_3A_2F_2Fwww.gimpel.com_k_C4xD4vrH.jpg",
       "url": "https://www.gimpel.com"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fpclintplus.com_2F_ewpVrDiLO.jpg",
+      "url": "https://pclintplus.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fpclintplus.com_2Fpricing_2F__TTSHyfjw.jpg",
+      "url": "https://pclintplus.com/pricing/"
     }
   ],
   "pdepend": [
@@ -4673,6 +4714,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/ruff_https_3A_2F_2Fnotes.crmarsh.com_2Fpython-tooling-could-be-much-much-faster_AyCb44GFy.jpg",
       "url": "https://notes.crmarsh.com/python-tooling-could-be-much-much-faster"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fastral.sh_2Fruff_DH36nZjnA.jpg",
+      "url": "https://astral.sh/ruff"
     }
   ],
   "rufo": [
@@ -5087,6 +5132,14 @@
     {
       "path": "https://ik.imagekit.io/analysistools/sonarqube_https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3Dow-yuIlCuHk_ffcfeptkNQ.jpg",
       "url": "https://www.youtube.com/watch?v=ow-yuIlCuHk"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fsonarqube.org_1CijtiZop.jpg",
+      "url": "https://sonarqube.org"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.sonarsource.com_2Fplans-and-pricing_2F_vsRGjwK47.jpg",
+      "url": "https://www.sonarsource.com/plans-and-pricing/"
     }
   ],
   "sonatype": [
@@ -5297,7 +5350,12 @@
       "url": "https://github.com/julia-vscode/StaticLint.jl"
     }
   ],
-  "staticreviewer": [],
+  "staticreviewer": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fsecurityreviewer.atlassian.net_2Fwiki_2Fspaces_2FKC_2Fpages_2F196633_2FStatic_2BReviewer_tvDremZxQ.jpg",
+      "url": "https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer"
+    }
+  ],
   "statix": [
     {
       "path": "https://ik.imagekit.io/analysistools/statix_https_3A_2F_2Fgit.peppe.rs_2Flanguages_2Fstatix_2Fabout_2F_lsYNm6so0f.jpg",
@@ -5868,6 +5926,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/vale_https_3A_2F_2Fgithub.com_2Ferrata-ai_2Fvale_P_vWbL5TrG.jpg",
       "url": "https://github.com/errata-ai/vale"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fvale.sh_QyjFBkZV2.jpg",
+      "url": "https://vale.sh"
     }
   ],
   "valgrind": [
@@ -5918,6 +5980,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/veracode_https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DCacOX9ytugc_0YW5I5qChk.jpg",
       "url": "https://www.youtube.com/watch?v=CacOX9ytugc"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DhCl2H8Heqnw_EgVMKdrpO.jpg",
+      "url": "https://www.youtube.com/watch?v=hCl2H8Heqnw"
     }
   ],
   "verible-linter-action": [
@@ -6242,6 +6308,270 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DorTvsOlFS5k_Ju6TYYU8D.jpg",
       "url": "https://www.youtube.com/watch?v=orTvsOlFS5k"
+    }
+  ],
+  "cakefuzzer": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2FZigrin-Security_2FCakeFuzzer_eQJq8d4MIU.jpg",
+      "url": "https://github.com/Zigrin-Security/CakeFuzzer"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fzigrin.com_2Ftools_2Fcake-fuzzer_2F_JK5nnCbJf.jpg",
+      "url": "https://zigrin.com/tools/cake-fuzzer/"
+    }
+  ],
+  "cargo-semver-checks": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fcrates.io_2Fcrates_2Fcargo-semver-checks_k1qHYkRO2.jpg",
+      "url": "https://crates.io/crates/cargo-semver-checks"
+    }
+  ],
+  "codemodder": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fcodemodder.io_2F_UeHUmGKh7.jpg",
+      "url": "https://codemodder.io/"
+    }
+  ],
+  "credential-digger": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2FSAP_2Fcredential-digger_U_njdQnU2V.jpg",
+      "url": "https://github.com/SAP/credential-digger"
+    }
+  ],
+  "dataflow-framework": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Ftypetools_2Fchecker-framework_ZuTRew39N.jpg",
+      "url": "https://github.com/typetools/checker-framework"
+    }
+  ],
+  "dotenet-format": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fdotnet_2Fformat_kFj77Y7Eo.jpg",
+      "url": "https://github.com/dotnet/format"
+    }
+  ],
+  "flakeheaven": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fflakeheaven_2Fflakeheaven_rnoSEilHs.jpg",
+      "url": "https://github.com/flakeheaven/flakeheaven"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fpypi.org_2Fproject_2Fflakeheaven_2F_Q6o7Ib6y0.jpg",
+      "url": "https://pypi.org/project/flakeheaven/"
+    }
+  ],
+  "fprettify": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fpseewald_2Ffprettify_oV84lae4s.jpg",
+      "url": "https://github.com/pseewald/fprettify"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fpypi.python.org_2Fpypi_2Ffprettify_dGLQJCOatk.jpg",
+      "url": "https://pypi.python.org/pypi/fprettify"
+    }
+  ],
+  "fta": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fftaproject.dev_2F_Qa8EdJkyO.jpg",
+      "url": "https://ftaproject.dev/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fsgb-io_2Ffta_0EAbV2mPp.jpg",
+      "url": "https://github.com/sgb-io/fta"
+    }
+  ],
+  "gitguardian-ggshield": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fdocs.gitguardian.com_2Fggshield-docs_2Fgetting-started_rh-T04vBj.jpg",
+      "url": "https://docs.gitguardian.com/ggshield-docs/getting-started"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.gitguardian.com_2Fggshield_RNC5mez-6.jpg",
+      "url": "https://www.gitguardian.com/ggshield"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DdiuBTBjx7Qc_aMlMT1elH.jpg",
+      "url": "https://www.youtube.com/watch?v=diuBTBjx7Qc"
+    }
+  ],
+  "goast": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fm-mizutani_2Fgoast_UsUY1u544.jpg",
+      "url": "https://github.com/m-mizutani/goast"
+    }
+  ],
+  "hasmysecretleaked": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgitguardian.com_2Fhasmysecretleaked_tq7ym8xvT.jpg",
+      "url": "https://gitguardian.com/hasmysecretleaked"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2FGitGuardian_2Fggshield_L3v02aBjb.jpg",
+      "url": "https://github.com/GitGuardian/ggshield"
+    }
+  ],
+  "hyperfine": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fsharkdp_2Fhyperfine_OWPcdJX6s.jpg",
+      "url": "https://github.com/sharkdp/hyperfine"
+    }
+  ],
+  "jet": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Faviatesk_2FJET.jl_HIn7NL47M.jpg",
+      "url": "https://github.com/aviatesk/JET.jl"
+    }
+  ],
+  "kani": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fmodel-checking_2Fkani_9P9ThNMSA.jpg",
+      "url": "https://github.com/model-checking/kani"
+    }
+  ],
+  "lockbud": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2FBurtonQin_2Flockbud_2qa--RN5R.jpg",
+      "url": "https://github.com/BurtonQin/lockbud"
+    }
+  ],
+  "meziantou-analyzer": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fmeziantou_2FMeziantou.Analyzer_eWmcpCK1f.jpg",
+      "url": "https://github.com/meziantou/Meziantou.Analyzer"
+    }
+  ],
+  "mopsa": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgitlab.com_2Fmopsa_2Fmopsa-analyzer_bEwJ3SbXL.jpg",
+      "url": "https://gitlab.com/mopsa/mopsa-analyzer"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fmopsa.lip6.fr_GADQciWD2.jpg",
+      "url": "https://mopsa.lip6.fr"
+    }
+  ],
+  "openrewrite": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fdocs.openrewrite.org_2F_Dm2nWz_Ol.jpg",
+      "url": "https://docs.openrewrite.org/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fopenrewrite_2Frewrite_TUWBeHfNq.jpg",
+      "url": "https://github.com/openrewrite/rewrite"
+    }
+  ],
+  "oxc": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fweb-infra-dev_2Foxc_eYtlK77By.jpg",
+      "url": "https://github.com/web-infra-dev/oxc"
+    }
+  ],
+  "phparkitect": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DfhRDZs82AbE_Nkbufm-3Y.jpg",
+      "url": "https://www.youtube.com/watch?v=fhRDZs82AbE"
+    }
+  ],
+  "pixee": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fpixee.ai_pPeRAvbHC.jpg",
+      "url": "https://pixee.ai"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.pixee.ai_2Fpricing__VyjvFk8F.jpg",
+      "url": "https://www.pixee.ai/pricing"
+    }
+  ],
+  "poop": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fandrewrk_2Fpoop_Iks-dvwhm9.jpg",
+      "url": "https://github.com/andrewrk/poop"
+    }
+  ],
+  "rector": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgetrector.org_YhltquJVo.jpg",
+      "url": "https://getrector.org"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Frectorphp_2Frector_YgBL1vFYN.jpg",
+      "url": "https://github.com/rectorphp/rector"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3D_Uk95vG3ezQ_YlEOfaT7C.jpg",
+      "url": "https://www.youtube.com/watch?v=_Uk95vG3ezQ"
+    }
+  ],
+  "refactorfirst": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fjimbethancourt_2FRefactorFirst_yHw2AcNvR.jpg",
+      "url": "https://github.com/jimbethancourt/RefactorFirst"
+    }
+  ],
+  "regal": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.styra.com_2Fblog_2Fguarding-the-guardrails-introducing-regal-the-rego-linter_jrzu4THLq.jpg",
+      "url": "https://www.styra.com/blog/guarding-the-guardrails-introducing-regal-the-rego-linter"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DXx8npd2TQJ0_26t_3D2567s_r__np5nIp.jpg",
+      "url": "https://www.youtube.com/watch?v=Xx8npd2TQJ0&t=2567s"
+    }
+  ],
+  "sleek": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fnrempel_2Fsleek_XHjntymIn.jpg",
+      "url": "https://github.com/nrempel/sleek"
+    }
+  ],
+  "sonaranalyzer-csharp": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2FSonarSource_2Fsonar-dotnet_krbPgyVU5.jpg",
+      "url": "https://github.com/SonarSource/sonar-dotnet"
+    }
+  ],
+  "sonarlint": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fsonarlint.org_513goxbhQW.jpg",
+      "url": "https://sonarlint.org"
+    }
+  ],
+  "steampunk-spotter": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgitlab.com_2Fxlab-steampunk_2Fsteampunk-spotter-client_2Fspotter-cli_UD-42cS0X.jpg",
+      "url": "https://gitlab.com/xlab-steampunk/steampunk-spotter-client/spotter-cli"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fsteampunk.si_2Fspotter_2F_RxUB9VViN.jpg",
+      "url": "https://steampunk.si/spotter/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fsteampunk.si_2Fspotter_2Fpricing_X8syeNG6_.jpg",
+      "url": "https://steampunk.si/spotter/pricing"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DJIzph_gqf08_59S7r9rhH.jpg",
+      "url": "https://www.youtube.com/watch?v=JIzph_gqf08"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DyeggNPmtv04_rZf6aOzNL.jpg",
+      "url": "https://www.youtube.com/watch?v=yeggNPmtv04"
+    }
+  ],
+  "textlint": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Ftextlint_2Ftextlint_m2LkyQEMU2.jpg",
+      "url": "https://github.com/textlint/textlint"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Ftextlint.github.io_2F_Dja8zyAqV.jpg",
+      "url": "https://textlint.github.io/"
+    }
+  ],
+  "zarn": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fhtrgouvea_2Fzarn_vzwCiX2AX.jpg",
+      "url": "https://github.com/htrgouvea/zarn"
     }
   ]
 }
