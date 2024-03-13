@@ -49,7 +49,14 @@ const loadUrlsForTool = (tool: ApiTool): string[] => {
   if (tool.source && tool.source !== tool.homepage) {
     urls.push(tool.source);
   }
-  tool.resources?.forEach((resource) => urls.push(resource.url));
+  tool.resources?.forEach((resource) => {
+    // if the resource is a PDF, we don't want to take a screenshot
+    if (resource.url.endsWith(".pdf")) {
+      return;
+    }
+
+    urls.push(resource.url);
+  });
   if (tool.pricing != null) {
     urls.push(tool.pricing);
   }
@@ -128,7 +135,7 @@ const uploadScreenshotToImageKit = async (
     logger.info(`[PUSH] ${response.url} uploaded successfully!`);
     return response.url;
   } catch (error) {
-    logger.error("Error uploading file to ImageKit:", error);
+    logger.error(`[FAIL] Error uploading ${screenshotPath}:`, error);
     return null;
   }
 };
@@ -144,18 +151,13 @@ const uploadNewScreenshots = async (
   const successfullyUploaded: PathMapping[] = [];
 
   for (const screenshot of newScreenshots) {
-    const screenshotPath = screenshot.path;
-    logger.info(
-      `[PUSH] Uploading ${screenshotPath} with name ${screenshot.url}`
-    );
-
     const imageKitUrl = await uploadScreenshotToImageKit(
-      screenshotPath,
+      screenshot.path,
       screenshot.url
     );
 
     if (imageKitUrl) {
-      successfullyUploaded.push({ path: imageKitUrl, url: screenshotPath });
+      successfullyUploaded.push({ path: imageKitUrl, url: screenshot.url });
     }
   }
 
@@ -188,24 +190,40 @@ const uploadNewScreenshots = async (
 const mergeScreenshotFiles = async (
   newScreenshots: ScreenshotJson
 ): Promise<ScreenshotJson> => {
-  let screenshots: ScreenshotJson = {};
+  const existingScreenshots: ScreenshotJson = fs.existsSync(
+    SCREENSHOTS_JSON_PATH
+  )
+    ? JSON.parse(fs.readFileSync(SCREENSHOTS_JSON_PATH, "utf-8"))
+    : {};
 
-  if (fs.existsSync(SCREENSHOTS_JSON_PATH)) {
-    screenshots = JSON.parse(fs.readFileSync(SCREENSHOTS_JSON_PATH, "utf-8"));
-  }
+  Object.entries(newScreenshots).forEach(([key, newScreenshotArray]) => {
+    const mergedScreenshots = existingScreenshots[key]
+      ? mergeExistingAndNewScreenshots(
+          existingScreenshots[key],
+          newScreenshotArray
+        )
+      : newScreenshotArray;
 
-  for (const tool in newScreenshots) {
-    if (newScreenshots[tool].length > 0) {
-      // merge new screenshots with existing screenshots
-      // this takes the original screenshots and overwrites the ones where the URL matches
-      screenshots[tool] = [
-        ...(screenshots[tool] || []),
-        ...newScreenshots[tool],
-      ];
-    }
-  }
-  return screenshots;
+    existingScreenshots[key] = mergedScreenshots;
+  });
+
+  return existingScreenshots;
 };
+
+function mergeExistingAndNewScreenshots(
+  existing: PathMapping[],
+  news: PathMapping[]
+): PathMapping[] {
+  const merged = new Map(
+    existing.map((screenshot) => [screenshot.url, screenshot])
+  );
+
+  news.forEach((newScreenshot) => {
+    merged.set(newScreenshot.url, newScreenshot);
+  });
+
+  return Array.from(merged.values());
+}
 
 // Iterates over all tools and takes screenshots for each tool
 // It then uploads the screenshots to ImageKit
@@ -225,7 +243,7 @@ const takeAndUploadScreenshotsForTools = async (
 
     if (takenScreenshots.length > 0) {
       logger.info(
-        `[LOAD] Took ${takenScreenshots.length} new screenshots for ${tool}. Uploading...`
+        `[LOAD] Took ${takenScreenshots.length} new screenshot(s) for ${tool}. Uploading...`
       );
       const successfullyUploaded = await uploadNewScreenshots(takenScreenshots);
       logger.info(

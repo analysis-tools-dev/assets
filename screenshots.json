@@ -837,7 +837,7 @@
       "url": "https://codeclimate.com"
     },
     {
-      "path": "https://ik.imagekit.io/analysistools/code-climate_https_3A_2F_2Fgithub.com_2Fcodeclimate_2Fcodeclimate_s5QECpXf_.jpg",
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_codeclimate_codeclimate",
       "url": "https://github.com/codeclimate/codeclimate"
     }
   ],
@@ -1139,6 +1139,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/codiga_https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DhQ_BjDYlsCU_KuFAGQhJ7o.jpg",
       "url": "https://www.youtube.com/watch?v=hQ_BjDYlsCU"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.codiga.io",
+      "url": "https://www.codiga.io"
     }
   ],
   "coffeelint": [
@@ -1157,7 +1161,7 @@
   ],
   "cognicrypt": [
     {
-      "path": "https://ik.imagekit.io/analysistools/cognicrypt_https_3A_2F_2Fgithub.com_2Feclipse-cognicrypt_2FCogniCrypt_Fjns7SgoEU.jpg",
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_eclipse-cognicrypt_CogniCrypt",
       "url": "https://github.com/eclipse-cognicrypt/CogniCrypt"
     },
     {
@@ -1257,7 +1261,7 @@
       "url": "https://cppcheck.sourceforge.io"
     },
     {
-      "path": "https://ik.imagekit.io/analysistools/cppcheck_https_3A_2F_2Fgithub.com_2Fdanmar_2Fcppcheck_6tOXc7iyIM.jpg",
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_danmar_cppcheck",
       "url": "https://github.com/danmar/cppcheck"
     },
     {
@@ -1417,7 +1421,12 @@
       "url": "https://github.com/channable/dbcritic"
     }
   ],
-  "deadcode": [],
+  "deadcode": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_tsenart_deadcode",
+      "url": "https://github.com/tsenart/deadcode"
+    }
+  ],
   "deadnix": [
     {
       "path": "https://ik.imagekit.io/analysistools/deadnix_https_3A_2F_2Fgithub.com_2Fastro_2Fdeadnix_cXnN-4B4Nw.jpg",
@@ -2990,6 +2999,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/larastan_https_3A_2F_2Fgithub.com_2Fnunomaduro_2Flarastan_U17EIib6m.jpg",
       "url": "https://github.com/nunomaduro/larastan"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_larastan_larastan",
+      "url": "https://github.com/larastan/larastan"
     }
   ],
   "laser": [
@@ -4466,7 +4479,7 @@
       "url": "https://fbredex.com"
     },
     {
-      "path": "https://ik.imagekit.io/analysistools/redex_https_3A_2F_2Fgithub.com_2Ffacebook_2Fredex_E75yC96Pt.jpg",
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_facebook_redex",
       "url": "https://github.com/facebook/redex"
     },
     {
@@ -5890,7 +5903,7 @@
   ],
   "unimport": [
     {
-      "path": "https://ik.imagekit.io/analysistools/unimport_https_3A_2F_2Fgithub.com_2Fhakancelikdev_2Funimport_exjw1c5Cm.jpg",
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_hakancelikdev_unimport",
       "url": "https://github.com/hakancelikdev/unimport"
     },
     {
@@ -6288,6 +6301,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fbetterscan.io_jz_7lWrdt.jpg",
       "url": "https://betterscan.io"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_marcinguy_scanmycode-ce",
+      "url": "https://github.com/marcinguy/scanmycode-ce"
     }
   ],
   "biome": [
@@ -6324,12 +6341,20 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fcrates.io_2Fcrates_2Fcargo-semver-checks_k1qHYkRO2.jpg",
       "url": "https://crates.io/crates/cargo-semver-checks"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_obi1kenobi_cargo-semver-checks",
+      "url": "https://github.com/obi1kenobi/cargo-semver-checks"
     }
   ],
   "codemodder": [
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fcodemodder.io_2F_UeHUmGKh7.jpg",
       "url": "https://codemodder.io/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_pixee_codemodder-python",
+      "url": "https://github.com/pixee/codemodder-python"
     }
   ],
   "credential-digger": [
@@ -6392,6 +6417,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DdiuBTBjx7Qc_aMlMT1elH.jpg",
       "url": "https://www.youtube.com/watch?v=diuBTBjx7Qc"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_gitguardian_ggshield",
+      "url": "https://github.com/gitguardian/ggshield"
     }
   ],
   "goast": [
@@ -6470,6 +6499,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DfhRDZs82AbE_Nkbufm-3Y.jpg",
       "url": "https://www.youtube.com/watch?v=fhRDZs82AbE"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_phparkitect_arkitect",
+      "url": "https://github.com/phparkitect/arkitect"
     }
   ],
   "pixee": [
@@ -6516,6 +6549,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fwww.youtube.com_2Fwatch_3Fv_3DXx8npd2TQJ0_26t_3D2567s_r__np5nIp.jpg",
       "url": "https://www.youtube.com/watch?v=Xx8npd2TQJ0&t=2567s"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_styrainc_regal",
+      "url": "https://github.com/styrainc/regal"
     }
   ],
   "sleek": [
@@ -6534,6 +6571,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fsonarlint.org_513goxbhQW.jpg",
       "url": "https://sonarlint.org"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_SonarSource_sonarlint-intellij",
+      "url": "https://github.com/SonarSource/sonarlint-intellij"
     }
   ],
   "steampunk-spotter": [
@@ -6572,6 +6613,42 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https_3A_2F_2Fgithub.com_2Fhtrgouvea_2Fzarn_vzwCiX2AX.jpg",
       "url": "https://github.com/htrgouvea/zarn"
+    }
+  ],
+  "mobb": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___mobb.ai",
+      "url": "https://mobb.ai"
+    }
+  ],
+  "pgspot": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_timescale_pgspot",
+      "url": "https://github.com/timescale/pgspot"
+    }
+  ],
+  "promformat": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_facetoe_promformat",
+      "url": "https://github.com/facetoe/promformat"
+    }
+  ],
+  "promval": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_facetoe_promval",
+      "url": "https://github.com/facetoe/promval"
+    }
+  ],
+  "sonardelphi": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_integrated-application-development_sonar-delphi",
+      "url": "https://github.com/integrated-application-development/sonar-delphi"
+    }
+  ],
+  "bytehound": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_koute_bytehound",
+      "url": "https://github.com/koute/bytehound"
     }
   ]
 }
