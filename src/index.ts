@@ -94,8 +94,6 @@ const takeNewScreenshots = async (urls: string[], outDir: string) => {
   for (const url of urls) {
     const path = screenshotUrlToPath(outDir, url);
 
-    // takenScreenshots.push({ path, url });
-
     if (fs.existsSync(path) && isFresh(path)) {
       logger.debug(`[SKIP] ${url}`);
       continue;
@@ -103,8 +101,6 @@ const takeNewScreenshots = async (urls: string[], outDir: string) => {
 
     logger.debug(`[LOAD] ${url} (${path})`);
     try {
-      // dummy call for testing
-      // const success = true;
       const success = await takeScreenshot(url, path);
       if (success) {
         takenScreenshots.push({ path, url });
