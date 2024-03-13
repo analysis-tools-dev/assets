@@ -5,15 +5,14 @@
  * - https://github.com/brenden/node-webshot - Very popular, but seems to have a lot of issues.
  */
 
-import captureWebsite from "capture-website";
-import Bottleneck from "bottleneck";
-import getYouTubeID from "get-youtube-id";
 import fs from "fs";
-import path from "path";
 import dotenv from "dotenv";
 import ImageKit from "imagekit";
 import fetch from "node-fetch";
 import { Logger } from "tslog";
+
+import { ApiTool, PathMapping, ScreenshotJson, ToolsApiData } from "./types";
+import { takeScreenshot } from "./screenshot";
 
 dotenv.config();
 
@@ -33,72 +32,10 @@ const imageKit = new ImageKit({
   urlEndpoint: "https://ik.imagekit.io/analysistools",
 });
 
-const SCREENSHOTS_JSON = "screenshots.json";
+const SCREENSHOTS_JSON_PATH = "screenshots.json";
 
 // Don't overwrite screenshots if they are new enough
 const MAX_AGE = 5 * 24 * 60 * 60 * 1000;
-
-const SCREENSHOT_OPTIONS = {
-  width: 1280,
-  scaleFactor: 1.0,
-  type: "jpeg",
-  quality: 0.95,
-  timeout: 5,
-  waitUntil: "networkidle0", // Wait until network is idle
-  overwrite: true,
-  darkMode: true,
-  removeElements: [
-    "#onetrust-consent-sdk",
-    ".CookieConsent",
-    "#pz-gdpr",
-    ".cookie-disclaimer",
-    ".cookie-banner",
-    ".cookie-notice",
-    ".cookie-policy",
-    ".cookie-popup",
-    ".cookie-accept",
-    ".cookie-accepts",
-    ".cookie-acceptance",
-    ".cookie-acceptance-banner",
-    ".cookie-acceptance-container",
-    ".cookie-acceptance-overlay",
-    ".cookie-acceptance-wrapper",
-    ".cookie-accepter",
-    ".cookie-acceptor",
-    "#CybotCookiebotDialog",
-    "#disclaimer",
-    "#disclaimer-container",
-    ".disclaimer",
-    ".disclaimer-container",
-    "[id*='sp_message_container']",
-    "#gdpr-cookie-message", // rezilion.com
-    "#hs-eu-cookie-confirmation", // diffblue.com
-    ".cc-floating", // trust-in-soft.com
-    "#usercentrics-root", // usercentrics.com used by e.g. snyk.io
-    ".adroll_consent_container", // codeclimate.com
-    ".cky-overlay", // bugprove.com
-    ".cky-consent-container", // bugprove.com
-    ".cookiefirst-root", // claranet.com
-    ".cc-banner", // https://eclipse.dev/cognicrypt
-    ".onetrust-consent-sdk", // https://www.microfocus.com/en-us/cyberres/application-security
-    "#iubenda-cs-banner", // https://docs.gitguardian.com/
-    ".truste_box_overlay", // redhat
-    ".truste_overlay", // redhat
-    ".qc-cmp2-container", // mathworks.com
-    ".cmpboxBG", // sourceforge.net
-    ".cmpbox", // sourceforge.net
-    ".personal-data-confirm", // https://pvs-studio.com/en/pvs-studio/
-    ".block-cookie-block", // https://www.hackerone.com/
-    ".jetbrains-cookies-banner", // https://www.jetbrains.com/
-    ".wt-cli-cookie-bar-container", // https://www.styra.com
-    ".gdprconsent-container", // https://engineering.fb.com/
-    ".q-cookie-consent__container q-cookie-consent__open", // https://www.qualys.com/
-    "#cookie-consent", // https://steampunk.si/spotter/
-    ".ch2-container", // https://smartbear.com/
-    ".md-consent", // https://unimport.hakancelik.dev/latest/
-    ".t-consentPrompt", // pixee.ai
-  ],
-};
 
 const STATIC_TOOLS_JSON_FILE =
   "https://raw.githubusercontent.com/analysis-tools-dev/static-analysis/master/data/api/tools.json";
@@ -106,101 +43,27 @@ const STATIC_TOOLS_JSON_FILE =
 const DYNAMIC_TOOLS_JSON_FILE =
   "https://raw.githubusercontent.com/analysis-tools-dev/dynamic-analysis/master/data/api/tools.json";
 
-const limiter = new Bottleneck({
-  maxConcurrent: 4,
-  minTime: 500,
-});
-const throttledScreenshot = limiter.wrap(captureWebsite.file);
-
-type PathMapping = {
-  path: string;
-  url: string;
-};
-
-export interface ToolsApiData {
-  [key: string]: ApiTool;
-}
-
-export interface ToolPricePlan {
-  free: boolean;
-  oss: boolean;
-}
-
-export interface ToolResource {
-  title: string;
-  url: string;
-}
-
-export interface ApiTool {
-  name: string;
-  categories: string[];
-  languages: string[];
-  other: string[];
-  licenses: string[];
-  types: string[];
-  homepage: string;
-  source: string | null;
-  pricing: string | null;
-  plans: ToolPricePlan | null;
-  description: string | null;
-  discussion: string | null;
-  deprecated: boolean | null;
-  resources: ToolResource[] | null;
-  wrapper: string | null;
-  votes: number;
-  upVotes?: number;
-  downVotes?: number;
-}
-
-// Check if the given string is a GitHub repository URL
-export const isGithubRepo = (url: string) => {
-  const regex = /https:\/\/github.com\/[a-zA-Z0-9-]+\/[a-zA-Z0-9-]+\/?$/;
-  // check if url matches regex
-  return regex.test(url);
-};
-
-// Get YouTube thumbnail from video URL
-const youtubeThumbnail = async (url: string) => {
-  const id = getYouTubeID(url);
-
-  if (!id) {
-    return;
+// Fetch all screenshot URLs for the given tool
+const loadUrlsForTool = (tool: ApiTool): string[] => {
+  const urls = [tool.homepage];
+  if (tool.source && tool.source !== tool.homepage) {
+    urls.push(tool.source);
   }
-  const maxUrl = `http://img.youtube.com/vi/${id}/maxresdefault.jpg`;
-
-  // attempt to fetch the thumbnail; if response is 404, return the default thumbnail
-  const res = await fetch(maxUrl);
-  if (res.status === 404) {
-    // Try fallback for unlisted videos. These don't get rendered at the highest resolution.
-    const fallback = `http://img.youtube.com/vi/${id}/hqdefault.jpg`;
-    return await fetch(fallback);
-  }
-  return res;
-};
-
-// Fetch all screenshot URLs for a tool
-const collectUrls = (tool: ApiTool) => {
-  const urls = [tool["homepage"]];
-  if (tool["source"] && tool["source"] !== tool["homepage"]) {
-    urls.push(tool["source"]);
-  }
-  for (const resource of tool["resources"] || []) {
-    urls.push(resource["url"]);
-  }
-  if (tool["pricing"] != null) {
-    urls.push(tool["pricing"]);
+  tool.resources?.forEach((resource) => urls.push(resource.url));
+  if (tool.pricing != null) {
+    urls.push(tool.pricing);
   }
   return urls;
 };
 
 // Check if file is newer than `MAX_AGE`
-const isFresh = (outPath: string) => {
+const isFresh = (outPath: string): boolean => {
   const fileAge = new Date().getTime() - fs.statSync(outPath).mtime.getTime();
   return fileAge < MAX_AGE;
 };
 
 // Get tools from static and dynamic analysis repos
-const downloadToolsFromGithub = async (): Promise<ToolsApiData> => {
+const downloadToolsApiData = async (): Promise<ToolsApiData> => {
   const staticResponse = await fetch(STATIC_TOOLS_JSON_FILE);
   const staticTools = (await staticResponse.json()) as ToolsApiData;
 
@@ -213,73 +76,38 @@ const downloadToolsFromGithub = async (): Promise<ToolsApiData> => {
 
 // Helper function to get screenshot path from URL
 // Uses URL encoding to get filename
-const getScreenshotPathFromUrl = (outDir: string, url: string) => {
+const screenshotUrlToPath = (outDir: string, url: string): string => {
   return `${outDir}/${encodeURIComponent(url)}.jpg`;
 };
 
-// Reverse operation, which converts strings like
-// https%3A%2F%2Fgithub.com%2Flarshp%2FabapOpenChecks.jpg
-// to a URL like
-// https://github.com/larshp/abapOpenChecks
-const getUrlFromScreenshotPath = (path: string) => {
-  return decodeURIComponent(path.replace(/\.jpg$/, ""));
-};
-
-const downloadScreenshot = async (url: string, outPath: string) => {
-  // YouTube thumbnail URL
-  const res = await youtubeThumbnail(url);
-  // if res is 200, we have our thumbnail
-  if (res && res.status === 200) {
-    const dest = fs.createWriteStream(outPath);
-    res.body?.pipe(dest);
-    return true;
-  }
-  // Otherwise it's a normal website screenshot
-  if (isGithubRepo(url)) {
-    try {
-      // @ts-ignore
-      await throttledScreenshot(url, outPath, {
-        ...SCREENSHOT_OPTIONS,
-        waitForElement: "#readme",
-        scrollToElement: "#readme",
-      });
-      return true;
-    } catch (err) {
-      logger.warn(`[FAIL] Error fetching GitHub screenshot for ${url}: ${err}`);
-      return false;
-    }
-  }
-
-  try {
-    // @ts-ignore
-    await throttledScreenshot(url, outPath, SCREENSHOT_OPTIONS);
-    return true;
-  } catch (err) {
-    logger.warn(`[FAIL] Error fetching normal screenshot for ${url}: ${err}`);
-    return false;
-  }
-};
-
 // Take screenshot of all URLs
-const takeScreenshots = async (urls: string[], outDir: string) => {
-  const newScreenshots: PathMapping[] = [];
+const takeNewScreenshots = async (urls: string[], outDir: string) => {
+  const takenScreenshots: PathMapping[] = [];
 
   for (const url of urls) {
-    const screenshotFsPath = getScreenshotPathFromUrl(outDir, url);
+    const path = screenshotUrlToPath(outDir, url);
 
-    if (fs.existsSync(screenshotFsPath) && isFresh(screenshotFsPath)) {
+    // takenScreenshots.push({ path, url });
+
+    if (fs.existsSync(path) && isFresh(path)) {
       logger.debug(`[SKIP] ${url}`);
       continue;
     }
 
-    logger.debug(`[LOAD] ${url} (${screenshotFsPath})`);
-    const success = await downloadScreenshot(url, screenshotFsPath);
-    if (success) {
-      newScreenshots.push({ path: screenshotFsPath, url });
+    logger.debug(`[LOAD] ${url} (${path})`);
+    try {
+      // dummy call for testing
+      // const success = true;
+      const success = await takeScreenshot(url, path);
+      if (success) {
+        takenScreenshots.push({ path, url });
+      }
+    } catch (error) {
+      logger.error(`[FAIL] Error taking screenshot for ${url}:`, error);
     }
   }
 
-  return newScreenshots;
+  return takenScreenshots;
 };
 
 // Upload screenshot to ImageKit
@@ -290,11 +118,14 @@ const uploadScreenshotToImageKit = async (
   fileName: string
 ): Promise<string | null> => {
   try {
+    logger.info(`[PUSH] Uploading ${screenshotPath} with name ${fileName}`);
     const response = await imageKit.upload({
       file: fs.readFileSync(screenshotPath), // Directly pass the file buffer
-      fileName: fileName,
-      useUniqueFileName: true,
+      fileName,
+      // Overwrite existing files and use the original filename
+      useUniqueFileName: false,
     });
+    logger.info(`[PUSH] ${response.url} uploaded successfully!`);
     return response.url;
   } catch (error) {
     logger.error("Error uploading file to ImageKit:", error);
@@ -302,114 +133,116 @@ const uploadScreenshotToImageKit = async (
   }
 };
 
-// Update screenshots.json file with new screenshots
-//
-// `tool` is the name of the tool
-// `newScreenshots` is an array of PathMapping objects (the new screenshots)
-const updateScreenshotsJson = async (
-  tool: string,
-  newScreenshots: PathMapping[]
-) => {
-  let json: { [key: string]: PathMapping[] } = {};
-
-  if (fs.existsSync(SCREENSHOTS_JSON)) {
-    json = JSON.parse(fs.readFileSync(SCREENSHOTS_JSON, "utf8"));
-  }
-  // Merge new screenshots with existing ones
-  // Make sure that the URL is unique
-  if (json[tool]) {
-    const existingUrls = json[tool].map((s) => s.url);
-    for (const newScreenshot of newScreenshots) {
-      if (!existingUrls.includes(newScreenshot.url)) {
-        json[tool].push(newScreenshot);
-      }
-    }
-  } else {
-    json[tool] = newScreenshots;
-  }
-  fs.writeFileSync(SCREENSHOTS_JSON, JSON.stringify(json, null, 2));
-};
-
 // Upload all screenshots to ImageKit and update screenshots.json
 //
 // This function iterates over all tools in the `screenshots` directory and
 // uploads all screenshots to ImageKit. It then updates the `screenshots.json`
 // file with the new URLs.
-const uploadScreenshots = async () => {
-  const tools = fs
-    .readdirSync("screenshots")
-    .filter((file) => !file.startsWith("."));
+const uploadNewScreenshots = async (
+  newScreenshots: PathMapping[]
+): Promise<PathMapping[]> => {
+  const successfullyUploaded: PathMapping[] = [];
 
-  for (const tool of tools) {
-    const screenshotsDir = path.join("screenshots", tool);
-    const screenshots = fs
-      .readdirSync(screenshotsDir)
-      .filter((file) => !file.startsWith("."));
+  for (const screenshot of newScreenshots) {
+    const screenshotPath = screenshot.path;
+    logger.info(
+      `[PUSH] Uploading ${screenshotPath} with name ${screenshot.url}`
+    );
 
-    const newScreenshots: PathMapping[] = [];
+    const imageKitUrl = await uploadScreenshotToImageKit(
+      screenshotPath,
+      screenshot.url
+    );
 
-    for (const screenshot of screenshots) {
-      const screenshotPath = path.join(screenshotsDir, screenshot);
-      logger.info(`[PUSH] Uploading ${screenshotPath}...`);
+    if (imageKitUrl) {
+      successfullyUploaded.push({ path: imageKitUrl, url: screenshotPath });
+    }
+  }
 
-      const imageKitUrl = await uploadScreenshotToImageKit(
-        screenshotPath,
-        screenshot
+  return successfullyUploaded;
+};
+
+// Generate a screenshot file
+// The structure is as follows:
+//
+// ```json
+// {
+//   "abaplint": [
+//     {
+//       "path": "https://ik.imagekit.io/analysistools/abaplint_https_3A_2F_2Fabaplint.org_xntpxy00_b.jpg",
+//       "url": "https://abaplint.org"
+//     },
+//     {
+//       "path": "https://ik.imagekit.io/analysistools/abaplint_https_3A_2F_2Fgithub.com_2Fabaplint_2Fabaplint_rn3oxDjX2c.jpg",
+//       "url": "https://github.com/abaplint/abaplint"
+//     }
+//   ],
+//   // ...
+// }
+// ```
+//
+// where the key is the tool name and the value is an array of PathMapping objects
+// (the screenshot URLs and their original URLs)
+//
+// This merges the new screenshots with the existing `screenshots.json` file
+const mergeScreenshotFiles = async (
+  newScreenshots: ScreenshotJson
+): Promise<ScreenshotJson> => {
+  let screenshots: ScreenshotJson = {};
+
+  if (fs.existsSync(SCREENSHOTS_JSON_PATH)) {
+    screenshots = JSON.parse(fs.readFileSync(SCREENSHOTS_JSON_PATH, "utf-8"));
+  }
+
+  for (const tool in newScreenshots) {
+    if (newScreenshots[tool].length > 0) {
+      // merge new screenshots with existing screenshots
+      // this takes the original screenshots and overwrites the ones where the URL matches
+      screenshots[tool] = [
+        ...(screenshots[tool] || []),
+        ...newScreenshots[tool],
+      ];
+    }
+  }
+  return screenshots;
+};
+
+// Iterates over all tools and takes screenshots for each tool
+// It then uploads the screenshots to ImageKit
+// Returns the new screenshots as a JSON object (ScreenshotJson)
+const takeAndUploadScreenshotsForTools = async (
+  tools: ToolsApiData
+): Promise<ScreenshotJson> => {
+  const newScreenshotJson: ScreenshotJson = {};
+
+  for (const tool in tools) {
+    const outDir = `screenshots/${tool}`;
+    fs.mkdirSync(outDir, { recursive: true });
+
+    const urls = loadUrlsForTool(tools[tool]);
+
+    const takenScreenshots = await takeNewScreenshots(urls, outDir);
+
+    if (takenScreenshots.length > 0) {
+      logger.info(
+        `[LOAD] Took ${takenScreenshots.length} new screenshots for ${tool}. Uploading...`
       );
-
-      if (imageKitUrl) {
-        const url = getUrlFromScreenshotPath(screenshot);
-        newScreenshots.push({ path: imageKitUrl, url });
-      }
-    }
-
-    if (newScreenshots.length > 0) {
-      logger.debug(`New screenshots for tool ${tool}:`, newScreenshots);
-      await updateScreenshotsJson(tool, newScreenshots);
+      const successfullyUploaded = await uploadNewScreenshots(takenScreenshots);
+      logger.info(
+        `[PUSH] Uploaded ${successfullyUploaded.length} screenshots for ${tool}.`
+      );
+      newScreenshotJson[tool] = successfullyUploaded;
     }
   }
+
+  return newScreenshotJson;
 };
 
-// Create screenshots.json file
-export const generateScreenshotFile = async () => {
-  // Get all tool names from the `screenshots` directory
-  const tools = fs
-    .readdirSync("screenshots")
-    .filter((file) => !file.startsWith("."));
-
-  logger.debug(`Found ${tools.length} tools with screenshots.`);
-
-  // Load existing screenshots.json file if exists
-  let json: { [key: string]: PathMapping[] } = {};
-  if (fs.existsSync(SCREENSHOTS_JSON)) {
-    json = JSON.parse(fs.readFileSync(SCREENSHOTS_JSON, "utf-8"));
-    const total = Object.values(json).flat().length;
-    logger.debug(
-      `Loaded ${total} screenshots from existing screenshots.json file.`
-    );
-  }
-
-  await uploadScreenshots();
-};
-
-const tools: ToolsApiData = await downloadToolsFromGithub();
-
-for (const tool in tools) {
-  const outDir = `screenshots/${tool}`;
-  fs.mkdirSync(outDir, { recursive: true });
-
-  const urls = collectUrls(tools[tool]);
-  const newScreenshots = await takeScreenshots(urls, outDir);
-  if (newScreenshots.length > 0) {
-    logger.info(
-      `[DONE] Took ${newScreenshots.length} new screenshots for ${tool}`
-    );
-    logger.info(
-      newScreenshots.map((s) => `[DONE]  - ${s.url} -> ${s.path}`).join("\n")
-    );
-  }
-}
-
-logger.info("Uploading screenshots to ImageKit");
-await generateScreenshotFile();
-logger.info("Done");
+const tools = await downloadToolsApiData();
+const newScreenshotJson = await takeAndUploadScreenshotsForTools(tools);
+logger.info("[MERGE] Merging screenshots.json");
+const mergedScreenshotsJson = await mergeScreenshotFiles(newScreenshotJson);
+logger.info("[SAVE] Writing screenshots.json");
+const output = JSON.stringify(mergedScreenshotsJson, null, 2);
+fs.writeFileSync(SCREENSHOTS_JSON_PATH, output);
+logger.info("[DONE] All screenshots taken and uploaded!");
