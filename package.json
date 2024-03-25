@@ -13,7 +13,7 @@
     },
     "dependencies": {
         "bottleneck": "^2.19.5",
-        "capture-website": "^2.3.0",
+        "capture-website": "^4.1.0",
         "dotenv": "^16.4.5",
         "get-youtube-id": "^1.0.1",
         "imagekit": "^5.0.0",
