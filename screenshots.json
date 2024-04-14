@@ -967,6 +967,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_pixee_codemodder-python",
       "url": "https://github.com/pixee/codemodder-python"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_pixee_codemodder-java",
+      "url": "https://github.com/pixee/codemodder-java"
     }
   ],
   "codenarc": [
@@ -6371,6 +6375,16 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.synopsys.com_software-integrity_security-testing_dast.html",
       "url": "https://www.synopsys.com/software-integrity/security-testing/dast.html"
+    }
+  ],
+  "pylyzers": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___mtshiba.github.io_pylyzer_",
+      "url": "https://mtshiba.github.io/pylyzer/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_mtshiba_pylyzer",
+      "url": "https://github.com/mtshiba/pylyzer"
     }
   ]
 }
