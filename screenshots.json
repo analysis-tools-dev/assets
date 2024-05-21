@@ -6392,5 +6392,15 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_shipmonk-rnd_composer-dependency-analyser",
       "url": "https://github.com/shipmonk-rnd/composer-dependency-analyser"
     }
+  ],
+  "freeplane-code-explorer": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.freeplane.org_user-documentation_Code_Explorer.html",
+      "url": "https://docs.freeplane.org/user-documentation/Code_Explorer.html"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_freeplane_freeplane",
+      "url": "https://github.com/freeplane/freeplane"
+    }
   ]
 }
