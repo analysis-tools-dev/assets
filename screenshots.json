@@ -6402,5 +6402,15 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_freeplane_freeplane",
       "url": "https://github.com/freeplane/freeplane"
     }
+  ],
+  "betterscan-ce": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_marcinguy_betterscan-ce",
+      "url": "https://github.com/marcinguy/betterscan-ce"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___betterscan.io_pricing",
+      "url": "https://betterscan.io/pricing"
+    }
   ]
 }
