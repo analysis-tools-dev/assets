@@ -27,6 +27,14 @@ This project would not be possible without the generous support of our sponsors.
          </a>
       </td>
       <td>
+         <a href="https://www.betterscan.io">
+            <picture >
+               <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/betterscan-light.png">
+               <img width="200px" alt="Betterscan" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/betterscan-dark.png">
+            </picture>
+         </a>
+      </td>
+      <td>
          <a href="https://www.pixee.ai/">
             <picture >
                <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/pixee-light.png">
