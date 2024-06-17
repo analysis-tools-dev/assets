@@ -6411,6 +6411,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___betterscan.io_pricing",
       "url": "https://betterscan.io/pricing"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_tcosolutions_betterscan-ce",
+      "url": "https://github.com/tcosolutions/betterscan-ce"
     }
   ]
 }
