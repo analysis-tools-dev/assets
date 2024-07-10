@@ -6416,5 +6416,23 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_tcosolutions_betterscan-ce",
       "url": "https://github.com/tcosolutions/betterscan-ce"
     }
+  ],
+  "coderabbit": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___coderabbit.ai",
+      "url": "https://coderabbit.ai"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_coderabbitai",
+      "url": "https://github.com/coderabbitai"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_3SyUOSebG7E",
+      "url": "https://www.youtube.com/watch?v=3SyUOSebG7E"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___coderabbit.ai_pricing",
+      "url": "https://coderabbit.ai/pricing"
+    }
   ]
 }
