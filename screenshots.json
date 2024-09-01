@@ -6434,5 +6434,15 @@
       "path": "https://ik.imagekit.io/analysistools/https___coderabbit.ai_pricing",
       "url": "https://coderabbit.ai/pricing"
     }
+  ],
+  "codety": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.codety.io",
+      "url": "https://www.codety.io"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_codetyio_codety-scanner",
+      "url": "https://github.com/codetyio/codety-scanner"
+    }
   ]
 }
