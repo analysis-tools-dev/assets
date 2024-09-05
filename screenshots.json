@@ -6444,5 +6444,25 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_codetyio_codety-scanner",
       "url": "https://github.com/codetyio/codety-scanner"
     }
+  ],
+  "fantomas": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___fsprojects.github.io_fantomas_",
+      "url": "https://fsprojects.github.io/fantomas/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_fsprojects_fantomas",
+      "url": "https://github.com/fsprojects/fantomas"
+    }
+  ],
+  "ionide-analyzers": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___ionide.io_ionide-analyzers_",
+      "url": "https://ionide.io/ionide-analyzers/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_ionide_ionide-analyzers",
+      "url": "https://github.com/ionide/ionide-analyzers"
+    }
   ]
 }
