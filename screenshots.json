@@ -6464,5 +6464,19 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_ionide_ionide-analyzers",
       "url": "https://github.com/ionide/ionide-analyzers"
     }
+  ],
+  "precaution": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.securesauce.dev_",
+      "url": "https://www.securesauce.dev/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_securesauce_precli",
+      "url": "https://github.com/securesauce/precli"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___blog.securesauce.dev_introducing-precaution",
+      "url": "https://blog.securesauce.dev/introducing-precaution"
+    }
   ]
 }
