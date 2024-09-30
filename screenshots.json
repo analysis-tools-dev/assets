@@ -279,6 +279,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_YZOKnvisJpw",
       "url": "https://www.youtube.com/watch?v=YZOKnvisJpw"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.pythonpodcast.com_episodepage_bandit-with-tim-kelsey-travis-mcpeak-and-eric-brown",
+      "url": "https://www.pythonpodcast.com/episodepage/bandit-with-tim-kelsey-travis-mcpeak-and-eric-brown"
     }
   ],
   "bashate": [
@@ -6477,6 +6481,30 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___blog.securesauce.dev_introducing-precaution",
       "url": "https://blog.securesauce.dev/introducing-precaution"
+    }
+  ],
+  "enre-cpp": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_xjtu-enre_ENRE-cpp",
+      "url": "https://github.com/xjtu-enre/ENRE-cpp"
+    }
+  ],
+  "enre-java": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_xjtu-enre_ENRE-java",
+      "url": "https://github.com/xjtu-enre/ENRE-java"
+    }
+  ],
+  "enre-py": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_xjtu-enre_ENRE-py",
+      "url": "https://github.com/xjtu-enre/ENRE-py"
+    }
+  ],
+  "enre-ts": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_xjtu-enre_ENRE-ts",
+      "url": "https://github.com/xjtu-enre/ENRE-ts"
     }
   ]
 }
