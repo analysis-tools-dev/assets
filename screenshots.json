@@ -6069,6 +6069,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_felipebz_zpa",
       "url": "https://github.com/felipebz/zpa"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___zpa.felipebz.com",
+      "url": "https://zpa.felipebz.com"
     }
   ],
   "zydis": [
