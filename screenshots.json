@@ -6510,5 +6510,15 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_xjtu-enre_ENRE-ts",
       "url": "https://github.com/xjtu-enre/ENRE-ts"
     }
+  ],
+  "griffe": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___mkdocstrings.github.io_griffe_",
+      "url": "https://mkdocstrings.github.io/griffe/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_mkdocstrings_griffe",
+      "url": "https://github.com/mkdocstrings/griffe"
+    }
   ]
 }
