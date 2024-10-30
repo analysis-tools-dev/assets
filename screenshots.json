@@ -6520,5 +6520,15 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_mkdocstrings_griffe",
       "url": "https://github.com/mkdocstrings/griffe"
     }
+  ],
+  "derscanner": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___derscanner.com_",
+      "url": "https://derscanner.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___derscanner.com_pricing",
+      "url": "https://derscanner.com/pricing"
+    }
   ]
 }
