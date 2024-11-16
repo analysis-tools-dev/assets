@@ -1677,6 +1677,14 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___bitbucket.org_yanniss_doop",
       "url": "https://bitbucket.org/yanniss/doop"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___plast-lab.github.io_doop-pldi15-tutorial_",
+      "url": "https://plast-lab.github.io/doop-pldi15-tutorial/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_plast-lab_doop",
+      "url": "https://github.com/plast-lab/doop"
     }
   ],
   "dotenet-format": [
@@ -6529,6 +6537,12 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___derscanner.com_pricing",
       "url": "https://derscanner.com/pricing"
+    }
+  ],
+  "mdsf": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_hougesen_mdsf",
+      "url": "https://github.com/hougesen/mdsf"
     }
   ]
 }
