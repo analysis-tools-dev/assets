@@ -6544,5 +6544,35 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_hougesen_mdsf",
       "url": "https://github.com/hougesen/mdsf"
     }
+  ],
+  "sonarqube-cloud": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___sonarcloud.io_pricing",
+      "url": "https://sonarcloud.io/pricing"
+    }
+  ],
+  "sonarqube-for-ide": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___sonarlint.org",
+      "url": "https://sonarlint.org"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_SonarSource_sonarlint-intellij",
+      "url": "https://github.com/SonarSource/sonarlint-intellij"
+    }
+  ],
+  "sonarqube-server": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_SonarSource_sonarqube",
+      "url": "https://github.com/SonarSource/sonarqube"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_WPHVPbxCAwE",
+      "url": "https://www.youtube.com/watch?v=WPHVPbxCAwE"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_ow-yuIlCuHk",
+      "url": "https://www.youtube.com/watch?v=ow-yuIlCuHk"
+    }
   ]
 }
