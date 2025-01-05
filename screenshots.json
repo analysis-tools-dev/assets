@@ -6578,5 +6578,17 @@
       "path": "https://ik.imagekit.io/analysistools/https___www.sonarsource.com_plans-and-pricing_",
       "url": "https://www.sonarsource.com/plans-and-pricing/"
     }
+  ],
+  "codedepends": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_duncantl_CodeDepends",
+      "url": "https://github.com/duncantl/CodeDepends"
+    }
+  ],
+  "r-language-server": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_REditorSupport_languageserver_",
+      "url": "https://github.com/REditorSupport/languageserver/"
+    }
   ]
 }
