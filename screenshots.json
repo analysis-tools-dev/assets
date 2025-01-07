@@ -105,6 +105,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___android.googlesource.com",
       "url": "https://android.googlesource.com"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___developer.android.com_studio_write_lint",
+      "url": "https://developer.android.com/studio/write/lint"
     }
   ],
   "android-lint-summary": [
@@ -1441,6 +1445,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_PG8PmrKEuLY",
       "url": "https://www.youtube.com/watch?v=PG8PmrKEuLY"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___snyk.io_platform_deepcode-ai_",
+      "url": "https://snyk.io/platform/deepcode-ai/"
     }
   ],
   "deepscan": [
@@ -2369,6 +2377,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_mangothecat_goodpractice",
       "url": "https://github.com/mangothecat/goodpractice"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.ropensci.org_goodpractice_",
+      "url": "https://docs.ropensci.org/goodpractice/"
     }
   ],
   "google-java-format": [
@@ -3131,6 +3143,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_lunasec-io_lunasec",
       "url": "https://github.com/lunasec-io/lunasec"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_marketplace_lunatrace-by-lunasec_",
+      "url": "https://github.com/marketplace/lunatrace-by-lunasec/"
     }
   ],
   "maligned": [
@@ -3283,6 +3299,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___mathworks.com_help_matlab_ref_mlint.html",
       "url": "https://mathworks.com/help/matlab/ref/mlint.html"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.mathworks.com_help_matlab_ref_mlint.html",
+      "url": "https://www.mathworks.com/help/matlab/ref/mlint.html"
     }
   ],
   "mobb": [
@@ -5977,6 +5997,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.whitehatsec.com_platform_static-application-security-testing",
       "url": "https://www.whitehatsec.com/platform/static-application-security-testing"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___source.whitehatsec.com_help_sentinel_sast-service-detail.html",
+      "url": "https://source.whitehatsec.com/help/sentinel/sast-service-detail.html"
     }
   ],
   "wily": [
@@ -6589,6 +6613,30 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_REditorSupport_languageserver_",
       "url": "https://github.com/REditorSupport/languageserver/"
+    }
+  ],
+  "flowr": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_flowr-analysis_flowr",
+      "url": "https://github.com/flowr-analysis/flowr"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_flowr-analysis_flowr_wiki",
+      "url": "https://github.com/flowr-analysis/flowr/wiki"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_Zgq6rnbvvhk",
+      "url": "https://www.youtube.com/watch?v=Zgq6rnbvvhk"
+    }
+  ],
+  "rco": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___jcrodriguez1989.github.io_rco_",
+      "url": "https://jcrodriguez1989.github.io/rco/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_jcrodriguez1989_rco",
+      "url": "https://github.com/jcrodriguez1989/rco"
     }
   ]
 }
