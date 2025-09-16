@@ -31,6 +31,27 @@ const SCREENSHOT_OPTIONS: FileOptions = {
   overwrite: true,
   darkMode: true,
   fullPage: true, // Capture full page by default
+  launchOptions: {
+    // Fix for GitHub Actions and other CI environments
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--disable-web-security',
+      '--disable-extensions',
+      '--disable-background-timer-throttling',
+      '--disable-backgrounding-occluded-windows',
+      '--disable-renderer-backgrounding',
+      '--disable-features=TranslateUI',
+      '--disable-ipc-flooding-protection',
+      '--no-first-run',
+      '--no-default-browser-check',
+      '--no-zygote',
+      '--single-process',
+    ],
+    headless: true,
+  },
   removeElements: [
     "#onetrust-consent-sdk",
     ".CookieConsent",
