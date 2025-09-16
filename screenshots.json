@@ -1271,6 +1271,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_google_styleguide_tree_gh-pages_cpplint",
       "url": "https://github.com/google/styleguide/tree/gh-pages/cpplint"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_cpplint_cpplint",
+      "url": "https://github.com/cpplint/cpplint"
     }
   ],
   "cqc": [
@@ -6573,6 +6577,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___sonarcloud.io_pricing",
       "url": "https://sonarcloud.io/pricing"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___sonarcloud.io",
+      "url": "https://sonarcloud.io"
     }
   ],
   "sonarqube-for-ide": [
@@ -6601,6 +6609,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.sonarsource.com_plans-and-pricing_",
       "url": "https://www.sonarsource.com/plans-and-pricing/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___sonarqube.org",
+      "url": "https://sonarqube.org"
     }
   ],
   "codedepends": [
@@ -6637,6 +6649,132 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_jcrodriguez1989_rco",
       "url": "https://github.com/jcrodriguez1989/rco"
+    }
+  ],
+  "ast-grep": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___ast-grep.github.io_",
+      "url": "https://ast-grep.github.io/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_ast-grep_ast-grep",
+      "url": "https://github.com/ast-grep/ast-grep"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___ast-grep.github.io_guide_quick-start.html",
+      "url": "https://ast-grep.github.io/guide/quick-start.html"
+    }
+  ],
+  "cloud-iac-security-for-jetbrains-ides": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___plugins.jetbrains.com_plugin_25413-cloud-iac-security",
+      "url": "https://plugins.jetbrains.com/plugin/25413-cloud-iac-security"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_NordCoderd_cloud-security-plugin",
+      "url": "https://github.com/NordCoderd/cloud-security-plugin"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___protsenko.dev_infrastructure-security_",
+      "url": "https://protsenko.dev/infrastructure-security/"
+    }
+  ],
+  "corgea": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___corgea.com_",
+      "url": "https://corgea.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.corgea.app_",
+      "url": "https://docs.corgea.app/"
+    }
+  ],
+  "deleaker": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.deleaker.com_",
+      "url": "https://www.deleaker.com/"
+    }
+  ],
+  "dotnet-format": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_dotnet_format",
+      "url": "https://github.com/dotnet/format"
+    }
+  ],
+  "enforster-ai": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___enforster.ai_",
+      "url": "https://enforster.ai/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___app.enforster.ai_",
+      "url": "https://app.enforster.ai/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.enforster.ai_",
+      "url": "https://docs.enforster.ai/"
+    }
+  ],
+  "fortitude": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___fortitude.readthedocs.io",
+      "url": "https://fortitude.readthedocs.io"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_PlasmaFAIR_fortitude",
+      "url": "https://github.com/PlasmaFAIR/fortitude"
+    }
+  ],
+  "keploy": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___keploy.io_",
+      "url": "https://keploy.io/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_keploy_",
+      "url": "https://github.com/keploy/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_apps_keploy",
+      "url": "https://github.com/apps/keploy"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___marketplace.visualstudio.com_items_itemName_Keploy.keployio",
+      "url": "https://marketplace.visualstudio.com/items?itemName=Keploy.keployio"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_keploy_keploy",
+      "url": "https://github.com/keploy/keploy"
+    }
+  ],
+  "mbake": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___pypi.org_project_mbake_",
+      "url": "https://pypi.org/project/mbake/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_EbodShojaei_bake",
+      "url": "https://github.com/EbodShojaei/bake"
+    }
+  ],
+  "owasp-noir": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___owasp-noir.github.io_noir_",
+      "url": "https://owasp-noir.github.io/noir/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_owasp-noir_noir",
+      "url": "https://github.com/owasp-noir/noir"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___owasp.org_www-project-noir_",
+      "url": "https://owasp.org/www-project-noir/"
+    }
+  ],
+  "wasm-language-tools": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_g-plane_wasm-language-tools",
+      "url": "https://github.com/g-plane/wasm-language-tools"
     }
   ]
 }
