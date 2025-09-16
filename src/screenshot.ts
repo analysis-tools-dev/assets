@@ -1,23 +1,36 @@
-import captureWebsite from "capture-website";
+import captureWebsite, { type FileOptions } from "capture-website";
 import Bottleneck from "bottleneck";
 import getYouTubeID from "get-youtube-id";
 import fs from "fs";
 import fetch from "node-fetch";
 
 const limiter = new Bottleneck({
-  maxConcurrent: 4,
-  minTime: 500,
+  maxConcurrent: 6, // Increase concurrent requests for better performance
+  minTime: 750, // Increase delay between requests to be more respectful
+  reservoir: 10, // Allow initial burst of requests
+  reservoirRefreshAmount: 10,
+  reservoirRefreshInterval: 30 * 1000, // Refresh every 30 seconds
+
+  // Retry failed requests
+  retryDelayOptions: {
+    min: 2000,
+    max: 10000,
+  },
+
+  // Drop requests that fail after retries
+  dropWhenFull: false,
 });
 
-const SCREENSHOT_OPTIONS = {
+const SCREENSHOT_OPTIONS: FileOptions = {
   width: 1280,
   scaleFactor: 1.0,
   type: "jpeg",
   quality: 0.95,
-  timeout: 20,
-  waitUntil: "networkidle0", // Wait until network is idle
+  timeout: 30, // Increase timeout for slow sites
+  delay: 2, // Wait 2 seconds after page load
   overwrite: true,
   darkMode: true,
+  fullPage: true, // Capture full page by default
   removeElements: [
     "#onetrust-consent-sdk",
     ".CookieConsent",
@@ -71,7 +84,9 @@ const SCREENSHOT_OPTIONS = {
   ],
 };
 
-const throttledScreenshot = limiter.wrap(captureWebsite.file);
+const throttledScreenshot = limiter.wrap(
+  captureWebsite.file,
+) as typeof captureWebsite.file;
 
 // Check if the given string is a GitHub repository URL
 export const isGithubRepo = (url: string) => {
@@ -82,17 +97,12 @@ export const isGithubRepo = (url: string) => {
 
 const takeGitHubScreenshot = async (url: string, outPath: string) => {
   // Append #readme to the URL to take a screenshot of the README
-
   url = `${url}#readme`;
 
-  // @ts-ignore
-  await throttledScreenshot(url, outPath, {
-    ...SCREENSHOT_OPTIONS,
-  });
+  await throttledScreenshot(url, outPath, SCREENSHOT_OPTIONS);
 };
 
 const takeNormalScreenshot = async (url: string, outPath: string) => {
-  // @ts-ignore
   await throttledScreenshot(url, outPath, SCREENSHOT_OPTIONS);
 };
 
@@ -118,20 +128,29 @@ const youtubeThumbnail = async (url: string) => {
 };
 
 // Take a screenshot of `url` and save it to `outPath`
-export const takeScreenshot = async (url: string, outPath: string) => {
-  // YouTube thumbnail URL
-  const res = await youtubeThumbnail(url);
-  // if res is 200, we have our thumbnail
-  if (res && res.status === 200) {
-    const dest = fs.createWriteStream(outPath);
-    res.body?.pipe(dest);
+export const takeScreenshot = async (
+  url: string,
+  outPath: string,
+): Promise<boolean> => {
+  try {
+    // YouTube thumbnail URL
+    const res = await youtubeThumbnail(url);
+    // if res is 200, we have our thumbnail
+    if (res && res.status === 200) {
+      const dest = fs.createWriteStream(outPath);
+      res.body?.pipe(dest);
+      return true;
+    }
+
+    if (isGithubRepo(url)) {
+      await takeGitHubScreenshot(url, outPath);
+    } else {
+      // Take a normal website screenshot
+      await takeNormalScreenshot(url, outPath);
+    }
     return true;
+  } catch (error) {
+    console.error(`Failed to take screenshot of ${url}:`, error);
+    return false;
   }
-  if (isGithubRepo(url)) {
-    await takeGitHubScreenshot(url, outPath);
-  } else {
-    // Take a normal website screenshot
-    await takeNormalScreenshot(url, outPath);
-  }
-  return true;
 };
