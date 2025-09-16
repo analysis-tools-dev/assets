@@ -23,6 +23,7 @@ const limiter = new Bottleneck({
 
 const SCREENSHOT_OPTIONS: FileOptions = {
   width: 1280,
+  height: 800, // Set explicit height for consistent above-the-fold captures
   scaleFactor: 1.0,
   type: "jpeg",
   quality: 0.95,
@@ -30,7 +31,7 @@ const SCREENSHOT_OPTIONS: FileOptions = {
   delay: 2, // Wait 2 seconds after page load
   overwrite: true,
   darkMode: true,
-  fullPage: true, // Capture full page by default
+  fullPage: false, // Capture only above-the-fold (viewport)
   launchOptions: {
     // Fix for GitHub Actions and other CI environments
     args: [
