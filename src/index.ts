@@ -14,6 +14,11 @@ import { Logger } from "tslog";
 import { ApiTool, PathMapping, ScreenshotJson, ToolsApiData } from "./types";
 import { takeScreenshot } from "./screenshot";
 
+// Check if the `--dry-run` flag is set
+// If so, the script will only log the actions it would take, but not actually
+// upload any screenshots to ImageKit
+const dryRun = process.argv.includes("--dry-run");
+
 dotenv.config();
 
 const logger = new Logger();
@@ -21,7 +26,7 @@ const logger = new Logger();
 // Ensure required environment variables are set
 if (!process.env.IMAGEKIT_PUBLIC_KEY || !process.env.IMAGEKIT_PRIVATE_KEY) {
   logger.error(
-    "Please set the IMAGEKIT_PUBLIC_KEY and IMAGEKIT_PRIVATE_KEY environment variables."
+    "Please set the IMAGEKIT_PUBLIC_KEY and IMAGEKIT_PRIVATE_KEY environment variables.",
   );
   process.exit(1);
 }
@@ -118,10 +123,16 @@ const takeNewScreenshots = async (urls: string[], outDir: string) => {
 // Returns the URL of the uploaded image, or null if the upload failed
 const uploadScreenshotToImageKit = async (
   screenshotPath: string,
-  fileName: string
+  fileName: string,
 ): Promise<string | null> => {
   try {
     logger.info(`[PUSH] Uploading ${screenshotPath} with name ${fileName}`);
+
+    if (dryRun) {
+      logger.info("[DRY-RUN] Skipping upload");
+      return null;
+    }
+
     const response = await imageKit.upload({
       file: fs.readFileSync(screenshotPath), // Directly pass the file buffer
       fileName,
@@ -142,14 +153,14 @@ const uploadScreenshotToImageKit = async (
 // uploads all screenshots to ImageKit. It then updates the `screenshots.json`
 // file with the new URLs.
 const uploadNewScreenshots = async (
-  newScreenshots: PathMapping[]
+  newScreenshots: PathMapping[],
 ): Promise<PathMapping[]> => {
   const successfullyUploaded: PathMapping[] = [];
 
   for (const screenshot of newScreenshots) {
     const imageKitUrl = await uploadScreenshotToImageKit(
       screenshot.path,
-      screenshot.url
+      screenshot.url,
     );
 
     if (imageKitUrl) {
@@ -184,10 +195,10 @@ const uploadNewScreenshots = async (
 //
 // This merges the new screenshots with the existing `screenshots.json` file
 const mergeScreenshotFiles = async (
-  newScreenshots: ScreenshotJson
+  newScreenshots: ScreenshotJson,
 ): Promise<ScreenshotJson> => {
   const existingScreenshots: ScreenshotJson = fs.existsSync(
-    SCREENSHOTS_JSON_PATH
+    SCREENSHOTS_JSON_PATH,
   )
     ? JSON.parse(fs.readFileSync(SCREENSHOTS_JSON_PATH, "utf-8"))
     : {};
@@ -196,7 +207,7 @@ const mergeScreenshotFiles = async (
     const mergedScreenshots = existingScreenshots[key]
       ? mergeExistingAndNewScreenshots(
           existingScreenshots[key],
-          newScreenshotArray
+          newScreenshotArray,
         )
       : newScreenshotArray;
 
@@ -208,10 +219,10 @@ const mergeScreenshotFiles = async (
 
 function mergeExistingAndNewScreenshots(
   existing: PathMapping[],
-  news: PathMapping[]
+  news: PathMapping[],
 ): PathMapping[] {
   const merged = new Map(
-    existing.map((screenshot) => [screenshot.url, screenshot])
+    existing.map((screenshot) => [screenshot.url, screenshot]),
   );
 
   news.forEach((newScreenshot) => {
@@ -225,7 +236,7 @@ function mergeExistingAndNewScreenshots(
 // It then uploads the screenshots to ImageKit
 // Returns the new screenshots as a JSON object (ScreenshotJson)
 const takeAndUploadScreenshotsForTools = async (
-  tools: ToolsApiData
+  tools: ToolsApiData,
 ): Promise<ScreenshotJson> => {
   const newScreenshotJson: ScreenshotJson = {};
 
@@ -239,11 +250,11 @@ const takeAndUploadScreenshotsForTools = async (
 
     if (takenScreenshots.length > 0) {
       logger.info(
-        `[LOAD] Took ${takenScreenshots.length} new screenshot(s) for ${tool}. Uploading...`
+        `[LOAD] Took ${takenScreenshots.length} new screenshot(s) for ${tool}. Uploading...`,
       );
       const successfullyUploaded = await uploadNewScreenshots(takenScreenshots);
       logger.info(
-        `[PUSH] Uploaded ${successfullyUploaded.length} screenshots for ${tool}.`
+        `[PUSH] Uploaded ${successfullyUploaded.length} screenshots for ${tool}.`,
       );
       newScreenshotJson[tool] = successfullyUploaded;
     }
