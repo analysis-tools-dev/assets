@@ -13,6 +13,12 @@ on:
     types:
       - rebuild
   workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force regenerate all screenshots (ignore freshness checks)'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   build:
@@ -32,7 +38,12 @@ jobs:
         run: npm install
 
       - name: Upload images to CDN and generate JSON file
-        run: make dev
+        run: |
+          if [ "${{ github.event.inputs.force_update }}" = "true" ]; then
+            npm run dev -- --force
+          else
+            npm run dev
+          fi
         env:
           IMAGEKIT_PUBLIC_KEY: ${{ secrets.IMAGEKIT_PUBLIC_KEY }}
           IMAGEKIT_PRIVATE_KEY: ${{ secrets.IMAGEKIT_PRIVATE_KEY }}

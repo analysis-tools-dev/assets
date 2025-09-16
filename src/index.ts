@@ -14,14 +14,21 @@ import { Logger } from "tslog";
 import { ApiTool, PathMapping, ScreenshotJson, ToolsApiData } from "./types";
 import { takeScreenshot } from "./screenshot";
 
-// Check if the `--dry-run` flag is set
-// If so, the script will only log the actions it would take, but not actually
-// upload any screenshots to ImageKit
+// Check command line flags
 const dryRun = process.argv.includes("--dry-run");
+const forceUpdate = process.argv.includes("--force");
 
 dotenv.config();
 
 const logger = new Logger();
+
+// Log active flags
+if (dryRun) {
+  logger.info("[DRY-RUN] Running in dry-run mode - no uploads will be performed");
+}
+if (forceUpdate) {
+  logger.info("[FORCE] Force mode enabled - all screenshots will be regenerated");
+}
 
 // Ensure required environment variables are set
 if (!process.env.IMAGEKIT_PUBLIC_KEY || !process.env.IMAGEKIT_PRIVATE_KEY) {
@@ -99,7 +106,7 @@ const takeNewScreenshots = async (urls: string[], outDir: string) => {
   for (const url of urls) {
     const path = screenshotUrlToPath(outDir, url);
 
-    if (fs.existsSync(path) && isFresh(path)) {
+    if (fs.existsSync(path) && isFresh(path) && !forceUpdate) {
       logger.debug(`[SKIP] ${url}`);
       continue;
     }
