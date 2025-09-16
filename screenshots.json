@@ -1233,10 +1233,6 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_cpp-linter_cpp-linter-action",
       "url": "https://github.com/cpp-linter/cpp-linter-action"
-    },
-    {
-      "path": "https://ik.imagekit.io/analysistools/https___github.com_cpp-linter_cpp-linter-action",
-      "url": "https://github.com/cpp-linter/cpp-linter-action"
     }
   ],
   "cppcheck": [
@@ -1973,10 +1969,6 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_foundeo_fixinator_wiki_Getting-Started",
       "url": "https://github.com/foundeo/fixinator/wiki/Getting-Started"
-    },
-    {
-      "path": "https://ik.imagekit.io/analysistools/https___fixinator.app",
-      "url": "https://fixinator.app"
     }
   ],
   "fixit": [
