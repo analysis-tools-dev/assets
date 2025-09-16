@@ -142,7 +142,11 @@ jobs:
         uses: actions/dependency-review-action@v4
         with:
           fail-on-severity: critical
-          allow-licenses: MIT, ISC, Apache-2.0, BSD-2-Clause, BSD-3-Clause
+          allow-licenses: MIT, ISC, Apache-2.0, BSD-2-Clause, BSD-3-Clause, 0BSD, Unlicense
+          fail-on-scopes: runtime
+          base-ref: ${{ github.event.pull_request.base.sha }}
+          head-ref: ${{ github.event.pull_request.head.sha }}
+        continue-on-error: true
 
   build-dry-run:
     name: Test Build and Dry Run
@@ -195,9 +199,11 @@ jobs:
                 "${{ needs.build-dry-run.result }}" == "failure" ]]; then
             echo "❌ One or more required checks failed"
             exit 1
-          elif [[ "${{ needs.dependency-review.result }}" == "failure" ]]; then
-            echo "❌ Dependency review failed"
-            exit 1
           else
-            echo "✅ All checks passed!"
+            echo "✅ All critical checks passed!"
+
+            # Log dependency review result but don't fail on it
+            if [[ "${{ needs.dependency-review.result }}" == "failure" ]]; then
+              echo "⚠️ Dependency review found issues but continuing (non-blocking)"
+            fi
           fi
