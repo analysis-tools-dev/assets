@@ -6683,6 +6683,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___corgea.com_",
       "url": "https://corgea.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.corgea.app_",
+      "url": "https://docs.corgea.app/"
     }
   ],
   "deleaker": [
@@ -6705,6 +6709,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___app.enforster.ai_",
       "url": "https://app.enforster.ai/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.enforster.ai_",
+      "url": "https://docs.enforster.ai/"
     }
   ],
   "fortitude": [
