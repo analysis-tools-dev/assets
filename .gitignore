@@ -8,3 +8,8 @@ tsconfig.build.tsbuildinfo
 vendor
 DOCKER_ENV
 output.log
+
+# Test and CI artifacts
+coverage/
+junit.xml
+audit-results.json
