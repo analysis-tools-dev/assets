@@ -3243,6 +3243,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___nvuillam.github.io_mega-linter_configuration_",
       "url": "https://nvuillam.github.io/mega-linter/configuration/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___megalinter.io_",
+      "url": "https://megalinter.io/"
     }
   ],
   "metadata-json-lint": [
@@ -4145,6 +4149,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.pullrequest.com_pricing",
       "url": "https://www.pullrequest.com/pricing"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.hackerone.com_product_code",
+      "url": "https://www.hackerone.com/product/code"
     }
   ],
   "puma-scan": [
