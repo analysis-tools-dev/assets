@@ -167,6 +167,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.ptsecurity.com_ww-en_products_ai",
       "url": "https://www.ptsecurity.com/ww-en/products/ai"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___global.ptsecurity.com_en_products_ai_",
+      "url": "https://global.ptsecurity.com/en/products/ai/"
     }
   ],
   "applicationinspector": [
@@ -199,6 +203,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.absint.com_astree_index.htm",
       "url": "https://www.absint.com/astree/index.htm"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.absint.com_astree_contact.htm",
+      "url": "https://www.absint.com/astree/contact.htm"
     }
   ],
   "atom-beautify": [
@@ -399,6 +407,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_GEvxbU6EmiA",
       "url": "https://www.youtube.com/watch?v=GEvxbU6EmiA"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.synopsys.com_software-integrity_contact-sales.html",
+      "url": "https://www.synopsys.com/software-integrity/contact-sales.html"
     }
   ],
   "bloaty": [
@@ -667,6 +679,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.checkmarx.com_products_static-application-security-testing",
       "url": "https://www.checkmarx.com/products/static-application-security-testing"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___checkmarx.com_packaging_",
+      "url": "https://checkmarx.com/packaging/"
     }
   ],
   "checkov": [
@@ -881,12 +897,20 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_Qfsz_ZTKM6Y",
       "url": "https://www.youtube.com/watch?v=Qfsz_ZTKM6Y"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.code-intelligence.com_product-pricing",
+      "url": "https://www.code-intelligence.com/product-pricing"
     }
   ],
   "codeac": [
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.codeac.io__ref_awesome-static-analysis",
       "url": "https://www.codeac.io/?ref=awesome-static-analysis"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.codeac.io_pricing.html",
+      "url": "https://www.codeac.io/pricing.html"
     }
   ],
   "codeburner": [
@@ -955,6 +979,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___submain.com_products_codeit.right.aspx",
       "url": "https://submain.com/products/codeit.right.aspx"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___submain.com_CodeIt.Right_editions_",
+      "url": "https://submain.com/CodeIt.Right/editions/"
     }
   ],
   "codelyzer": [
@@ -1107,6 +1135,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___codesecure.com_our-products_codesonar_",
       "url": "https://codesecure.com/our-products/codesonar/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___codesecure.com_trial-request_",
+      "url": "https://codesecure.com/trial-request/"
     }
   ],
   "codespell": [
@@ -1213,6 +1245,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_zo1pCl6yQ34",
       "url": "https://www.youtube.com/watch?v=zo1pCl6yQ34"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.synopsys.com_software-integrity_contact-sales.html",
+      "url": "https://www.synopsys.com/software-integrity/contact-sales.html"
     }
   ],
   "cpachecker": [
@@ -2095,6 +2131,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_7CfeUXtDlwQ",
       "url": "https://www.youtube.com/watch?v=7CfeUXtDlwQ"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.opentext.com_products_fortify-on-demand_trial",
+      "url": "https://www.opentext.com/products/fortify-on-demand/trial"
     }
   ],
   "fprettify": [
@@ -2511,6 +2551,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_TmYY67w18RI",
       "url": "https://www.youtube.com/watch?v=TmYY67w18RI"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/http___www.hcl-software.com_appscan_contact-us",
+      "url": "http://www.hcl-software.com/appscan/contact-us"
     }
   ],
   "hegel": [
@@ -3579,6 +3623,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.parasoft.com_",
       "url": "https://www.parasoft.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.parasoft.com_contact_",
+      "url": "https://www.parasoft.com/contact/"
     }
   ],
   "parker": [
@@ -4993,6 +5041,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_fNYf0fgWOFQ",
       "url": "https://www.youtube.com/watch?v=fNYf0fgWOFQ"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___snyk.io_plans_",
+      "url": "https://snyk.io/plans/"
     }
   ],
   "sobelow": [
@@ -5437,6 +5489,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.synopsys.com_software-integrity_security-testing_static-analysis-sast.html",
       "url": "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.blackduck.com_static-analysis-tools-sast_coverity_get-pricing.html",
+      "url": "https://www.blackduck.com/static-analysis-tools-sast/coverity/get-pricing.html"
     }
   ],
   "sys": [
@@ -5845,6 +5901,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_hCl2H8Heqnw",
       "url": "https://www.youtube.com/watch?v=hCl2H8Heqnw"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___info.veracode.com_request-quote.html",
+      "url": "https://info.veracode.com/request-quote.html"
     }
   ],
   "verible-linter-action": [
@@ -6687,12 +6747,20 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___docs.corgea.app_",
       "url": "https://docs.corgea.app/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___corgea.com_pricing",
+      "url": "https://corgea.com/pricing"
     }
   ],
   "deleaker": [
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.deleaker.com_",
       "url": "https://www.deleaker.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.deleaker.com_order.html",
+      "url": "https://www.deleaker.com/order.html"
     }
   ],
   "dotnet-format": [
