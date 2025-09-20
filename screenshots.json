@@ -6844,5 +6844,59 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_g-plane_wasm-language-tools",
       "url": "https://github.com/g-plane/wasm-language-tools"
     }
+  ],
+  "dockle": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_goodwithtech_dockle",
+      "url": "https://github.com/goodwithtech/dockle"
+    }
+  ],
+  "grype": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_anchore_grype",
+      "url": "https://github.com/anchore/grype"
+    }
+  ],
+  "malcat": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___malcat.fr_",
+      "url": "https://malcat.fr/"
+    }
+  ],
+  "miss-hit": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___misshit.org_",
+      "url": "https://misshit.org/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_florianschanda_miss_hit",
+      "url": "https://github.com/florianschanda/miss_hit"
+    }
+  ],
+  "osv-scanner": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___osv.dev_",
+      "url": "https://osv.dev/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_google_osv-scanner",
+      "url": "https://github.com/google/osv-scanner"
+    }
+  ],
+  "pip-audit": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_pypa_pip-audit",
+      "url": "https://github.com/pypa/pip-audit"
+    }
+  ],
+  "safety": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___safetycli.com_",
+      "url": "https://safetycli.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_pyupio_safety",
+      "url": "https://github.com/pyupio/safety"
+    }
   ]
 }
