@@ -6898,5 +6898,11 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_pyupio_safety",
       "url": "https://github.com/pyupio/safety"
     }
+  ],
+  "databaseconsistency": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_djezzzl_database_consistency",
+      "url": "https://github.com/djezzzl/database_consistency"
+    }
   ]
 }
