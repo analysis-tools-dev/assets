@@ -6920,5 +6920,17 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_astral-sh_ty",
       "url": "https://github.com/astral-sh/ty"
     }
+  ],
+  "active-record-doctor": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_gregnavis_active_record_doctor",
+      "url": "https://github.com/gregnavis/active_record_doctor"
+    }
+  ],
+  "skunk": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_fastruby_skunk",
+      "url": "https://github.com/fastruby/skunk"
+    }
   ]
 }
