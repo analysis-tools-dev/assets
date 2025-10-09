@@ -6932,5 +6932,17 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_fastruby_skunk",
       "url": "https://github.com/fastruby/skunk"
     }
+  ],
+  "erb-formatter": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_nebulab_erb-formatter",
+      "url": "https://github.com/nebulab/erb-formatter"
+    }
+  ],
+  "traceroute": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_amatsuda_traceroute",
+      "url": "https://github.com/amatsuda/traceroute"
+    }
   ]
 }
