@@ -6944,5 +6944,23 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_amatsuda_traceroute",
       "url": "https://github.com/amatsuda/traceroute"
     }
+  ],
+  "rhabdomancer": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___crates.io_crates_rhabdomancer",
+      "url": "https://crates.io/crates/rhabdomancer"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_0xdea_rhabdomancer",
+      "url": "https://github.com/0xdea/rhabdomancer"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___hex-rays.com_blog_streamlining-vulnerability-research-idalib-rust-bindings",
+      "url": "https://hex-rays.com/blog/streamlining-vulnerability-research-idalib-rust-bindings"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___hnsecurity.it_blog_streamlining-vulnerability-research-with-ida-pro-and-rust",
+      "url": "https://hnsecurity.it/blog/streamlining-vulnerability-research-with-ida-pro-and-rust"
+    }
   ]
 }
