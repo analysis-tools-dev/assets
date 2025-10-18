@@ -2821,6 +2821,18 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_ShiftLeftSecurity_joern",
       "url": "https://github.com/ShiftLeftSecurity/joern"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_joernio_joern",
+      "url": "https://github.com/joernio/joern"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.joern.io",
+      "url": "https://docs.joern.io"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___cpg.joern.io",
+      "url": "https://cpg.joern.io"
     }
   ],
   "jshint": [
@@ -6961,6 +6973,16 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___hnsecurity.it_blog_streamlining-vulnerability-research-with-ida-pro-and-rust",
       "url": "https://hnsecurity.it/blog/streamlining-vulnerability-research-with-ida-pro-and-rust"
+    }
+  ],
+  "mago": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___mago.carthage.software",
+      "url": "https://mago.carthage.software"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_carthage-software_mago",
+      "url": "https://github.com/carthage-software/mago"
     }
   ]
 }
