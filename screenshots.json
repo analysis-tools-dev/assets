@@ -479,6 +479,10 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_orTvsOlFS5k",
       "url": "https://www.youtube.com/watch?v=orTvsOlFS5k"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___bugprove.com",
+      "url": "https://bugprove.com"
     }
   ],
   "bundler-audit": [
