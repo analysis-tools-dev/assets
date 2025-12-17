@@ -6988,5 +6988,11 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_carthage-software_mago",
       "url": "https://github.com/carthage-software/mago"
     }
+  ],
+  "langlint": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_HzaCode_Langlint",
+      "url": "https://github.com/HzaCode/Langlint"
+    }
   ]
 }
