@@ -6994,5 +6994,27 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_HzaCode_Langlint",
       "url": "https://github.com/HzaCode/Langlint"
     }
+  ],
+  "tangleguard": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___tangleguard.com_",
+      "url": "https://tangleguard.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_TangleGuard",
+      "url": "https://github.com/TangleGuard"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___directory.tangleguard.com_project_Lorem-Ipsum_sample",
+      "url": "https://directory.tangleguard.com/project/Lorem-Ipsum/sample"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___youtu.be_whzbP1Hnsqs",
+      "url": "https://youtu.be/whzbP1Hnsqs"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.tangleguard.com_welcome_intro_",
+      "url": "https://docs.tangleguard.com/welcome/intro/"
+    }
   ]
 }
