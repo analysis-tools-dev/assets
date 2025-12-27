@@ -7016,5 +7016,19 @@
       "path": "https://ik.imagekit.io/analysistools/https___docs.tangleguard.com_welcome_intro_",
       "url": "https://docs.tangleguard.com/welcome/intro/"
     }
+  ],
+  "code-pathfinder": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___codepathfinder.dev",
+      "url": "https://codepathfinder.dev"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_shivasurya_code-pathfinder",
+      "url": "https://github.com/shivasurya/code-pathfinder"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___codepathfinder.dev_registry",
+      "url": "https://codepathfinder.dev/registry"
+    }
   ]
 }
