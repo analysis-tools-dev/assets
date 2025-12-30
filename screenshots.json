@@ -7030,5 +7030,15 @@
       "path": "https://ik.imagekit.io/analysistools/https___codepathfinder.dev_registry",
       "url": "https://codepathfinder.dev/registry"
     }
+  ],
+  "daikon": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___plse.cs.washington.edu_daikon_",
+      "url": "https://plse.cs.washington.edu/daikon/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_codespecs_daikon",
+      "url": "https://github.com/codespecs/daikon"
+    }
   ]
 }
