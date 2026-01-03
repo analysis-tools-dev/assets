@@ -7040,5 +7040,15 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_codespecs_daikon",
       "url": "https://github.com/codespecs/daikon"
     }
+  ],
+  "rev-dep": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_jayu_rev-dep",
+      "url": "https://github.com/jayu/rev-dep"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.npmjs.com_package_rev-dep",
+      "url": "https://www.npmjs.com/package/rev-dep"
+    }
   ]
 }
