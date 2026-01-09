@@ -7050,5 +7050,19 @@
       "path": "https://ik.imagekit.io/analysistools/https___www.npmjs.com_package_rev-dep",
       "url": "https://www.npmjs.com/package/rev-dep"
     }
+  ],
+  "neurolint-cli": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___neurolint.dev",
+      "url": "https://neurolint.dev"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_Alcatecablee_Neurolint-CLI",
+      "url": "https://github.com/Alcatecablee/Neurolint-CLI"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_marketplace_actions_neurolint-deterministic-code-fixer",
+      "url": "https://github.com/marketplace/actions/neurolint-deterministic-code-fixer"
+    }
   ]
 }
