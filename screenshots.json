@@ -7064,5 +7064,19 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_marketplace_actions_neurolint-deterministic-code-fixer",
       "url": "https://github.com/marketplace/actions/neurolint-deterministic-code-fixer"
     }
+  ],
+  "seqra": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___seqra.dev",
+      "url": "https://seqra.dev"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_seqra_seqra",
+      "url": "https://github.com/seqra/seqra"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___seqra.dev_blog_semgrep-vs-codeql-vs-seqra",
+      "url": "https://seqra.dev/blog/semgrep-vs-codeql-vs-seqra"
+    }
   ]
 }
