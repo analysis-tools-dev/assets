@@ -7015,6 +7015,14 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___docs.tangleguard.com_welcome_intro_",
       "url": "https://docs.tangleguard.com/welcome/intro/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___app.tangleguard.com_",
+      "url": "https://app.tangleguard.com/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___docs.tangleguard.com_",
+      "url": "https://docs.tangleguard.com/"
     }
   ],
   "code-pathfinder": [
@@ -7077,6 +7085,12 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___seqra.dev_blog_semgrep-vs-codeql-vs-seqra",
       "url": "https://seqra.dev/blog/semgrep-vs-codeql-vs-seqra"
+    }
+  ],
+  "blockwatch": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_mennanov_blockwatch",
+      "url": "https://github.com/mennanov/blockwatch"
     }
   ]
 }
