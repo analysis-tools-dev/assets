@@ -7092,5 +7092,15 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_mennanov_blockwatch",
       "url": "https://github.com/mennanov/blockwatch"
     }
+  ],
+  "pyrefly": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___pyrefly.org_",
+      "url": "https://pyrefly.org/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_facebook_pyrefly",
+      "url": "https://github.com/facebook/pyrefly"
+    }
   ]
 }
