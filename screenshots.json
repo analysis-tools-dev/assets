@@ -7102,5 +7102,11 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_facebook_pyrefly",
       "url": "https://github.com/facebook/pyrefly"
     }
+  ],
+  "xygeni": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___xygeni.io_",
+      "url": "https://xygeni.io/"
+    }
   ]
 }
