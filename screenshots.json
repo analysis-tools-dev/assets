@@ -7108,5 +7108,21 @@
       "path": "https://ik.imagekit.io/analysistools/https___xygeni.io_",
       "url": "https://xygeni.io/"
     }
+  ],
+  "jlisa": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_lisa-analyzer_jlisa",
+      "url": "https://github.com/lisa-analyzer/jlisa"
+    }
+  ],
+  "pyra": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_spangea_Pyra",
+      "url": "https://github.com/spangea/Pyra"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_D-AsyuhsTyo",
+      "url": "https://www.youtube.com/watch?v=D-AsyuhsTyo"
+    }
   ]
 }
