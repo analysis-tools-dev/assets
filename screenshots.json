@@ -155,6 +155,14 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___github.com_willthames_ansible-lint",
       "url": "https://github.com/willthames/ansible-lint"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___ansible.readthedocs.io_projects_lint_",
+      "url": "https://ansible.readthedocs.io/projects/lint/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_ansible_ansible-lint",
+      "url": "https://github.com/ansible/ansible-lint"
     }
   ],
   "appchecker": [
@@ -5559,6 +5567,14 @@
     {
       "path": "https://ik.imagekit.io/analysistools/https___www.cqse.eu_en_teamscale_buy_",
       "url": "https://www.cqse.eu/en/teamscale/buy/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___teamscale.com",
+      "url": "https://teamscale.com"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___teamscale.com_pricing",
+      "url": "https://teamscale.com/pricing"
     }
   ],
   "tencentcodeanalysis": [
