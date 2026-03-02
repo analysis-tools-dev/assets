@@ -7140,5 +7140,11 @@
       "path": "https://ik.imagekit.io/analysistools/https___www.youtube.com_watch_v_D-AsyuhsTyo",
       "url": "https://www.youtube.com/watch?v=D-AsyuhsTyo"
     }
+  ],
+  "skylos": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_duriantaco_skylos",
+      "url": "https://github.com/duriantaco/skylos"
+    }
   ]
 }
