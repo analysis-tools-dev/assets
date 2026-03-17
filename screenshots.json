@@ -7146,5 +7146,55 @@
       "path": "https://ik.imagekit.io/analysistools/https___github.com_duriantaco_skylos",
       "url": "https://github.com/duriantaco/skylos"
     }
+  ],
+  "axe-core": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___www.deque.com_axe_",
+      "url": "https://www.deque.com/axe/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_dequelabs_axe-core",
+      "url": "https://github.com/dequelabs/axe-core"
+    }
+  ],
+  "code-graph-rag": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___code-graph-rag.com",
+      "url": "https://code-graph-rag.com"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_vitali87_code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag"
+    }
+  ],
+  "diesel-guard": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_ayarotsky_diesel-guard",
+      "url": "https://github.com/ayarotsky/diesel-guard"
+    }
+  ],
+  "jqassistant": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___jqassistant.org_",
+      "url": "https://jqassistant.org/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_jqassistant_jqassistant",
+      "url": "https://github.com/jqassistant/jqassistant"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_jqassistant-plugin",
+      "url": "https://github.com/jqassistant-plugin"
+    }
+  ],
+  "pa11y": [
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___pa11y.org_",
+      "url": "https://pa11y.org/"
+    },
+    {
+      "path": "https://ik.imagekit.io/analysistools/https___github.com_pa11y_pa11y",
+      "url": "https://github.com/pa11y/pa11y"
+    }
   ]
 }
