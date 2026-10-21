@@ -5,13 +5,12 @@ on:
     branches:
       - master
       - main
-  pull_request_target:
-    branches:
-      - master
-      - main
+
+permissions:
+  contents: read
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -23,6 +22,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          persist-credentials: false
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Setup Node.js
@@ -49,6 +49,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          persist-credentials: false
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Setup Node.js
@@ -82,6 +83,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          persist-credentials: false
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Setup Node.js
@@ -94,39 +96,40 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run npm audit
-        run: npm audit --audit-level=high
-        continue-on-error: true
-
       - name: Check for known vulnerabilities
         run: |
-          # Run npm audit and capture output
-          npm audit --audit-level=moderate --json > audit-results.json || true
+          audit_status=0
+          npm audit --audit-level=critical --json > audit-results.json || audit_status=$?
+          cat audit-results.json
 
-          # Check if there are any vulnerabilities
-          if [ -s audit-results.json ]; then
-            echo "Security vulnerabilities found:"
-            cat audit-results.json
+          # Missing counts or error responses must not be treated as a clean audit.
+          if ! jq -e -s '
+            length == 1 and (.[0] |
+              type == "object" and .error == null and
+              (.metadata.vulnerabilities |
+                type == "object" and
+                ([.info, .low, .moderate, .high, .critical] |
+                all(.[]; type == "number" and . >= 0 and . == floor))))
+          ' audit-results.json > /dev/null; then
+            echo "::error::npm audit returned an invalid or error report (exit status $audit_status)."
+            exit 1
+          fi
 
-            # Count vulnerabilities
-            HIGH_VULNS=$(cat audit-results.json | jq -r '.metadata.vulnerabilities.high // 0')
-            CRITICAL_VULNS=$(cat audit-results.json | jq -r '.metadata.vulnerabilities.critical // 0')
+          HIGH_VULNS=$(jq -r '.metadata.vulnerabilities.high' audit-results.json)
+          CRITICAL_VULNS=$(jq -r '.metadata.vulnerabilities.critical' audit-results.json)
+          echo "Critical vulnerabilities: $CRITICAL_VULNS"
+          echo "High vulnerabilities: $HIGH_VULNS"
 
-            echo "Critical vulnerabilities: $CRITICAL_VULNS"
-            echo "High vulnerabilities: $HIGH_VULNS"
-
-            # Fail if critical vulnerabilities are found
-            if [ "$CRITICAL_VULNS" -gt 0 ]; then
-              echo "❌ Critical vulnerabilities found. Please fix them before merging."
-              exit 1
-            fi
-
-            # Warn about high vulnerabilities but don't fail
-            if [ "$HIGH_VULNS" -gt 0 ]; then
-              echo "⚠️ High vulnerabilities found. Consider fixing them."
-            fi
-          else
-            echo "✅ No security vulnerabilities found."
+          if [ "$HIGH_VULNS" -gt 0 ]; then
+            echo "::warning::High vulnerabilities found. Consider fixing them."
+          fi
+          if [ "$CRITICAL_VULNS" -gt 0 ]; then
+            echo "::error::Critical vulnerabilities found. Please fix them before merging."
+            exit 1
+          fi
+          if [ "$audit_status" -ne 0 ]; then
+            echo "::error::npm audit failed with exit status $audit_status."
+            exit 1
           fi
 
   dependency-review:
@@ -137,6 +140,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Dependency Review
         uses: actions/dependency-review-action@v4
@@ -156,6 +161,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          persist-credentials: false
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Setup Node.js
@@ -192,12 +198,12 @@ jobs:
           echo "Dependency Review: ${{ needs.dependency-review.result }}"
           echo "Build Dry Run: ${{ needs.build-dry-run.result }}"
 
-          # Check if any required job failed
-          if [[ "${{ needs.lint-and-type-check.result }}" == "failure" ||
-                "${{ needs.test.result }}" == "failure" ||
-                "${{ needs.security.result }}" == "failure" ||
-                "${{ needs.build-dry-run.result }}" == "failure" ]]; then
-            echo "❌ One or more required checks failed"
+          # Require every blocking job to complete successfully
+          if [[ "${{ needs.lint-and-type-check.result }}" != "success" ||
+                "${{ needs.test.result }}" != "success" ||
+                "${{ needs.security.result }}" != "success" ||
+                "${{ needs.build-dry-run.result }}" != "success" ]]; then
+            echo "❌ One or more required checks did not succeed"
             exit 1
           else
             echo "✅ All critical checks passed!"
