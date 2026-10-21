@@ -38,6 +38,7 @@ jobs:
         run: npm install
 
       - name: Upload images to CDN and generate JSON file
+        id: capture
         run: |
           if [ "${{ github.event.inputs.force_update }}" = "true" ]; then
             npm run dev -- --force
@@ -49,9 +50,10 @@ jobs:
           IMAGEKIT_PRIVATE_KEY: ${{ secrets.IMAGEKIT_PRIVATE_KEY }}
 
       - name: Commit new screenshots
+        if: ${{ !cancelled() && (steps.capture.outcome == 'success' || steps.capture.outcome == 'failure') }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: "screenshots screenshots.json"
+          file_pattern: "screenshots screenshots.json screenshots.metadata.json"
           branch: ${{ github.head_ref }}
           commit_message: Commit new screenshots
           commit_user_name: Analysis Tools Bot
@@ -59,6 +61,7 @@ jobs:
           commit_author: Analysis Tools Bot <bot@analysis-tools.dev>
 
       - name: Redeploy website
+        if: ${{ success() && steps.capture.outcome == 'success' }}
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
