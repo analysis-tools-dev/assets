@@ -3,6 +3,7 @@ import Bottleneck from "bottleneck";
 import getYouTubeID from "get-youtube-id";
 import fs from "fs";
 import fetch from "node-fetch";
+import { pipeline } from "node:stream/promises";
 
 const limiter = new Bottleneck({
   maxConcurrent: 6, // Increase concurrent requests for better performance
@@ -157,10 +158,14 @@ export const takeScreenshot = async (
   try {
     // YouTube thumbnail URL
     const res = await youtubeThumbnail(url);
-    // if res is 200, we have our thumbnail
-    if (res && res.status === 200) {
-      const dest = fs.createWriteStream(outPath);
-      res.body?.pipe(dest);
+    if (res) {
+      if (!res.ok) {
+        throw new Error(`Failed to fetch YouTube thumbnail: HTTP ${res.status}`);
+      }
+      if (!res.body) {
+        throw new Error("YouTube thumbnail response has no body");
+      }
+      await pipeline(res.body, fs.createWriteStream(outPath));
       return true;
     }
 
